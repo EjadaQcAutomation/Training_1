@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>MNULST_Admin</name>
+   <name>MSG_SuccessValidationMessage</name>
    <tag></tag>
-   <elementGuidId>8aace30c-ffe6-4316-8868-a2b2440e852c</elementGuidId>
+   <elementGuidId>95615b3b-bff2-4ce3-a300-db73a9e64eaf</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;menu_admin_viewAdminModule&quot;]/b</value>
+         <value>//*[@id=&quot;frmList_ohrmListComponent&quot;]/script</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;menu_admin_viewAdminModule&quot;]/b</value>
+      <value>//*[@id=&quot;frmList_ohrmListComponent&quot;]/script</value>
    </webElementProperties>
 </WebElementEntity>
