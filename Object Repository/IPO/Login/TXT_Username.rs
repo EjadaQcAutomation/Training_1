@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>TXT_Username</name>
+   <tag></tag>
+   <elementGuidId>ce917945-8650-4571-af33-d38b8808a788</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;app-form&quot;]/div/app-login/div/div/div/div/div[2]/form/fieldset/extended-input[1]/div/div/div[2]/input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;app-form&quot;]/div/app-login/div/div/div/div/div[2]/form/fieldset/extended-input[1]/div/div/div[2]/input</value>
+   </webElementProperties>
+</WebElementEntity>

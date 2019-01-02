@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_ReceiverChannels_Happy Scenario,Chrome 71.0.3578.98,,2019-01-01 12:01:49,2019-01-01 12:02:15,26.147s,INCOMPLETE
+,,,,,,
+Test Cases/Receiver_Channels Screen/TC_Login,Chrome 71.0.3578.98,,2019-01-01 12:01:50,2019-01-01 12:02:15,25.484s,PASSED
+"openBrowser(""http://192.168.0.190:8080/IPOTEST/#/login"")",Chrome 71.0.3578.98,,2019-01-01 12:01:50,2019-01-01 12:02:15,24.114s,PASSED
+"setText(findTestObject(""Login/TXT_Username""), ""igyoussef"")",Chrome 71.0.3578.98,,2019-01-01 12:02:15,2019-01-01 12:02:15,0.338s,PASSED
+"setText(findTestObject(""Login/TXT_Password""), ""74r8jIz"")",Chrome 71.0.3578.98,,2019-01-01 12:02:15,2019-01-01 12:02:15,0.208s,PASSED
+"click(findTestObject(""Login/BTN_Login""))",Chrome 71.0.3578.98,,2019-01-01 12:02:15,2019-01-01 12:02:15,0.169s,PASSED
+,,,,,,
+Test Cases/Receiver_Channels Screen/TC_Receiver Insertion,Chrome 71.0.3578.98,,2019-01-01 12:02:15,2019-01-01 12:02:15,0.018s,PASSED

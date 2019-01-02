@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_ReceiverChannels_Happy Scenario" time="26" tests="2" failures="0" errors="0">
+   <testsuite name="TS_ReceiverChannels_Happy Scenario" tests="2" failures="0" errors="0" time="26" timestamp="2019-01-01 12:01:49" hostname="Ebtehal Gamal Yusuf - LPALXY0199.ejadaalex.local" id="Test Suites/TS_ReceiverChannels_Happy Scenario">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Administrator\\git\\Training_1\\Reports\\TS_ReceiverChannels_Happy Scenario\\20190101_120141"/>
+         <property name="logFiles" value="C:\\Users\\Administrator\\git\\Training_1\\Reports\\TS_ReceiverChannels_Happy Scenario\\20190101_120141\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Ebtehal Gamal Yusuf - LPALXY0199.ejadaalex.local"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.10.0.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.3.51"/>
+         <property name="sessionId" value="e0842318f0dfa4699a8cb456ee1ff696"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Receiver_Channels Screen/TC_Login" classname="Test Cases/Receiver_Channels Screen/TC_Login" status="PASSED">
+         <system-out><![CDATA[2019-01-01 12:01:50 - [TEST_CASE][PASSED] - Test Cases/Receiver_Channels Screen/TC_Login: Test Cases/Receiver_Channels Screen/TC_Login
+
+2019-01-01 12:01:50 - [TEST_STEP][PASSED] - openBrowser("http://192.168.0.190:8080/IPOTEST/#/login"): Browser is opened with url: 'http://192.168.0.190:8080/IPOTEST/#/login'
+
+2019-01-01 12:01:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-01 12:01:52 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-01-01 12:02:15 - [MESSAGE][PASSED] - Browser is opened with url: 'http://192.168.0.190:8080/IPOTEST/#/login'
+
+2019-01-01 12:02:15 - [TEST_STEP][PASSED] - setText(findTestObject("Login/TXT_Username"), "igyoussef"): Text 'igyoussef' is set on object 'Object Repository/Login/TXT_Username'
+
+2019-01-01 12:02:15 - [MESSAGE][PASSED] - Text 'igyoussef' is set on object 'Object Repository/Login/TXT_Username'
+
+2019-01-01 12:02:15 - [TEST_STEP][PASSED] - setText(findTestObject("Login/TXT_Password"), "74r8jIz"): Text '74r8jIz' is set on object 'Object Repository/Login/TXT_Password'
+
+2019-01-01 12:02:15 - [MESSAGE][PASSED] - Text '74r8jIz' is set on object 'Object Repository/Login/TXT_Password'
+
+2019-01-01 12:02:15 - [TEST_STEP][PASSED] - click(findTestObject("Login/BTN_Login")): Object: 'Object Repository/Login/BTN_Login' is clicked on
+
+2019-01-01 12:02:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/BTN_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Receiver_Channels Screen/TC_Receiver Insertion" classname="Test Cases/Receiver_Channels Screen/TC_Receiver Insertion" status="PASSED">
+         <system-out><![CDATA[2019-01-01 12:02:15 - [TEST_CASE][PASSED] - Test Cases/Receiver_Channels Screen/TC_Receiver Insertion: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-01 12:01:49 - [TEST_SUITE][INCOMPLETE] - TS_ReceiverChannels_Happy Scenario: null]]></system-out>
+      <system-err><![CDATA[2019-01-01 12:01:49 - [TEST_SUITE][INCOMPLETE] - TS_ReceiverChannels_Happy Scenario: null]]></system-err>
+   </testsuite>
+</testsuites>
