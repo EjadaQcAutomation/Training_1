@@ -13,3 +13,12 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+'Add New Record\r\n'
+WebUI.click(findTestObject('Orange/JobTitles/BTN_Add'))
+
+'Data Entry'
+CustomKeywords.'pk_Functions.CS_AllPageData.AllPageDataFun'('Orange_JobTitles_ObjectRepository', 'Sheet1', [notes, jobdescription
+        , jobtitles])
+
+WebUI.uploadFile(findTestObject(null), '')
+

@@ -5,4 +5,25 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>94d8a4d2-c494-46aa-ad65-e58bc68d5fc8</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ff7a43e7-ec80-40cf-b39e-5a0e4720cd46</id>
+      <masked>false</masked>
+      <name>jobtitles</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4a519104-c673-4fcb-9cd3-9b2b2bea750f</id>
+      <masked>false</masked>
+      <name>jobdescription</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3a420513-d950-4e16-b01b-85a226339ad5</id>
+      <masked>false</masked>
+      <name>notes</name>
+   </variable>
 </TestCaseEntity>
