@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_Orange_JobTitles,Chrome 71.0.3578.98,,2019-01-02 13:41:04,2019-01-02 13:42:09,1m - 5.041s,FAILED
+,,,,,,
+Test Cases/Orange_Website/Login Screen,Chrome 71.0.3578.98,,2019-01-02 13:41:04,2019-01-02 13:41:26,21.497s,PASSED
+"openBrowser(""https://opensource-demo.orangehrmlive.com/index.php/auth/login"")",Chrome 71.0.3578.98,,2019-01-02 13:41:05,2019-01-02 13:41:19,13.831s,PASSED
+"setText(findTestObject(""Orange/Login/Username""), ""Admin"")",Chrome 71.0.3578.98,,2019-01-02 13:41:19,2019-01-02 13:41:19,0.239s,PASSED
+"setText(findTestObject(""Orange/Login/Password""), ""admin123"")",Chrome 71.0.3578.98,,2019-01-02 13:41:19,2019-01-02 13:41:19,0.148s,PASSED
+"click(findTestObject(""Orange/Login/Login""))",Chrome 71.0.3578.98,,2019-01-02 13:41:19,2019-01-02 13:41:26,6.676s,PASSED
+,,,,,,
+Test Cases/Orange_Website/JobTitles_Screen,Chrome 71.0.3578.98,,2019-01-02 13:41:26,2019-01-02 13:42:08,42.502s,FAILED
+"click(findTestObject(""Orange/Navigation/MNULST_Admin""))",Chrome 71.0.3578.98,,2019-01-02 13:41:26,2019-01-02 13:41:28,2.182s,PASSED
+"click(findTestObject(""Orange/Navigation/MNUITM_Job""))",Chrome 71.0.3578.98,,2019-01-02 13:41:28,2019-01-02 13:41:28,0.108s,PASSED
+"click(findTestObject(""Orange/Navigation/MNUITM_JobTitles""))",Chrome 71.0.3578.98,,2019-01-02 13:41:28,2019-01-02 13:41:30,1.884s,PASSED
+"click(findTestObject(""Orange/JobTitles/BTN_Add""))",Chrome 71.0.3578.98,"Add New Record
+",2019-01-02 13:41:30,2019-01-02 13:41:31,1.331s,PASSED
+"pk_Functions.CS_AllPageData.AllPageDataFun(""Orange_JobTitles_ObjectRepository"", ""Sheet1"", [notes, jobdescription, jobtitles])",Chrome 71.0.3578.98,Data Entry,2019-01-02 13:41:32,2019-01-02 13:41:33,1.642s,PASSED
+"sendKeys(findTestObject(""Orange/JobTitles/BTN_ChooseFile""), """"D:\\Ebtehal_QC\\Extras\\logo.jpg"""")",Chrome 71.0.3578.98,,2019-01-02 13:41:33,2019-01-02 13:41:33,0.005s,NOT_RUN
+"switchToWindowUrl(""https://opensource-demo.orangehrmlive.com/index.php/admin/viewPayGrades"", STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-02 13:41:33,2019-01-02 13:42:08,34.937s,FAILED

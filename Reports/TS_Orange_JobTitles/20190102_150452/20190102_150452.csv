@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_Orange_JobTitles,Chrome 71.0.3578.98,,2019-01-02 15:04:56,2019-01-02 15:05:28,31.440s,FAILED
+,,,,,,
+Test Cases/Orange_Website/Login Screen,Chrome 71.0.3578.98,,2019-01-02 15:04:56,2019-01-02 15:05:09,13.008s,PASSED
+"openBrowser(""https://opensource-demo.orangehrmlive.com/index.php/auth/login"")",Chrome 71.0.3578.98,,2019-01-02 15:04:57,2019-01-02 15:05:07,9.698s,PASSED
+"setText(findTestObject(""Orange/Login/Username""), ""Admin"")",Chrome 71.0.3578.98,,2019-01-02 15:05:07,2019-01-02 15:05:07,0.310s,PASSED
+"setText(findTestObject(""Orange/Login/Password""), ""admin123"")",Chrome 71.0.3578.98,,2019-01-02 15:05:07,2019-01-02 15:05:07,0.137s,PASSED
+"click(findTestObject(""Orange/Login/Login""))",Chrome 71.0.3578.98,,2019-01-02 15:05:07,2019-01-02 15:05:09,2.171s,PASSED
+,,,,,,
+Test Cases/Orange_Website/JobTitles_Screen,Chrome 71.0.3578.98,,2019-01-02 15:05:10,2019-01-02 15:05:27,17.229s,FAILED
+"click(findTestObject(""Orange/Navigation/MNULST_Admin""))",Chrome 71.0.3578.98,,2019-01-02 15:05:10,2019-01-02 15:05:13,2.803s,PASSED
+"click(findTestObject(""Orange/Navigation/MNUITM_Job""))",Chrome 71.0.3578.98,,2019-01-02 15:05:13,2019-01-02 15:05:13,0.108s,PASSED
+"click(findTestObject(""Orange/Navigation/MNUITM_JobTitles""))",Chrome 71.0.3578.98,,2019-01-02 15:05:13,2019-01-02 15:05:14,0.906s,PASSED
+"click(findTestObject(""Orange/JobTitles/BTN_Add""))",Chrome 71.0.3578.98,"Add New Record
+",2019-01-02 15:05:14,2019-01-02 15:05:14,0.627s,PASSED
+"pk_Functions.CS_AllPageData.AllPageDataFun(""Orange_JobTitles_ObjectRepository"", ""Sheet1"", [notes, jobdescription, jobtitles])",Chrome 71.0.3578.98,Data Entry,2019-01-02 15:05:14,2019-01-02 15:05:16,1.780s,PASSED
+delay(10),Chrome 71.0.3578.98,,2019-01-02 15:05:16,2019-01-02 15:05:26,10.027s,PASSED
+"click(findTestObject(""Orange/JobTitles/Empty Space""))",Chrome 71.0.3578.98,,2019-01-02 15:05:26,2019-01-02 15:05:26,0.130s,PASSED
+"uploadFile(findTestObject(""Orange/JobTitles/BTN_ChooseFile""), """"D:\\Ebtehal_QC\\Extras\\logo.jpg"""")",Chrome 71.0.3578.98,,2019-01-02 15:05:26,2019-01-02 15:05:27,0.387s,FAILED

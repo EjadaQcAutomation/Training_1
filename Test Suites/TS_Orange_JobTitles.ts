@@ -28,7 +28,7 @@
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/Orange/Orange_JobTitles_Data</testDataId>
+         <testDataId>Data Files/Orange_JobTitles_Data</testDataId>
       </testDataLink>
       <variableLink>
          <testDataLinkId>3772a8e9-8d9d-465f-967f-05dbc65ec580</testDataLinkId>

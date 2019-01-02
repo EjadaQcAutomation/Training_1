@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_Orange_JobTitles,Chrome 71.0.3578.98,,2019-01-02 15:02:00,2019-01-02 15:02:27,27.525s,PASSED
+,,,,,,
+Test Cases/Orange_Website/Login Screen,Chrome 71.0.3578.98,,2019-01-02 15:02:00,2019-01-02 15:02:11,10.826s,PASSED
+"openBrowser(""https://opensource-demo.orangehrmlive.com/index.php/auth/login"")",Chrome 71.0.3578.98,,2019-01-02 15:02:00,2019-01-02 15:02:09,8.388s,PASSED
+"setText(findTestObject(""Orange/Login/Username""), ""Admin"")",Chrome 71.0.3578.98,,2019-01-02 15:02:09,2019-01-02 15:02:09,0.220s,PASSED
+"setText(findTestObject(""Orange/Login/Password""), ""admin123"")",Chrome 71.0.3578.98,,2019-01-02 15:02:09,2019-01-02 15:02:09,0.139s,PASSED
+"click(findTestObject(""Orange/Login/Login""))",Chrome 71.0.3578.98,,2019-01-02 15:02:09,2019-01-02 15:02:11,1.510s,PASSED
+,,,,,,
+Test Cases/Orange_Website/JobTitles_Screen,Chrome 71.0.3578.98,,2019-01-02 15:02:11,2019-01-02 15:02:26,15.619s,PASSED
+"click(findTestObject(""Orange/Navigation/MNULST_Admin""))",Chrome 71.0.3578.98,,2019-01-02 15:02:11,2019-01-02 15:02:13,1.871s,PASSED
+"click(findTestObject(""Orange/Navigation/MNUITM_Job""))",Chrome 71.0.3578.98,,2019-01-02 15:02:13,2019-01-02 15:02:13,0.114s,PASSED
+"click(findTestObject(""Orange/Navigation/MNUITM_JobTitles""))",Chrome 71.0.3578.98,,2019-01-02 15:02:13,2019-01-02 15:02:14,0.843s,PASSED
+"click(findTestObject(""Orange/JobTitles/BTN_Add""))",Chrome 71.0.3578.98,"Add New Record
+",2019-01-02 15:02:14,2019-01-02 15:02:15,0.610s,PASSED
+"pk_Functions.CS_AllPageData.AllPageDataFun(""Orange_JobTitles_ObjectRepository"", ""Sheet1"", [notes, jobdescription, jobtitles])",Chrome 71.0.3578.98,Data Entry,2019-01-02 15:02:15,2019-01-02 15:02:16,1.544s,PASSED
+delay(10),Chrome 71.0.3578.98,,2019-01-02 15:02:16,2019-01-02 15:02:26,10.038s,PASSED
+"click(findTestObject(""Orange/JobTitles/Empty Space""))",Chrome 71.0.3578.98,,2019-01-02 15:02:26,2019-01-02 15:02:26,0.108s,PASSED
+"uploadFile(findTestObject(""Orange/JobTitles/BTN_ChooseFile""), """")",Chrome 71.0.3578.98,,2019-01-02 15:02:26,2019-01-02 15:02:26,0.056s,PASSED
+Thread.sleep(2000),Chrome 71.0.3578.98,,2019-01-02 15:02:26,2019-01-02 15:02:26,0.002s,NOT_RUN

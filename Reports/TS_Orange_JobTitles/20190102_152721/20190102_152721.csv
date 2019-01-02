@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_Orange_JobTitles,Chrome 71.0.3578.98,,2019-01-02 15:27:24,2019-01-02 15:27:57,33.163s,PASSED
+,,,,,,
+Test Cases/Orange_Website/Login Screen,Chrome 71.0.3578.98,,2019-01-02 15:27:24,2019-01-02 15:27:36,12.150s,PASSED
+"openBrowser(""https://opensource-demo.orangehrmlive.com/index.php/auth/login"")",Chrome 71.0.3578.98,,2019-01-02 15:27:25,2019-01-02 15:27:34,9.579s,PASSED
+"setText(findTestObject(""Orange/Login/Username""), ""Admin"")",Chrome 71.0.3578.98,,2019-01-02 15:27:34,2019-01-02 15:27:35,0.325s,PASSED
+"setText(findTestObject(""Orange/Login/Password""), ""admin123"")",Chrome 71.0.3578.98,,2019-01-02 15:27:35,2019-01-02 15:27:35,0.120s,PASSED
+"click(findTestObject(""Orange/Login/Login""))",Chrome 71.0.3578.98,,2019-01-02 15:27:35,2019-01-02 15:27:36,1.543s,PASSED
+,,,,,,
+Test Cases/Orange_Website/JobTitles_Screen,Chrome 71.0.3578.98,,2019-01-02 15:27:36,2019-01-02 15:27:56,19.953s,PASSED
+"click(findTestObject(""Orange/Navigation/MNULST_Admin""))",Chrome 71.0.3578.98,,2019-01-02 15:27:37,2019-01-02 15:27:38,1.753s,PASSED
+"click(findTestObject(""Orange/Navigation/MNUITM_Job""))",Chrome 71.0.3578.98,,2019-01-02 15:27:38,2019-01-02 15:27:38,0.095s,PASSED
+"click(findTestObject(""Orange/Navigation/MNUITM_JobTitles""))",Chrome 71.0.3578.98,,2019-01-02 15:27:38,2019-01-02 15:27:39,0.760s,PASSED
+"click(findTestObject(""Orange/JobTitles/BTN_Add""))",Chrome 71.0.3578.98,"Add New Record
+",2019-01-02 15:27:39,2019-01-02 15:27:40,0.537s,PASSED
+"pk_Functions.CS_AllPageData.AllPageDataFun(""Orange_JobTitles_ObjectRepository"", ""Sheet1"", [notes, jobdescription, jobtitles])",Chrome 71.0.3578.98,Data Entry,2019-01-02 15:27:40,2019-01-02 15:27:41,1.683s,PASSED
+delay(10),Chrome 71.0.3578.98,,2019-01-02 15:27:41,2019-01-02 15:27:52,10.042s,PASSED
+"tools.uploadFiles.uploadFile(findTestObject(""Orange/JobTitles/BTN_ChooseFile""), """"D:\Ebtehal_QC\Extras\logo.jpg"""")",Chrome 71.0.3578.98,,2019-01-02 15:27:52,2019-01-02 15:27:54,2.601s,PASSED
+Thread.sleep(2000),Chrome 71.0.3578.98,,2019-01-02 15:27:54,2019-01-02 15:27:56,2.018s,PASSED

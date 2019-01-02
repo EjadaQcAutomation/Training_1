@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_Orange_JobTitles,Chrome 71.0.3578.98,,2019-01-02 12:15:11,2019-01-02 12:15:41,30.458s,FAILED
+,,,,,,
+Test Cases/Orange_Website/Login Screen,Chrome 71.0.3578.98,,2019-01-02 12:15:11,2019-01-02 12:15:31,19.530s,PASSED
+"openBrowser(""https://opensource-demo.orangehrmlive.com/index.php/auth/login"")",Chrome 71.0.3578.98,,2019-01-02 12:15:12,2019-01-02 12:15:23,11.117s,PASSED
+"setText(findTestObject(""Orange/Login/Username""), ""Admin"")",Chrome 71.0.3578.98,,2019-01-02 12:15:23,2019-01-02 12:15:24,0.410s,PASSED
+"setText(findTestObject(""Orange/Login/Password""), ""admin123"")",Chrome 71.0.3578.98,,2019-01-02 12:15:24,2019-01-02 12:15:24,0.368s,PASSED
+"click(findTestObject(""Orange/Login/Login""))",Chrome 71.0.3578.98,,2019-01-02 12:15:24,2019-01-02 12:15:31,6.946s,PASSED
+,,,,,,
+Test Cases/Orange_Website/JobTitles_Screen,Chrome 71.0.3578.98,,2019-01-02 12:15:31,2019-01-02 12:15:38,6.690s,FAILED
+"click(findTestObject(""Orange/Navigation/MNULST_Admin""))",Chrome 71.0.3578.98,,2019-01-02 12:15:31,2019-01-02 12:15:34,2.404s,PASSED
+"click(findTestObject(""Orange/Navigation/MNUITM_Job""))",Chrome 71.0.3578.98,,2019-01-02 12:15:34,2019-01-02 12:15:34,0.107s,PASSED
+"click(findTestObject(""Orange/Navigation/MNUITM_JobTitles""))",Chrome 71.0.3578.98,,2019-01-02 12:15:34,2019-01-02 12:15:35,1.037s,PASSED
+"click(findTestObject(""Orange/JobTitles/BTN_Add""))",Chrome 71.0.3578.98,"Add New Record
+",2019-01-02 12:15:35,2019-01-02 12:15:36,0.633s,PASSED
+"pk_Functions.CS_AllPageData.AllPageDataFun(""Orange_JobTitles_ObjectRepository"", ""Sheet1"", [notes, jobdescription, jobtitles])",Chrome 71.0.3578.98,Data Entry,2019-01-02 12:15:36,2019-01-02 12:15:37,1.620s,PASSED
+"uploadFile(findTestObject(""Orange/JobTitles/BTN_ChooseFile""), """"D:\EXtras\6p2hQuX.jpg"""")",Chrome 71.0.3578.98,,2019-01-02 12:15:37,2019-01-02 12:15:38,0.400s,FAILED
+,,,,,,
+Test Cases/Orange_Website/JobTitles_Screen,Chrome 71.0.3578.98,,2019-01-02 12:15:38,2019-01-02 12:15:41,2.998s,FAILED
+"click(findTestObject(""Orange/Navigation/MNULST_Admin""))",Chrome 71.0.3578.98,,2019-01-02 12:15:38,2019-01-02 12:15:39,1.028s,PASSED
+"click(findTestObject(""Orange/Navigation/MNUITM_Job""))",Chrome 71.0.3578.98,,2019-01-02 12:15:39,2019-01-02 12:15:39,0.112s,PASSED
+"click(findTestObject(""Orange/Navigation/MNUITM_JobTitles""))",Chrome 71.0.3578.98,,2019-01-02 12:15:39,2019-01-02 12:15:39,0.509s,PASSED
+"click(findTestObject(""Orange/JobTitles/BTN_Add""))",Chrome 71.0.3578.98,"Add New Record
+",2019-01-02 12:15:39,2019-01-02 12:15:40,0.467s,PASSED
+"pk_Functions.CS_AllPageData.AllPageDataFun(""Orange_JobTitles_ObjectRepository"", ""Sheet1"", [notes, jobdescription, jobtitles])",Chrome 71.0.3578.98,Data Entry,2019-01-02 12:15:40,2019-01-02 12:15:40,0.465s,PASSED
+"uploadFile(findTestObject(""Orange/JobTitles/BTN_ChooseFile""), """"D:\EXtras\6p2hQuX.jpg"""")",Chrome 71.0.3578.98,,2019-01-02 12:15:40,2019-01-02 12:15:41,0.361s,FAILED
