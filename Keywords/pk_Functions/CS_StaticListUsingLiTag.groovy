@@ -1,18 +1,11 @@
 package pk_Functions
 
-/*Created By " Asmaa Elsayed Ibrahim
+/*Created By Asmaa Elsayed Ibrahim
  * Date 25/12/2018
- * Function: This Class Contains Three function 
+ * Function: This Class Contains Two function 
  * 1- First Function: clicking on certain item 
- * 2- Second Function: getting all items in Lov and numbers of items and  decide if it matched with expected one or not
- * Input: 
- * 1- First Function Inputs: xpath of dropdown list , xpath of container , items of static lov 
- * 2- Second Function Inputs: xpath of dropdown list , xpath of container , Expected items of static lov 
- * Output: 
- * 1- First Function Output: There isn't output 
- * 2- Second Function Output: string (" matched , not matched ")
+ * 2- Second Function: getting all items in LOV and numbers of items and check if it is matched with expected or not
  */
-
 
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
@@ -40,35 +33,37 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import com.kms.katalon.core.annotation.Keyword
 
 
-public class CS_ListUsingLiTag {
+public class CS_StaticListUsingLiTag {
 
 	private static TestObject dropdown = null;
 	private static List<WebElement> allItems= null;
 	private static WebElement dropDownList;
 
-	// clicking on certain item
-	@Keyword
-	def LovSearchFun (String dropdownObjectXpath , String ContainerObjectXpath , String Text) {
+	// Clicking on certain item
+	// Input: x-path of drop down list, x-path of container, items of static LOV 
+	// Output: There isn't output 
+ 	@Keyword
+	def LovSearchFun (String dropdownObjectXpath, String ContainerObjectXpath, String text) {
 
-		// assuming you have to click the "dropdown" to open it
-		//TestObject  dropDown = findTestObject(dropdownObjectHierarchy)
-		//WebUI.click(dropDown)
+		// Assuming you have to click the "drop down" to open it
+		// TestObject dropDown = findTestObject(dropdownObjectHierarchy)
+		// WebUI.click(dropDown)
 
-		//using driver
+		// Using driver
 		WebDriver driver = DriverFactory.getWebDriver()
 
-		// assuming you have xpath of dropdown  to click the "dropdown" to open it
+		// Assuming you have x-path of drop down  to click the "drop down" to open it
 		dropDownList=driver.findElement(By.xpath(dropdownObjectXpath));
 		dropDownList.click()
 
-		//geting all items in list called allItems
+		// Getting all items in list called allItems
 		allItems = driver.findElements(By.xpath(ContainerObjectXpath+'/li'));
-
 		int itemNo
-		//loop on allItems to click on the desired text in lov
+		
+		// Loop on all items to click on the desired text in LOV
 		for( itemNo=1 ; itemNo<=allItems.size() ; itemNo++){
-			if (allItems[itemNo-1].getText().equals(Text)) {
-				allItems[itemNo-1].click(); // click the desired option
+			if (allItems[itemNo-1].getText().equals(text)) {
+				allItems[itemNo-1].click(); // Click the desired option
 				// Once found desired text then break the for loop
 				break;
 			}
@@ -78,48 +73,51 @@ public class CS_ListUsingLiTag {
 
 
 
-	//getting all items in Lov and numbers of items and  decide if it matched with expected one or not
+	// Getting all items in LOV and numbers of items and  decide if it matched with expected one or not
+	// Inputs: x-path of drop down list, x-path of container , Expected items of static LOV
+	// Output: String (" matched , not matched ")
 	@Keyword
-	def LovMatchItemsFun (String dropdownObjectXpath , String ContainerObjectXpath ,List<String> expectedItems ) {
+	def LovMatchItemsFun (String dropdownObjectXpath, String ContainerObjectXpath, List<String> expectedItems ) {
 
-		// assuming you have to click the "dropdown" to open it
-		//TestObject  dropDown = findTestObject(dropdownObjectHierarchy)
-		//WebUI.click(dropDown)
+		// Assuming you have to click the "drop down" to open it
+		// TestObject  dropDown = findTestObject(dropdownObjectHierarchy)
+		// WebUI.click(dropDown)
 
-		//using driver
+		// Using driver
 		WebDriver driver = DriverFactory.getWebDriver()
 
-		// assuming you have xpath of dropdown  to click the "dropdown" to open it
+		// Assuming you have x-path of drop down  to click the "drop down" to open it
 		dropDownList=driver.findElement(By.xpath(dropdownObjectXpath));
 		dropDownList.click()
 
-		//geting all items in list called allItems
+		// Getting all items in list called allItems
 		allItems = driver.findElements(By.xpath(ContainerObjectXpath+'/li'));
 
 		int itemsNum
-		String Status
+		String status
 
 		List<String> actualItems = new ArrayList<String>()
 
-		// print Number of Items in lov
+		// Print Number of Items in LOV
 		println ( "Number of Items :  "+ allItems.size())
 
 		for( itemsNum=1 ; itemsNum<=allItems.size() ; itemsNum++){
 			actualItems.add(allItems[itemsNum-1].getText())
-			// print each item in lov
+			
+			// print each item in LOV
 			println (actualItems[itemsNum-1])
 		}
 
-		//test matching between expected and actual result
+		// Test matching between expected and actual result
 		if (actualItems.equals(expectedItems) ){
-			Status= "Matched"
+			status= "Matched"
 		}else {
-			Status= "Not Matched"
+			status= "Not Matched"
 		}
 
-		//print the status
-		println Status
+		// Print the status
+		println status
 
-		return 	Status
+		return 	status
 	}
 }
