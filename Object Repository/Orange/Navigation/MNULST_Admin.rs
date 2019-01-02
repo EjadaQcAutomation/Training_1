@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;menu_admin_viewAdminModule&quot;]/b</value>
+         <value>//*[@id = '//*[@id=&quot;menu_admin_viewAdminModule&quot;]/b']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -15,7 +15,7 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath</name>
+      <name>id</name>
       <type>Main</type>
       <value>//*[@id=&quot;menu_admin_viewAdminModule&quot;]/b</value>
    </webElementProperties>
