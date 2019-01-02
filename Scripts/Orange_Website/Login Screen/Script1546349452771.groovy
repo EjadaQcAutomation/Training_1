@@ -19,5 +19,5 @@ WebUI.setText(findTestObject('Orange/Login/Username'), 'Admin')
 
 WebUI.setText(findTestObject('Orange/Login/Password'), 'admin123')
 
-WebUI.click(findTestObject('Orange/Login/Submit'))
+WebUI.click(findTestObject('Orange/Login/Login'))
 

@@ -20,5 +20,5 @@ WebUI.click(findTestObject('Orange/JobTitles/BTN_Add'))
 CustomKeywords.'pk_Functions.CS_AllPageData.AllPageDataFun'('Orange_JobTitles_ObjectRepository', 'Sheet1', [notes, jobdescription
         , jobtitles])
 
-WebUI.uploadFile(findTestObject(null), '')
+WebUI.uploadFile(findTestObject('Orange/JobTitles/BTN_ChooseFile'), '"D:\\EXtras\\6p2hQuX.jpg"')
 

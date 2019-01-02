@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Username</name>
+   <name>BTN_ChooseFile</name>
    <tag></tag>
-   <elementGuidId>6470a8d8-d455-4953-9e15-dba4b0b51ad0</elementGuidId>
+   <elementGuidId>b60e6061-06b5-4e52-adc3-1a03b7a93c1e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'txtUsername']</value>
+         <value>//*[@id = 'jobTitle_jobSpec']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>txtUsername</value>
+      <value>jobTitle_jobSpec</value>
    </webElementProperties>
 </WebElementEntity>
