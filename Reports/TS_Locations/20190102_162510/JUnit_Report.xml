@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Locations" time="24" tests="2" failures="0" errors="0">
+   <testsuite name="TS_Locations" tests="2" failures="0" errors="0" time="24" timestamp="2019-01-02 16:25:14" hostname="asalah - LPALXY0442.ejadaalex.local" id="Test Suites/TS_Locations">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\asalah\\git\\Training_1\\Reports\\TS_Locations\\20190102_162510"/>
+         <property name="logFiles" value="C:\\Users\\asalah\\git\\Training_1\\Reports\\TS_Locations\\20190102_162510\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="asalah - LPALXY0442.ejadaalex.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.6.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.3.57"/>
+         <property name="sessionId" value="e79a477a7606fdf52694bba472fdd99a"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Orange_Website/Login Screen" classname="Test Cases/Orange_Website/Login Screen" status="PASSED">
+         <system-out><![CDATA[2019-01-02 16:25:14 - [TEST_CASE][PASSED] - Test Cases/Orange_Website/Login Screen: Test Cases/Orange_Website/Login Screen
+
+2019-01-02 16:25:15 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/index.php/auth/login'
+
+2019-01-02 16:25:22 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/index.php/auth/login'
+
+2019-01-02 16:25:22 - [TEST_STEP][PASSED] - setText: Text 'Admin' is set on object 'Object Repository/Orange/Login/Username'
+
+2019-01-02 16:25:22 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Orange/Login/Username'
+
+2019-01-02 16:25:22 - [TEST_STEP][PASSED] - setText: Text 'admin123' is set on object 'Object Repository/Orange/Login/Password'
+
+2019-01-02 16:25:23 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/Orange/Login/Password'
+
+2019-01-02 16:25:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Orange/Login/Login' is clicked on
+
+2019-01-02 16:25:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange/Login/Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Orange_Website/TC_Locations" classname="Test Cases/Orange_Website/TC_Locations" status="PASSED">
+         <system-out><![CDATA[2019-01-02 16:25:24 - [TEST_CASE][PASSED] - Test Cases/Orange_Website/TC_Locations: Test Cases/Orange_Website/TC_Locations
+
+2019-01-02 16:25:25 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/index.php/auth/login'
+
+2019-01-02 16:25:25 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-01-02 16:25:31 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/index.php/auth/login'
+
+2019-01-02 16:25:31 - [TEST_STEP][PASSED] - setText: Text 'Admin' is set on object 'Object Repository/Orange/Login/Username'
+
+2019-01-02 16:25:31 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Orange/Login/Username'
+
+2019-01-02 16:25:31 - [TEST_STEP][PASSED] - setText: Text 'admin123' is set on object 'Object Repository/Orange/Login/Password'
+
+2019-01-02 16:25:31 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/Orange/Login/Password'
+
+2019-01-02 16:25:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Orange/Login/Login' is clicked on
+
+2019-01-02 16:25:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange/Login/Login' is clicked on
+
+2019-01-02 16:25:32 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://opensource-demo.orangehrmlive.com/index.php/admin/viewLocations' successfully
+
+2019-01-02 16:25:34 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/index.php/admin/viewLocations' successfully
+
+2019-01-02 16:25:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Orange/Locations/btn_select' is clicked on
+
+2019-01-02 16:25:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange/Locations/btn_select' is clicked on
+
+2019-01-02 16:25:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Orange/Locations/btn_Edit' is clicked on
+
+2019-01-02 16:25:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange/Locations/btn_Edit' is clicked on
+
+2019-01-02 16:25:35 - [TEST_STEP][PASSED] - pk_Functions.CS_CheckMatching.CheckMatching: pk_Functions.CS_CheckMatching.CheckMatching is PASSED
+
+2019-01-02 16:25:37 - [MESSAGE][PASSED] - Attribute 'value' of object '' is: 'Azza'
+
+2019-01-02 16:25:37 - [MESSAGE][PASSED] - Actual text 'Azza' and expected text 'Azza' are matched 
+
+2019-01-02 16:25:37 - [MESSAGE][PASSED] - Attribute 'value' of object '' is: 'EG'
+
+2019-01-02 16:25:37 - [MESSAGE][PASSED] - Actual text 'EG' and expected text 'EG' are matched 
+
+2019-01-02 16:25:37 - [MESSAGE][PASSED] - Attribute 'value' of object '' is: 'XX'
+
+2019-01-02 16:25:37 - [MESSAGE][PASSED] - Actual text 'XX' and expected text 'XX' are matched 
+
+2019-01-02 16:25:37 - [MESSAGE][PASSED] - Attribute 'value' of object '' is: 'Alexandria'
+
+2019-01-02 16:25:37 - [MESSAGE][PASSED] - Actual text 'Alexandria' and expected text 'Alexandria' are matched 
+
+2019-01-02 16:25:37 - [MESSAGE][PASSED] - Attribute 'value' of object '' is: ''
+
+2019-01-02 16:25:37 - [MESSAGE][PASSED] - Actual text '' and expected text '' are matched 
+
+2019-01-02 16:25:37 - [MESSAGE][PASSED] - Attribute 'value' of object '' is: '12012'
+
+2019-01-02 16:25:37 - [MESSAGE][PASSED] - Actual text '12012' and expected text '12012' are matched 
+
+2019-01-02 16:25:37 - [MESSAGE][PASSED] - Attribute 'value' of object '' is: '01129211656'
+
+2019-01-02 16:25:37 - [MESSAGE][PASSED] - Actual text '01129211656' and expected text '01129211656' are matched 
+
+2019-01-02 16:25:37 - [MESSAGE][PASSED] - Attribute 'value' of object '' is: ''
+
+2019-01-02 16:25:38 - [MESSAGE][PASSED] - Actual text '' and expected text '' are matched 
+
+2019-01-02 16:25:38 - [MESSAGE][PASSED] - Attribute 'value' of object '' is: 'first location'
+
+2019-01-02 16:25:38 - [MESSAGE][PASSED] - Actual text 'first location' and expected text 'first location' are matched 
+
+2019-01-02 16:25:38 - [MESSAGE][PASSED] - pk_Functions.CS_CheckMatching.CheckMatching is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-02 16:25:14 - [TEST_SUITE][PASSED] - TS_Locations: Test Cases/Orange_Website/TC_Locations]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
