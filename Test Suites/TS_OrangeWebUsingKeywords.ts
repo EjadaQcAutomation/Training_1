@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS_OrangeWebUsingKeywords</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <lastRun>2019-01-03T11:03:54</lastRun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>caeb25e5-4cd8-48c8-9012-e377735a9b51</testSuiteGuid>
+   <testCaseLink>
+      <guid>1eed5b07-c68f-4a8c-abc1-967367dd34cf</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Orange_Website_Using_Function/Tc_TestOrangeWebUsingKeywords</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>84fccdad-8eee-438e-ad26-fb228578530b</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/TestKeywords/Data</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>84fccdad-8eee-438e-ad26-fb228578530b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>USERNAME</value>
+         <variableId>c909138e-c135-43a1-bce1-56277cecc932</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>84fccdad-8eee-438e-ad26-fb228578530b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>PASSWORD</value>
+         <variableId>b5df670f-63bf-48e5-b185-99290914add4</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
