@@ -13,7 +13,7 @@
    <testCaseLink>
       <guid>c0ec7c23-f8fc-4b33-9c1e-7c04143824ac</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Orange_Website/Login Screen</testCaseId>
    </testCaseLink>
    <testCaseLink>

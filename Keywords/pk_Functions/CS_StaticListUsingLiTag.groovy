@@ -40,9 +40,9 @@ public class CS_StaticListUsingLiTag {
 	private static WebElement dropDownList;
 
 	// Clicking on certain item
-	// Input: x-path of drop down list, x-path of container, items of static LOV 
-	// Output: There isn't output 
- 	@Keyword
+	// Input: x-path of drop down list, x-path of container, items of static LOV
+	// Output: There isn't output
+	@Keyword
 	def LovSearchFun (String dropdownObjectXpath, String ContainerObjectXpath, String text) {
 
 		// Assuming you have to click the "drop down" to open it
@@ -59,7 +59,7 @@ public class CS_StaticListUsingLiTag {
 		// Getting all items in list called allItems
 		allItems = driver.findElements(By.xpath(ContainerObjectXpath+'/li'));
 		int itemNo
-		
+
 		// Loop on all items to click on the desired text in LOV
 		for( itemNo=1 ; itemNo<=allItems.size() ; itemNo++){
 			if (allItems[itemNo-1].getText().equals(text)) {
@@ -103,7 +103,7 @@ public class CS_StaticListUsingLiTag {
 
 		for( itemsNum=1 ; itemsNum<=allItems.size() ; itemsNum++){
 			actualItems.add(allItems[itemsNum-1].getText())
-			
+
 			// print each item in LOV
 			println (actualItems[itemsNum-1])
 		}

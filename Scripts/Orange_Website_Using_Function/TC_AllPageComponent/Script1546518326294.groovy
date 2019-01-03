@@ -17,5 +17,8 @@ CustomKeywords.'pk_Functions.CS_Login.LoginFun'(findTestObject(null), 'https://o
     findTestObject('Orange/Login/Username'), findTestObject('Orange/Login/Password'), 'Admin', 'admin123', findTestObject(
         'Orange/Login/Login'))
 
+WebUI.click(findTestObject('Orange/Navigation/MNUITM_Recruitment'))
 
+CustomKeywords.'pk_Functions.CS_TextLov.TextLovFun'('TestKeywords/AllObjectComponent', 'Sheet1', [CandidateName, JobTitle
+        , WelcomeAdmin])
 
