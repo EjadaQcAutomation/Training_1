@@ -53,7 +53,9 @@ public class CS_TextLov {
 				println part1
 				println part2
 				println fieldsData[(column-1)]
-				(new pk_Functions.CS_StaticListUsingLiTag()).LovSearchFun (part1 , part2 ,fieldsData[(column-1)] )
+
+				//	(new pk_Functions.CS_StaticListUsingLiTag()).LovSearchFun (part1 , part2 ,fieldsData[(column-1)] )
+				(new pk_Functions.CS_StaticListUsingLiTag()).LovMatchItemsFun (part1 , part2 ,[])
 
 			}
 		}

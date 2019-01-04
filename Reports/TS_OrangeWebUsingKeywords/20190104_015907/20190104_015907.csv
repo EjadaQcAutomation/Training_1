@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_OrangeWebUsingKeywords,Chrome 71.0.3578.98,,2019-01-04 01:59:09,2019-01-04 01:59:28,18.704s,PASSED
+,,,,,,
+Test Cases/Orange_Website_Using_Function/TC_AllPageComponent,Chrome 71.0.3578.98,,2019-01-04 01:59:09,2019-01-04 01:59:28,18.378s,PASSED
+"pk_Functions.CS_Login.LoginFun(findTestObject(null), ""https://opensource-demo.orangehrmlive.com/index.php/auth/login"", findTestObject(""Orange/Login/Username""), findTestObject(""Orange/Login/Password""), ""Admin"", ""admin123"", findTestObject(""Orange/Login/Login""))",Chrome 71.0.3578.98,,2019-01-04 01:59:10,2019-01-04 01:59:20,9.804s,PASSED
+"click(findTestObject(""Orange/Navigation/MNUITM_Recruitment""))",Chrome 71.0.3578.98,,2019-01-04 01:59:20,2019-01-04 01:59:22,2.298s,PASSED
+"pk_Functions.CS_TextLov.TextLovFun(""TestKeywords/AllObjectComponent"", ""Sheet1"", [CandidateName, JobTitle, WelcomeAdmin])",Chrome 71.0.3578.98,,2019-01-04 01:59:22,2019-01-04 01:59:28,5.691s,PASSED

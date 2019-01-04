@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-01-04T02:18:40</date>
+  <millis>1546561120977</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/TS_OrangeWebUsingKeywords</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">TS_OrangeWebUsingKeywords</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/TS_OrangeWebUsingKeywords</property>
+</record>
+<record>
+  <date>2019-01-04T02:18:41</date>
+  <millis>1546561121035</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = lenovo - alenovo</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">lenovo - alenovo</property>
+</record>
+<record>
+  <date>2019-01-04T02:18:41</date>
+  <millis>1546561121039</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 8.1 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 8.1 64bit</property>
+</record>
+<record>
+  <date>2019-01-04T02:18:41</date>
+  <millis>1546561121040</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 192.168.184.2</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">192.168.184.2</property>
+</record>
+<record>
+  <date>2019-01-04T02:18:41</date>
+  <millis>1546561121043</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 5.9.1.2</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">5.9.1.2</property>
+</record>
+<record>
+  <date>2019-01-04T02:18:41</date>
+  <millis>1546561121644</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Orange_Website_Using_Function/TC_AllPageComponent</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Orange_Website_Using_Function/TC_AllPageComponent</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Orange_Website_Using_Function/TC_AllPageComponent</property>
+  <property name="source">C:\\Users\\lenovo\\git\\Training_1\\Test Cases\\Orange_Website_Using_Function\\TC_AllPageComponent.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-01-04T02:18:41</date>
+  <millis>1546561121697</millis>
+  <sequence>7</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>CandidateName = asmaa</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-04T02:18:41</date>
+  <millis>1546561121698</millis>
+  <sequence>8</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>JobTitle = Account Clerk</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-04T02:18:41</date>
+  <millis>1546561121699</millis>
+  <sequence>9</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>WelcomeAdmin = Logout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-04T02:18:42</date>
+  <millis>1546561122363</millis>
+  <sequence>10</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : pk_Functions.CS_Login.LoginFun(findTestObject(null), \&amp;quot;https://opensource-demo.orangehrmlive.com/index.php/auth/login\&amp;quot;, findTestObject(\&amp;quot;Orange/Login/Username\&amp;quot;), findTestObject(\&amp;quot;Orange/Login/Password\&amp;quot;), \&amp;quot;Admin\&amp;quot;, \&amp;quot;admin123\&amp;quot;, findTestObject(\&amp;quot;Orange/Login/Login\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-01-04T02:18:42</date>
+  <millis>1546561122402</millis>
+  <sequence>11</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test object id is null</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-04T02:18:43</date>
+  <millis>1546561123130</millis>
+  <sequence>16</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-04T02:18:43</date>
+  <millis>1546561123177</millis>
+  <sequence>17</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 0 seconds</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-04T02:18:47</date>
+  <millis>1546561127880</millis>
+  <sequence>19</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = bbd3a80199e9234e3ac8c7c4de9c97ef</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="sessionId">bbd3a80199e9234e3ac8c7c4de9c97ef</property>
+</record>
+<record>
+  <date>2019-01-04T02:18:47</date>
+  <millis>1546561127913</millis>
+  <sequence>20</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Chrome 71.0.3578.98</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="browser">Chrome 71.0.3578.98</property>
+</record>
+<record>
+  <date>2019-01-04T02:18:47</date>
+  <millis>1546561127914</millis>
+  <sequence>21</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Windows 8.1</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="platform">Windows 8.1</property>
+</record>
+<record>
+  <date>2019-01-04T02:18:47</date>
+  <millis>1546561127917</millis>
+  <sequence>22</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.7.1</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="seleniumVersion">3.7.1</property>
+</record>
+<record>
+  <date>2019-01-04T02:18:47</date>
+  <millis>1546561127919</millis>
+  <sequence>23</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="proxyInformation">ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</property>
+</record>
+<record>
+  <date>2019-01-04T02:18:52</date>
+  <millis>1546561132333</millis>
+  <sequence>25</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;https://opensource-demo.orangehrmlive.com/index.php/auth/login&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-04T02:18:52</date>
+  <millis>1546561132639</millis>
+  <sequence>36</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Admin&amp;apos; is set on object &amp;apos;Object Repository/Orange/Login/Username&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-04T02:18:52</date>
+  <millis>1546561132785</millis>
+  <sequence>47</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;admin123&amp;apos; is set on object &amp;apos;Object Repository/Orange/Login/Password&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-04T02:18:54</date>
+  <millis>1546561134516</millis>
+  <sequence>53</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Orange/Login/Login&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-04T02:18:54</date>
+  <millis>1546561134516</millis>
+  <sequence>54</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>pk_Functions.CS_Login.LoginFun is PASSED</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-04T02:18:54</date>
+  <millis>1546561134517</millis>
+  <sequence>55</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : pk_Functions.CS_Login.LoginFun(findTestObject(null), \&amp;quot;https://opensource-demo.orangehrmlive.com/index.php/auth/login\&amp;quot;, findTestObject(\&amp;quot;Orange/Login/Username\&amp;quot;), findTestObject(\&amp;quot;Orange/Login/Password\&amp;quot;), \&amp;quot;Admin\&amp;quot;, \&amp;quot;admin123\&amp;quot;, findTestObject(\&amp;quot;Orange/Login/Login\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-04T02:18:54</date>
+  <millis>1546561134518</millis>
+  <sequence>56</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Orange/Navigation/MNUITM_Recruitment\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">20</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-01-04T02:18:57</date>
+  <millis>1546561137260</millis>
+  <sequence>63</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Orange/Navigation/MNUITM_Recruitment&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-04T02:18:57</date>
+  <millis>1546561137261</millis>
+  <sequence>64</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Orange/Navigation/MNUITM_Recruitment\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-04T02:18:57</date>
+  <millis>1546561137262</millis>
+  <sequence>65</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : pk_Functions.CS_TextLov.TextLovFun(\&amp;quot;TestKeywords/AllObjectComponent\&amp;quot;, \&amp;quot;Sheet1\&amp;quot;, [CandidateName, JobTitle, WelcomeAdmin])</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">22</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-01-04T02:18:58</date>
+  <millis>1546561138361</millis>
+  <sequence>84</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;asmaa&amp;apos; is set on object &amp;apos;&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-04T02:18:58</date>
+  <millis>1546561138507</millis>
+  <sequence>91</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>All options with label &amp;apos;Account Clerk&amp;apos; are selected in object &amp;apos;&amp;apos; </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-04T02:18:58</date>
+  <millis>1546561138738</millis>
+  <sequence>92</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>pk_Functions.CS_TextLov.TextLovFun is PASSED</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-04T02:18:58</date>
+  <millis>1546561138739</millis>
+  <sequence>93</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : pk_Functions.CS_TextLov.TextLovFun(\&amp;quot;TestKeywords/AllObjectComponent\&amp;quot;, \&amp;quot;Sheet1\&amp;quot;, [CandidateName, JobTitle, WelcomeAdmin])</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-04T02:18:58</date>
+  <millis>1546561138740</millis>
+  <sequence>94</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Orange_Website_Using_Function/TC_AllPageComponent</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-04T02:18:58</date>
+  <millis>1546561138740</millis>
+  <sequence>95</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Orange_Website_Using_Function/TC_AllPageComponent</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-01-04T02:18:58</date>
+  <millis>1546561138744</millis>
+  <sequence>96</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/TS_OrangeWebUsingKeywords</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>

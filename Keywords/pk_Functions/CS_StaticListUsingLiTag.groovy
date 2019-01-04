@@ -57,9 +57,9 @@ public class CS_StaticListUsingLiTag {
 		dropDownList.click()
 
 		// Getting all items in list called allItems
-		allItems = driver.findElements(By.xpath(ContainerObjectXpath+'/li'));
+		allItems = driver.findElements(By.xpath(ContainerObjectXpath));
 		int itemNo
-
+		WebUI.delay(4)
 		// Loop on all items to click on the desired text in LOV
 		for( itemNo=1 ; itemNo<=allItems.size() ; itemNo++){
 			if (allItems[itemNo-1].getText().equals(text)) {
@@ -91,7 +91,7 @@ public class CS_StaticListUsingLiTag {
 		dropDownList.click()
 
 		// Getting all items in list called allItems
-		allItems = driver.findElements(By.xpath(ContainerObjectXpath+'/li'));
+		allItems = driver.findElements(By.xpath(ContainerObjectXpath));
 
 		int itemsNum
 		String status
@@ -100,7 +100,7 @@ public class CS_StaticListUsingLiTag {
 
 		// Print Number of Items in LOV
 		println ( "Number of Items :  "+ allItems.size())
-
+		WebUI.delay(4)
 		for( itemsNum=1 ; itemsNum<=allItems.size() ; itemsNum++){
 			actualItems.add(allItems[itemsNum-1].getText())
 
