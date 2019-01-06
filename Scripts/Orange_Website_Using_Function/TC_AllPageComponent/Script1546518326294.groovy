@@ -22,3 +22,5 @@ WebUI.click(findTestObject('Orange/Navigation/MNUITM_Recruitment'))
 CustomKeywords.'pk_Functions.CS_TextLov.TextLovFun'('TestKeywords/AllObjectComponent', 'Sheet1', [CandidateName, JobTitle
         , WelcomeAdmin])
 
+WebUI.delay(5)
+
