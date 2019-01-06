@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_OrangeWebUsingKeywords" time="42" tests="2" failures="0" errors="0">
+   <testsuite name="TS_OrangeWebUsingKeywords" tests="2" failures="0" errors="0" time="42" timestamp="2019-01-06 11:45:38" hostname="aeibrahim - LPALXY0477.ejadaalex.local" id="Test Suites/TS_OrangeWebUsingKeywords">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\aeibrahim\\git\\Training_1\\Reports\\TS_OrangeWebUsingKeywords\\20190106_114536"/>
+         <property name="logFiles" value="C:\\Users\\aeibrahim\\git\\Training_1\\Reports\\TS_OrangeWebUsingKeywords\\20190106_114536\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="aeibrahim - LPALXY0477.ejadaalex.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.6.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.3.64"/>
+         <property name="sessionId" value="1fadc8dd85d1566d716423f9c6a82058"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Orange_Website_Using_Function/TC_AllPageComponent" classname="Test Cases/Orange_Website_Using_Function/TC_AllPageComponent" status="PASSED">
+         <system-out><![CDATA[2019-01-06 11:45:38 - [TEST_CASE][PASSED] - Test Cases/Orange_Website_Using_Function/TC_AllPageComponent: Test Cases/Orange_Website_Using_Function/TC_AllPageComponent
+
+2019-01-06 11:45:39 - [TEST_STEP][PASSED] - pk_Functions.CS_Login.LoginFun: pk_Functions.CS_Login.LoginFun is PASSED
+
+2019-01-06 11:45:39 - [MESSAGE][WARNING] - Test object id is null
+
+2019-01-06 11:45:46 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/index.php/auth/login'
+
+2019-01-06 11:45:46 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Orange/Login/Username'
+
+2019-01-06 11:45:46 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/Orange/Login/Password'
+
+2019-01-06 11:45:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange/Login/Login' is clicked on
+
+2019-01-06 11:45:48 - [MESSAGE][PASSED] - pk_Functions.CS_Login.LoginFun is PASSED
+
+2019-01-06 11:45:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Orange/Navigation/MNUITM_Recruitment' is clicked on
+
+2019-01-06 11:45:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange/Navigation/MNUITM_Recruitment' is clicked on
+
+2019-01-06 11:45:50 - [TEST_STEP][PASSED] - pk_Functions.CS_TextLov.TextLovFun: pk_Functions.CS_TextLov.TextLovFun is PASSED
+
+2019-01-06 11:45:51 - [MESSAGE][PASSED] - Text 'airamadan' is set on object ''
+
+2019-01-06 11:45:51 - [MESSAGE][PASSED] - All options with label 'Finance Manager' are selected in object '' 
+
+2019-01-06 11:45:55 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-01-06 11:45:55 - [MESSAGE][PASSED] - pk_Functions.CS_TextLov.TextLovFun is PASSED
+
+2019-01-06 11:45:55 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-01-06 11:46:00 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Orange_Website_Using_Function/TC_AllPageComponent" classname="Test Cases/Orange_Website_Using_Function/TC_AllPageComponent" status="PASSED">
+         <system-out><![CDATA[2019-01-06 11:46:00 - [TEST_CASE][PASSED] - Test Cases/Orange_Website_Using_Function/TC_AllPageComponent: Test Cases/Orange_Website_Using_Function/TC_AllPageComponent
+
+2019-01-06 11:46:00 - [TEST_STEP][PASSED] - pk_Functions.CS_Login.LoginFun: pk_Functions.CS_Login.LoginFun is PASSED
+
+2019-01-06 11:46:00 - [MESSAGE][WARNING] - Test object id is null
+
+2019-01-06 11:46:00 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-01-06 11:46:06 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/index.php/auth/login'
+
+2019-01-06 11:46:07 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Orange/Login/Username'
+
+2019-01-06 11:46:07 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/Orange/Login/Password'
+
+2019-01-06 11:46:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange/Login/Login' is clicked on
+
+2019-01-06 11:46:08 - [MESSAGE][PASSED] - pk_Functions.CS_Login.LoginFun is PASSED
+
+2019-01-06 11:46:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Orange/Navigation/MNUITM_Recruitment' is clicked on
+
+2019-01-06 11:46:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange/Navigation/MNUITM_Recruitment' is clicked on
+
+2019-01-06 11:46:10 - [TEST_STEP][PASSED] - pk_Functions.CS_TextLov.TextLovFun: pk_Functions.CS_TextLov.TextLovFun is PASSED
+
+2019-01-06 11:46:11 - [MESSAGE][PASSED] - Text 'asmaa' is set on object ''
+
+2019-01-06 11:46:11 - [MESSAGE][PASSED] - All options with label 'CEO' are selected in object '' 
+
+2019-01-06 11:46:15 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-01-06 11:46:15 - [MESSAGE][PASSED] - pk_Functions.CS_TextLov.TextLovFun is PASSED
+
+2019-01-06 11:46:15 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-01-06 11:46:20 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-06 11:45:38 - [TEST_SUITE][PASSED] - TS_OrangeWebUsingKeywords: Test Cases/Orange_Website_Using_Function/TC_AllPageComponent]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
