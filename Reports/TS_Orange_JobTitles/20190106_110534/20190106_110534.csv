@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_Orange_JobTitles,Chrome 71.0.3578.98,,2019-01-06 11:05:40,2019-01-06 11:06:02,21.779s,ERROR
+,,,,,,
+Test Cases/Orange_Website/Login Screen,Chrome 71.0.3578.98,,2019-01-06 11:05:41,2019-01-06 11:05:57,16.821s,PASSED
+"openBrowser(""https://opensource-demo.orangehrmlive.com/index.php/auth/login"")",Chrome 71.0.3578.98,,2019-01-06 11:05:42,2019-01-06 11:05:55,13.235s,PASSED
+"setText(findTestObject(""Orange/Login/Username""), ""Admin"")",Chrome 71.0.3578.98,,2019-01-06 11:05:55,2019-01-06 11:05:55,0.328s,PASSED
+"setText(findTestObject(""Orange/Login/Password""), ""admin123"")",Chrome 71.0.3578.98,,2019-01-06 11:05:55,2019-01-06 11:05:55,0.294s,PASSED
+"click(findTestObject(""Orange/Login/Login""))",Chrome 71.0.3578.98,,2019-01-06 11:05:55,2019-01-06 11:05:57,1.979s,PASSED
+,,,,,,
+Test Cases/Orange_Website/JobTitles_Screen2,Chrome 71.0.3578.98,,2019-01-06 11:05:57,2019-01-06 11:06:02,4.415s,ERROR
+"click(findTestObject(""Orange/Navigation/MNULST_Admin""))",Chrome 71.0.3578.98,,2019-01-06 11:05:58,2019-01-06 11:06:00,2.087s,PASSED
+"click(findTestObject(""Orange/Navigation/MNUITM_Job""))",Chrome 71.0.3578.98,,2019-01-06 11:06:00,2019-01-06 11:06:00,0.209s,PASSED
+"click(findTestObject(""Orange/Navigation/MNUITM_JobTitles""))",Chrome 71.0.3578.98,,2019-01-06 11:06:00,2019-01-06 11:06:01,1.017s,PASSED
+"ExpectedValue = ""Sales Executive""",Chrome 71.0.3578.98,Expected value from Table,2019-01-06 11:06:01,2019-01-06 11:06:01,0.004s,PASSED
+ndriver = getWebDriver(),Chrome 71.0.3578.98,,2019-01-06 11:06:01,2019-01-06 11:06:01,0.025s,PASSED
+"Table = ndriver.findElement(By.id(""resultTable""))",Chrome 71.0.3578.98,To locate table,2019-01-06 11:06:02,2019-01-06 11:06:02,0.095s,PASSED
+"Rows = Table.findElements(By.tagName(""tr""))",Chrome 71.0.3578.98,To locate rows of table it will Capture all the rows available in the table ,2019-01-06 11:06:02,2019-01-06 11:06:02,0.094s,PASSED
+"println(""No. of rows: "" + Rows.size())",Chrome 71.0.3578.98,,2019-01-06 11:06:02,2019-01-06 11:06:02,0.008s,PASSED
+"""Find a matching text in a table and performing action""",Chrome 71.0.3578.98,,2019-01-06 11:06:02,2019-01-06 11:06:02,0.002s,PASSED
+"for ([i = 0, i < Rows.size(), (i++)])",Chrome 71.0.3578.98,Loop will execute for all the rows of the table,2019-01-06 11:06:02,2019-01-06 11:06:02,0.074s,ERROR

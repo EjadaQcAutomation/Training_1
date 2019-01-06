@@ -1,0 +1,1841 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-01-06T10:19:43</date>
+  <millis>1546762783720</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/TS_Orange_JobTitles</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">TS_Orange_JobTitles</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/TS_Orange_JobTitles</property>
+</record>
+<record>
+  <date>2019-01-06T10:19:43</date>
+  <millis>1546762783769</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = Ebtehal Gamal Yusuf - LPALXY0199.ejadaalex.local</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">Ebtehal Gamal Yusuf - LPALXY0199.ejadaalex.local</property>
+</record>
+<record>
+  <date>2019-01-06T10:19:43</date>
+  <millis>1546762783771</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 7 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 7 64bit</property>
+</record>
+<record>
+  <date>2019-01-06T10:19:43</date>
+  <millis>1546762783775</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 192.168.3.51</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">192.168.3.51</property>
+</record>
+<record>
+  <date>2019-01-06T10:19:43</date>
+  <millis>1546762783779</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 5.10.0.1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">5.10.0.1</property>
+</record>
+<record>
+  <date>2019-01-06T10:19:44</date>
+  <millis>1546762784329</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Orange_Website/Login Screen</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Orange_Website/Login Screen</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Orange_Website/Login Screen</property>
+  <property name="source">C:\\Users\\Administrator\\git\\Training_1\\Test Cases\\Orange_Website\\Login Screen.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-01-06T10:19:45</date>
+  <millis>1546762785109</millis>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser(\&amp;quot;https://opensource-demo.orangehrmlive.com/index.php/auth/login\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-01-06T10:19:45</date>
+  <millis>1546762785917</millis>
+  <sequence>9</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-06T10:19:45</date>
+  <millis>1546762785971</millis>
+  <sequence>10</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 0 seconds</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-06T10:19:51</date>
+  <millis>1546762791121</millis>
+  <sequence>12</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = 3014a6686e32687e446e17c37228b903</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="sessionId">3014a6686e32687e446e17c37228b903</property>
+</record>
+<record>
+  <date>2019-01-06T10:19:51</date>
+  <millis>1546762791187</millis>
+  <sequence>13</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Chrome 71.0.3578.98</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="browser">Chrome 71.0.3578.98</property>
+</record>
+<record>
+  <date>2019-01-06T10:19:51</date>
+  <millis>1546762791188</millis>
+  <sequence>14</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Windows 7</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="platform">Windows 7</property>
+</record>
+<record>
+  <date>2019-01-06T10:19:51</date>
+  <millis>1546762791204</millis>
+  <sequence>15</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.7.1</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="seleniumVersion">3.7.1</property>
+</record>
+<record>
+  <date>2019-01-06T10:19:51</date>
+  <millis>1546762791206</millis>
+  <sequence>16</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="proxyInformation">ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</property>
+</record>
+<record>
+  <date>2019-01-06T10:19:59</date>
+  <millis>1546762799380</millis>
+  <sequence>18</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;https://opensource-demo.orangehrmlive.com/index.php/auth/login&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-06T10:19:59</date>
+  <millis>1546762799381</millis>
+  <sequence>19</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : openBrowser(\&amp;quot;https://opensource-demo.orangehrmlive.com/index.php/auth/login\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-06T10:19:59</date>
+  <millis>1546762799381</millis>
+  <sequence>20</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Orange/Login/Username\&amp;quot;), \&amp;quot;Admin\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-01-06T10:19:59</date>
+  <millis>1546762799659</millis>
+  <sequence>32</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Admin&amp;apos; is set on object &amp;apos;Object Repository/Orange/Login/Username&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-06T10:19:59</date>
+  <millis>1546762799660</millis>
+  <sequence>33</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Orange/Login/Username\&amp;quot;), \&amp;quot;Admin\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-06T10:19:59</date>
+  <millis>1546762799661</millis>
+  <sequence>34</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Orange/Login/Password\&amp;quot;), \&amp;quot;admin123\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">20</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-01-06T10:19:59</date>
+  <millis>1546762799800</millis>
+  <sequence>46</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;admin123&amp;apos; is set on object &amp;apos;Object Repository/Orange/Login/Password&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-06T10:19:59</date>
+  <millis>1546762799801</millis>
+  <sequence>47</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Orange/Login/Password\&amp;quot;), \&amp;quot;admin123\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-06T10:19:59</date>
+  <millis>1546762799801</millis>
+  <sequence>48</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Orange/Login/Login\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">22</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2019-01-06T10:20:02</date>
+  <millis>1546762802699</millis>
+  <sequence>55</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Orange/Login/Login&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-06T10:20:02</date>
+  <millis>1546762802700</millis>
+  <sequence>56</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Orange/Login/Login\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-06T10:20:02</date>
+  <millis>1546762802703</millis>
+  <sequence>57</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Orange_Website/Login Screen</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-06T10:20:02</date>
+  <millis>1546762802704</millis>
+  <sequence>58</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Orange_Website/Login Screen</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-01-06T10:20:02</date>
+  <millis>1546762802715</millis>
+  <sequence>59</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Orange_Website/JobTitles_Screen2</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Orange_Website/JobTitles_Screen2</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Orange_Website/JobTitles_Screen2</property>
+  <property name="source">C:\\Users\\Administrator\\git\\Training_1\\Test Cases\\Orange_Website\\JobTitles_Screen2.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-01-06T10:20:03</date>
+  <millis>1546762803217</millis>
+  <sequence>61</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Orange/Navigation/MNULST_Admin\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">20</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-01-06T10:20:06</date>
+  <millis>1546762806514</millis>
+  <sequence>68</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Orange/Navigation/MNULST_Admin&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-06T10:20:06</date>
+  <millis>1546762806514</millis>
+  <sequence>69</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Orange/Navigation/MNULST_Admin\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-06T10:20:06</date>
+  <millis>1546762806515</millis>
+  <sequence>70</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Orange/Navigation/MNUITM_Job\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">22</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-01-06T10:20:06</date>
+  <millis>1546762806620</millis>
+  <sequence>77</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Orange/Navigation/MNUITM_Job&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-06T10:20:06</date>
+  <millis>1546762806621</millis>
+  <sequence>78</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Orange/Navigation/MNUITM_Job\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-06T10:20:06</date>
+  <millis>1546762806621</millis>
+  <sequence>79</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Orange/Navigation/MNUITM_JobTitles\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">24</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-01-06T10:20:07</date>
+  <millis>1546762807423</millis>
+  <sequence>86</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Orange/Navigation/MNUITM_JobTitles&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-06T10:20:07</date>
+  <millis>1546762807425</millis>
+  <sequence>87</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Orange/Navigation/MNUITM_JobTitles\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-06T10:20:07</date>
+  <millis>1546762807426</millis>
+  <sequence>88</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : ExpectedValue = \&amp;quot;Sales Executive\&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">29</property>
+  <property name="stepIndex">4</property>
+  <property name="description">Expected value from Table</property>
+</record>
+<record>
+  <date>2019-01-06T10:20:07</date>
+  <millis>1546762807428</millis>
+  <sequence>89</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : ExpectedValue = \&amp;quot;Sales Executive\&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-06T10:20:07</date>
+  <millis>1546762807428</millis>
+  <sequence>90</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : ndriver = getWebDriver()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">31</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2019-01-06T10:20:07</date>
+  <millis>1546762807444</millis>
+  <sequence>91</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : ndriver = getWebDriver()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-06T10:20:07</date>
+  <millis>1546762807445</millis>
+  <sequence>92</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Table = ndriver.findElement(By.id(\&amp;quot;resultTable\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">34</property>
+  <property name="stepIndex">6</property>
+  <property name="description">To locate table</property>
+</record>
+<record>
+  <date>2019-01-06T10:20:07</date>
+  <millis>1546762807568</millis>
+  <sequence>93</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Table = ndriver.findElement(By.id(\&amp;quot;resultTable\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-06T10:20:07</date>
+  <millis>1546762807569</millis>
+  <sequence>94</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Rows = Table.findElements(By.tagName(\&amp;quot;tr\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">37</property>
+  <property name="stepIndex">7</property>
+  <property name="description">To locate rows of table it will Capture all the rows available in the table </property>
+</record>
+<record>
+  <date>2019-01-06T10:20:07</date>
+  <millis>1546762807640</millis>
+  <sequence>95</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Rows = Table.findElements(By.tagName(\&amp;quot;tr\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-06T10:20:07</date>
+  <millis>1546762807641</millis>
+  <sequence>96</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(\&amp;quot;No. of rows: \&amp;quot; + Rows.size())</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">39</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2019-01-06T10:20:07</date>
+  <millis>1546762807647</millis>
+  <sequence>97</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(\&amp;quot;No. of rows: \&amp;quot; + Rows.size())</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-06T10:20:07</date>
+  <millis>1546762807648</millis>
+  <sequence>98</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : \&amp;quot;Find a matching text in a table and performing action\&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">41</property>
+  <property name="stepIndex">9</property>
+</record>
+<record>
+  <date>2019-01-06T10:20:07</date>
+  <millis>1546762807649</millis>
+  <sequence>99</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : \&amp;quot;Find a matching text in a table and performing action\&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-06T10:20:07</date>
+  <millis>1546762807649</millis>
+  <sequence>100</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : for ([i = 0, i &amp;lt; Rows.size(), (i++)])</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">44</property>
+  <property name="stepIndex">10</property>
+  <property name="description">Loop will execute for all the rows of the table</property>
+</record>
+<record>
+  <date>2019-01-06T10:20:07</date>
+  <millis>1546762807651</millis>
+  <sequence>101</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Cols = get(i).findElements(By.tagName(\&amp;quot;td\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">46</property>
+  <property name="stepIndex">1</property>
+  <property name="description">To locate columns(cells) of that specific row</property>
+</record>
+<record>
+  <date>2019-01-06T10:20:07</date>
+  <millis>1546762807694</millis>
+  <sequence>102</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Cols = get(i).findElements(By.tagName(\&amp;quot;td\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-06T10:20:07</date>
+  <millis>1546762807695</millis>
+  <sequence>103</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : for ([j = 0, j &amp;lt; Cols.size(), (j++)])</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">48</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-01-06T10:20:07</date>
+  <millis>1546762807696</millis>
+  <sequence>104</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : for ([j = 0, j &amp;lt; Cols.size(), (j++)])</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-06T10:20:07</date>
+  <millis>1546762807696</millis>
+  <sequence>105</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Cols = get(i).findElements(By.tagName(\&amp;quot;td\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">46</property>
+  <property name="stepIndex">1</property>
+  <property name="description">To locate columns(cells) of that specific row</property>
+</record>
+<record>
+  <date>2019-01-06T10:20:07</date>
+  <millis>1546762807729</millis>
+  <sequence>106</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Cols = get(i).findElements(By.tagName(\&amp;quot;td\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-06T10:20:07</date>
+  <millis>1546762807730</millis>
+  <sequence>107</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : for ([j = 0, j &amp;lt; Cols.size(), (j++)])</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">48</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-01-06T10:20:07</date>
+  <millis>1546762807734</millis>
+  <sequence>108</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (getText().equalsIgnoreCase(ExpectedValue))</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="startLine">50</property>
+  <property name="stepIndex">1</property>
+  <property name="description">Verifying the expected text in the each cell</property>
+</record>
+<record>
+  <date>2019-01-06T10:20:07</date>
+  <millis>1546762807782</millis>
+  <sequence>109</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (getText().equalsIgnoreCase(ExpectedValue))</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2019-01-06T10:20:07</date>
+  <millis>1546762807782</millis>
+  <sequence>110</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (getText().equalsIgnoreCase(ExpectedValue))</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="startLine">50</property>
+  <property name="stepIndex">1</property>
+  <property name="description">Verifying the expected text in the each cell</property>
+</record>
+<record>
+  <date>2019-01-06T10:20:07</date>
+  <millis>1546762807839</millis>
+  <sequence>111</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (getText().equalsIgnoreCase(ExpectedValue))</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2019-01-06T10:20:07</date>
+  <millis>1546762807839</millis>
+  <sequence>112</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (getText().equalsIgnoreCase(ExpectedValue))</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="startLine">50</property>
+  <property name="stepIndex">1</property>
+  <property name="description">Verifying the expected text in the each cell</property>
+</record>
+<record>
+  <date>2019-01-06T10:20:07</date>
+  <millis>1546762807870</millis>
+  <sequence>113</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (getText().equalsIgnoreCase(ExpectedValue))</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2019-01-06T10:20:07</date>
+  <millis>1546762807870</millis>
+  <sequence>114</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : for ([j = 0, j &amp;lt; Cols.size(), (j++)])</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-06T10:20:07</date>
+  <millis>1546762807872</millis>
+  <sequence>115</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Cols = get(i).findElements(By.tagName(\&amp;quot;td\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">46</property>
+  <property name="stepIndex">1</property>
+  <property name="description">To locate columns(cells) of that specific row</property>
+</record>
+<record>
+  <date>2019-01-06T10:20:07</date>
+  <millis>1546762807902</millis>
+  <sequence>116</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Cols = get(i).findElements(By.tagName(\&amp;quot;td\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-06T10:20:07</date>
+  <millis>1546762807902</millis>
+  <sequence>117</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : for ([j = 0, j &amp;lt; Cols.size(), (j++)])</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">48</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-01-06T10:20:07</date>
+  <millis>1546762807903</millis>
+  <sequence>118</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (getText().equalsIgnoreCase(ExpectedValue))</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="startLine">50</property>
+  <property name="stepIndex">1</property>
+  <property name="description">Verifying the expected text in the each cell</property>
+</record>
+<record>
+  <date>2019-01-06T10:20:07</date>
+  <millis>1546762807945</millis>
+  <sequence>119</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (getText().equalsIgnoreCase(ExpectedValue))</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2019-01-06T10:20:07</date>
+  <millis>1546762807946</millis>
+  <sequence>120</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (getText().equalsIgnoreCase(ExpectedValue))</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="startLine">50</property>
+  <property name="stepIndex">1</property>
+  <property name="description">Verifying the expected text in the each cell</property>
+</record>
+<record>
+  <date>2019-01-06T10:20:07</date>
+  <millis>1546762807981</millis>
+  <sequence>121</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (getText().equalsIgnoreCase(ExpectedValue))</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2019-01-06T10:20:07</date>
+  <millis>1546762807981</millis>
+  <sequence>122</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (getText().equalsIgnoreCase(ExpectedValue))</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="startLine">50</property>
+  <property name="stepIndex">1</property>
+  <property name="description">Verifying the expected text in the each cell</property>
+</record>
+<record>
+  <date>2019-01-06T10:20:08</date>
+  <millis>1546762808022</millis>
+  <sequence>123</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (getText().equalsIgnoreCase(ExpectedValue))</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2019-01-06T10:20:08</date>
+  <millis>1546762808035</millis>
+  <sequence>124</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : for ([j = 0, j &amp;lt; Cols.size(), (j++)])</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-06T10:20:08</date>
+  <millis>1546762808036</millis>
+  <sequence>125</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Cols = get(i).findElements(By.tagName(\&amp;quot;td\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">46</property>
+  <property name="stepIndex">1</property>
+  <property name="description">To locate columns(cells) of that specific row</property>
+</record>
+<record>
+  <date>2019-01-06T10:20:08</date>
+  <millis>1546762808068</millis>
+  <sequence>126</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Cols = get(i).findElements(By.tagName(\&amp;quot;td\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-06T10:20:08</date>
+  <millis>1546762808069</millis>
+  <sequence>127</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : for ([j = 0, j &amp;lt; Cols.size(), (j++)])</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">48</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-01-06T10:20:08</date>
+  <millis>1546762808070</millis>
+  <sequence>128</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (getText().equalsIgnoreCase(ExpectedValue))</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="startLine">50</property>
+  <property name="stepIndex">1</property>
+  <property name="description">Verifying the expected text in the each cell</property>
+</record>
+<record>
+  <date>2019-01-06T10:20:08</date>
+  <millis>1546762808102</millis>
+  <sequence>129</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (getText().equalsIgnoreCase(ExpectedValue))</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2019-01-06T10:20:08</date>
+  <millis>1546762808102</millis>
+  <sequence>130</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (getText().equalsIgnoreCase(ExpectedValue))</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="startLine">50</property>
+  <property name="stepIndex">1</property>
+  <property name="description">Verifying the expected text in the each cell</property>
+</record>
+<record>
+  <date>2019-01-06T10:20:08</date>
+  <millis>1546762808294</millis>
+  <sequence>131</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (getText().equalsIgnoreCase(ExpectedValue))</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2019-01-06T10:20:08</date>
+  <millis>1546762808295</millis>
+  <sequence>132</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (getText().equalsIgnoreCase(ExpectedValue))</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="startLine">50</property>
+  <property name="stepIndex">1</property>
+  <property name="description">Verifying the expected text in the each cell</property>
+</record>
+<record>
+  <date>2019-01-06T10:20:08</date>
+  <millis>1546762808325</millis>
+  <sequence>133</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (getText().equalsIgnoreCase(ExpectedValue))</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2019-01-06T10:20:08</date>
+  <millis>1546762808325</millis>
+  <sequence>134</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : for ([j = 0, j &amp;lt; Cols.size(), (j++)])</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-06T10:20:08</date>
+  <millis>1546762808325</millis>
+  <sequence>135</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Cols = get(i).findElements(By.tagName(\&amp;quot;td\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">46</property>
+  <property name="stepIndex">1</property>
+  <property name="description">To locate columns(cells) of that specific row</property>
+</record>
+<record>
+  <date>2019-01-06T10:20:08</date>
+  <millis>1546762808351</millis>
+  <sequence>136</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Cols = get(i).findElements(By.tagName(\&amp;quot;td\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-06T10:20:08</date>
+  <millis>1546762808352</millis>
+  <sequence>137</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : for ([j = 0, j &amp;lt; Cols.size(), (j++)])</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">48</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-01-06T10:20:08</date>
+  <millis>1546762808353</millis>
+  <sequence>138</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (getText().equalsIgnoreCase(ExpectedValue))</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="startLine">50</property>
+  <property name="stepIndex">1</property>
+  <property name="description">Verifying the expected text in the each cell</property>
+</record>
+<record>
+  <date>2019-01-06T10:20:08</date>
+  <millis>1546762808379</millis>
+  <sequence>139</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (getText().equalsIgnoreCase(ExpectedValue))</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2019-01-06T10:20:08</date>
+  <millis>1546762808379</millis>
+  <sequence>140</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (getText().equalsIgnoreCase(ExpectedValue))</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="startLine">50</property>
+  <property name="stepIndex">1</property>
+  <property name="description">Verifying the expected text in the each cell</property>
+</record>
+<record>
+  <date>2019-01-06T10:20:08</date>
+  <millis>1546762808416</millis>
+  <sequence>141</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (getText().equalsIgnoreCase(ExpectedValue))</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2019-01-06T10:20:08</date>
+  <millis>1546762808416</millis>
+  <sequence>142</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (getText().equalsIgnoreCase(ExpectedValue))</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="startLine">50</property>
+  <property name="stepIndex">1</property>
+  <property name="description">Verifying the expected text in the each cell</property>
+</record>
+<record>
+  <date>2019-01-06T10:20:08</date>
+  <millis>1546762808447</millis>
+  <sequence>143</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (getText().equalsIgnoreCase(ExpectedValue))</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2019-01-06T10:20:08</date>
+  <millis>1546762808447</millis>
+  <sequence>144</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : for ([j = 0, j &amp;lt; Cols.size(), (j++)])</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-06T10:20:08</date>
+  <millis>1546762808448</millis>
+  <sequence>145</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Cols = get(i).findElements(By.tagName(\&amp;quot;td\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">46</property>
+  <property name="stepIndex">1</property>
+  <property name="description">To locate columns(cells) of that specific row</property>
+</record>
+<record>
+  <date>2019-01-06T10:20:08</date>
+  <millis>1546762808470</millis>
+  <sequence>146</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Cols = get(i).findElements(By.tagName(\&amp;quot;td\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-06T10:20:08</date>
+  <millis>1546762808471</millis>
+  <sequence>147</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : for ([j = 0, j &amp;lt; Cols.size(), (j++)])</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">48</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-01-06T10:20:08</date>
+  <millis>1546762808472</millis>
+  <sequence>148</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (getText().equalsIgnoreCase(ExpectedValue))</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="startLine">50</property>
+  <property name="stepIndex">1</property>
+  <property name="description">Verifying the expected text in the each cell</property>
+</record>
+<record>
+  <date>2019-01-06T10:20:08</date>
+  <millis>1546762808504</millis>
+  <sequence>149</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (getText().equalsIgnoreCase(ExpectedValue))</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2019-01-06T10:20:08</date>
+  <millis>1546762808504</millis>
+  <sequence>150</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (getText().equalsIgnoreCase(ExpectedValue))</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="startLine">50</property>
+  <property name="stepIndex">1</property>
+  <property name="description">Verifying the expected text in the each cell</property>
+</record>
+<record>
+  <date>2019-01-06T10:20:08</date>
+  <millis>1546762808530</millis>
+  <sequence>151</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (getText().equalsIgnoreCase(ExpectedValue))</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2019-01-06T10:20:08</date>
+  <millis>1546762808530</millis>
+  <sequence>152</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (getText().equalsIgnoreCase(ExpectedValue))</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="startLine">50</property>
+  <property name="stepIndex">1</property>
+  <property name="description">Verifying the expected text in the each cell</property>
+</record>
+<record>
+  <date>2019-01-06T10:20:08</date>
+  <millis>1546762808556</millis>
+  <sequence>153</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (getText().equalsIgnoreCase(ExpectedValue))</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2019-01-06T10:20:08</date>
+  <millis>1546762808557</millis>
+  <sequence>154</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : for ([j = 0, j &amp;lt; Cols.size(), (j++)])</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-06T10:20:08</date>
+  <millis>1546762808557</millis>
+  <sequence>155</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Cols = get(i).findElements(By.tagName(\&amp;quot;td\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">46</property>
+  <property name="stepIndex">1</property>
+  <property name="description">To locate columns(cells) of that specific row</property>
+</record>
+<record>
+  <date>2019-01-06T10:20:08</date>
+  <millis>1546762808583</millis>
+  <sequence>156</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Cols = get(i).findElements(By.tagName(\&amp;quot;td\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-06T10:20:08</date>
+  <millis>1546762808584</millis>
+  <sequence>157</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : for ([j = 0, j &amp;lt; Cols.size(), (j++)])</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">48</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-01-06T10:20:08</date>
+  <millis>1546762808585</millis>
+  <sequence>158</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (getText().equalsIgnoreCase(ExpectedValue))</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="startLine">50</property>
+  <property name="stepIndex">1</property>
+  <property name="description">Verifying the expected text in the each cell</property>
+</record>
+<record>
+  <date>2019-01-06T10:20:08</date>
+  <millis>1546762808616</millis>
+  <sequence>159</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (getText().equalsIgnoreCase(ExpectedValue))</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2019-01-06T10:20:08</date>
+  <millis>1546762808616</millis>
+  <sequence>160</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (getText().equalsIgnoreCase(ExpectedValue))</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="startLine">50</property>
+  <property name="stepIndex">1</property>
+  <property name="description">Verifying the expected text in the each cell</property>
+</record>
+<record>
+  <date>2019-01-06T10:20:08</date>
+  <millis>1546762808647</millis>
+  <sequence>161</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (getText().equalsIgnoreCase(ExpectedValue))</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2019-01-06T10:20:08</date>
+  <millis>1546762808647</millis>
+  <sequence>162</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (getText().equalsIgnoreCase(ExpectedValue))</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="startLine">50</property>
+  <property name="stepIndex">1</property>
+  <property name="description">Verifying the expected text in the each cell</property>
+</record>
+<record>
+  <date>2019-01-06T10:20:08</date>
+  <millis>1546762808676</millis>
+  <sequence>163</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (getText().equalsIgnoreCase(ExpectedValue))</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2019-01-06T10:20:08</date>
+  <millis>1546762808677</millis>
+  <sequence>164</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : for ([j = 0, j &amp;lt; Cols.size(), (j++)])</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-06T10:20:08</date>
+  <millis>1546762808677</millis>
+  <sequence>165</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Cols = get(i).findElements(By.tagName(\&amp;quot;td\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">46</property>
+  <property name="stepIndex">1</property>
+  <property name="description">To locate columns(cells) of that specific row</property>
+</record>
+<record>
+  <date>2019-01-06T10:20:08</date>
+  <millis>1546762808701</millis>
+  <sequence>166</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Cols = get(i).findElements(By.tagName(\&amp;quot;td\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-06T10:20:08</date>
+  <millis>1546762808701</millis>
+  <sequence>167</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : for ([j = 0, j &amp;lt; Cols.size(), (j++)])</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">48</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-01-06T10:20:08</date>
+  <millis>1546762808702</millis>
+  <sequence>168</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (getText().equalsIgnoreCase(ExpectedValue))</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="startLine">50</property>
+  <property name="stepIndex">1</property>
+  <property name="description">Verifying the expected text in the each cell</property>
+</record>
+<record>
+  <date>2019-01-06T10:20:08</date>
+  <millis>1546762808731</millis>
+  <sequence>169</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (getText().equalsIgnoreCase(ExpectedValue))</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2019-01-06T10:20:08</date>
+  <millis>1546762808732</millis>
+  <sequence>170</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (getText().equalsIgnoreCase(ExpectedValue))</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="startLine">50</property>
+  <property name="stepIndex">1</property>
+  <property name="description">Verifying the expected text in the each cell</property>
+</record>
+<record>
+  <date>2019-01-06T10:20:08</date>
+  <millis>1546762808757</millis>
+  <sequence>171</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (getText().equalsIgnoreCase(ExpectedValue))</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2019-01-06T10:20:08</date>
+  <millis>1546762808757</millis>
+  <sequence>172</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (getText().equalsIgnoreCase(ExpectedValue))</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="startLine">50</property>
+  <property name="stepIndex">1</property>
+  <property name="description">Verifying the expected text in the each cell</property>
+</record>
+<record>
+  <date>2019-01-06T10:20:08</date>
+  <millis>1546762808787</millis>
+  <sequence>173</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (getText().equalsIgnoreCase(ExpectedValue))</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2019-01-06T10:20:08</date>
+  <millis>1546762808787</millis>
+  <sequence>174</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : for ([j = 0, j &amp;lt; Cols.size(), (j++)])</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-06T10:20:08</date>
+  <millis>1546762808788</millis>
+  <sequence>175</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Cols = get(i).findElements(By.tagName(\&amp;quot;td\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">46</property>
+  <property name="stepIndex">1</property>
+  <property name="description">To locate columns(cells) of that specific row</property>
+</record>
+<record>
+  <date>2019-01-06T10:20:08</date>
+  <millis>1546762808809</millis>
+  <sequence>176</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Cols = get(i).findElements(By.tagName(\&amp;quot;td\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-06T10:20:08</date>
+  <millis>1546762808809</millis>
+  <sequence>177</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : for ([j = 0, j &amp;lt; Cols.size(), (j++)])</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">48</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-01-06T10:20:08</date>
+  <millis>1546762808811</millis>
+  <sequence>178</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (getText().equalsIgnoreCase(ExpectedValue))</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="startLine">50</property>
+  <property name="stepIndex">1</property>
+  <property name="description">Verifying the expected text in the each cell</property>
+</record>
+<record>
+  <date>2019-01-06T10:20:08</date>
+  <millis>1546762808854</millis>
+  <sequence>179</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (getText().equalsIgnoreCase(ExpectedValue))</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2019-01-06T10:20:08</date>
+  <millis>1546762808854</millis>
+  <sequence>180</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (getText().equalsIgnoreCase(ExpectedValue))</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="startLine">50</property>
+  <property name="stepIndex">1</property>
+  <property name="description">Verifying the expected text in the each cell</property>
+</record>
+<record>
+  <date>2019-01-06T10:20:08</date>
+  <millis>1546762808889</millis>
+  <sequence>181</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(get(j).getText())</message>
+  <nestedLevel>4</nestedLevel>
+  <property name="startLine">54</property>
+  <property name="stepIndex">1</property>
+  <property name="description">To locate anchor in the expected value matched row to perform action</property>
+</record>
+<record>
+  <date>2019-01-06T10:20:08</date>
+  <millis>1546762808906</millis>
+  <sequence>182</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(get(j).getText())</message>
+  <nestedLevel>4</nestedLevel>
+</record>
+<record>
+  <date>2019-01-06T10:20:08</date>
+  <millis>1546762808906</millis>
+  <sequence>183</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : break</message>
+  <nestedLevel>4</nestedLevel>
+  <property name="startLine">56</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-01-06T10:20:08</date>
+  <millis>1546762808907</millis>
+  <sequence>184</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : break</message>
+  <nestedLevel>4</nestedLevel>
+</record>
+<record>
+  <date>2019-01-06T10:20:08</date>
+  <millis>1546762808908</millis>
+  <sequence>185</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (getText().equalsIgnoreCase(ExpectedValue))</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2019-01-06T10:20:08</date>
+  <millis>1546762808908</millis>
+  <sequence>186</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : for ([j = 0, j &amp;lt; Cols.size(), (j++)])</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-06T10:20:08</date>
+  <millis>1546762808909</millis>
+  <sequence>187</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Cols = get(i).findElements(By.tagName(\&amp;quot;td\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">46</property>
+  <property name="stepIndex">1</property>
+  <property name="description">To locate columns(cells) of that specific row</property>
+</record>
+<record>
+  <date>2019-01-06T10:20:08</date>
+  <millis>1546762808940</millis>
+  <sequence>188</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Cols = get(i).findElements(By.tagName(\&amp;quot;td\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-06T10:20:08</date>
+  <millis>1546762808941</millis>
+  <sequence>189</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : for ([j = 0, j &amp;lt; Cols.size(), (j++)])</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">48</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-01-06T10:20:08</date>
+  <millis>1546762808942</millis>
+  <sequence>190</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (getText().equalsIgnoreCase(ExpectedValue))</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="startLine">50</property>
+  <property name="stepIndex">1</property>
+  <property name="description">Verifying the expected text in the each cell</property>
+</record>
+<record>
+  <date>2019-01-06T10:20:08</date>
+  <millis>1546762808973</millis>
+  <sequence>191</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (getText().equalsIgnoreCase(ExpectedValue))</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2019-01-06T10:20:08</date>
+  <millis>1546762808973</millis>
+  <sequence>192</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (getText().equalsIgnoreCase(ExpectedValue))</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="startLine">50</property>
+  <property name="stepIndex">1</property>
+  <property name="description">Verifying the expected text in the each cell</property>
+</record>
+<record>
+  <date>2019-01-06T10:20:09</date>
+  <millis>1546762809000</millis>
+  <sequence>193</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (getText().equalsIgnoreCase(ExpectedValue))</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2019-01-06T10:20:09</date>
+  <millis>1546762809001</millis>
+  <sequence>194</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (getText().equalsIgnoreCase(ExpectedValue))</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="startLine">50</property>
+  <property name="stepIndex">1</property>
+  <property name="description">Verifying the expected text in the each cell</property>
+</record>
+<record>
+  <date>2019-01-06T10:20:09</date>
+  <millis>1546762809029</millis>
+  <sequence>195</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (getText().equalsIgnoreCase(ExpectedValue))</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2019-01-06T10:20:09</date>
+  <millis>1546762809029</millis>
+  <sequence>196</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : for ([j = 0, j &amp;lt; Cols.size(), (j++)])</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-06T10:20:09</date>
+  <millis>1546762809030</millis>
+  <sequence>197</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : for ([i = 0, i &amp;lt; Rows.size(), (i++)])</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-06T10:20:09</date>
+  <millis>1546762809030</millis>
+  <sequence>198</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Orange_Website/JobTitles_Screen2</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-06T10:20:09</date>
+  <millis>1546762809030</millis>
+  <sequence>199</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Orange_Website/JobTitles_Screen2</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-01-06T10:20:09</date>
+  <millis>1546762809767</millis>
+  <sequence>200</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/TS_Orange_JobTitles</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>

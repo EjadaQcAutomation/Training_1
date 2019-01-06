@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_Orange_JobTitles,Chrome 71.0.3578.98,,2019-01-02 16:48:03,2019-01-02 16:48:55,51.314s,FAILED
+,,,,,,
+Test Cases/Orange_Website/Login Screen,Chrome 71.0.3578.98,,2019-01-02 16:48:04,2019-01-02 16:48:14,10.797s,PASSED
+"openBrowser(""https://opensource-demo.orangehrmlive.com/index.php/auth/login"")",Chrome 71.0.3578.98,,2019-01-02 16:48:04,2019-01-02 16:48:12,8.026s,PASSED
+"setText(findTestObject(""Orange/Login/Username""), ""Admin"")",Chrome 71.0.3578.98,,2019-01-02 16:48:12,2019-01-02 16:48:13,0.264s,PASSED
+"setText(findTestObject(""Orange/Login/Password""), ""admin123"")",Chrome 71.0.3578.98,,2019-01-02 16:48:13,2019-01-02 16:48:13,0.123s,PASSED
+"click(findTestObject(""Orange/Login/Login""))",Chrome 71.0.3578.98,,2019-01-02 16:48:13,2019-01-02 16:48:14,1.654s,PASSED
+,,,,,,
+Test Cases/Orange_Website/JobTitles_Screen,Chrome 71.0.3578.98,,2019-01-02 16:48:14,2019-01-02 16:48:54,39.472s,FAILED
+"click(findTestObject(""Orange/Navigation/MNULST_Admin""))",Chrome 71.0.3578.98,,2019-01-02 16:48:15,2019-01-02 16:48:17,1.717s,PASSED
+"click(findTestObject(""Orange/Navigation/MNUITM_Job""))",Chrome 71.0.3578.98,,2019-01-02 16:48:17,2019-01-02 16:48:17,0.098s,PASSED
+"click(findTestObject(""Orange/Navigation/MNUITM_JobTitles""))",Chrome 71.0.3578.98,,2019-01-02 16:48:17,2019-01-02 16:48:18,0.834s,PASSED
+"click(findTestObject(""Orange/JobTitles/BTN_Add""))",Chrome 71.0.3578.98,"Add New Record
+",2019-01-02 16:48:18,2019-01-02 16:48:18,0.562s,PASSED
+"pk_Functions.CS_AllPageData.AllPageDataFun(""Orange_JobTitles_ObjectRepository"", ""Sheet1"", [jobtitles, jobdescription, notes])",Chrome 71.0.3578.98,Data Entry,2019-01-02 16:48:18,2019-01-02 16:48:20,1.560s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-02 16:48:20,2019-01-02 16:48:21,1.038s,PASSED
+"tools.uploadFiles.uploadFile(findTestObject(""Orange/JobTitles/BTN_ChooseFile""), """"D:\Ebtehal_QC\Extras\logo.jpg"""")",Chrome 71.0.3578.98,,2019-01-02 16:48:21,2019-01-02 16:48:24,2.568s,PASSED
+Thread.sleep(2000),Chrome 71.0.3578.98,,2019-01-02 16:48:24,2019-01-02 16:48:26,2.007s,PASSED
+"click(findTestObject(""Orange/JobTitles/BTN_Save""))",Chrome 71.0.3578.98,,2019-01-02 16:48:26,2019-01-02 16:48:26,0.130s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-02 16:48:26,2019-01-02 16:48:27,1.003s,PASSED
+"verifyElementPresent(findTestObject(""Orange/JobTitles/MSG_SuccessValidationMessage""), 0)",Chrome 71.0.3578.98,,2019-01-02 16:48:27,2019-01-02 16:48:54,27.210s,FAILED
