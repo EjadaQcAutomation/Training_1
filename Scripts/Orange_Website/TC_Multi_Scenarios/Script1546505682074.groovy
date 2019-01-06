@@ -23,9 +23,12 @@ WebUI.click(findTestObject('Orange/Login/Login'))
 
 WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/index.php/admin/viewLocations')
 
-WebUI.click(findTestObject('Orange/Locations/btn_select'))
+WebUI.click(findTestObject('Orange/Locations/btn_Add'))
 
-WebUI.click(findTestObject('Orange/Locations/btn_Edit'))
+WebUI.selectOptionByValue(findTestObject('Orange/Locations/Lov_country'), 'EG', false)
 
-CustomKeywords.'pk_Functions.CS_VerifyPageData.CheckMatching'('Orange/Location_ObjectRepository', 'Sheet1')
+CustomKeywords.'pk_Functions.CS_AllPageData.AllPageDataFun'('Orange/Location_ObjectRepository', 'Sheet1', [Name, StateProvince
+        , City, Address, ZipPostalCode, Phone, Fax, Notes])
+
+WebUI.click(findTestObject('Orange/Locations/btn_Save'))
 
