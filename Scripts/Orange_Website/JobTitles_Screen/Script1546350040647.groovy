@@ -44,6 +44,8 @@ WebUI.delay(1)
 
 WebUI.verifyElementPresent(findTestObject('Orange/JobTitles/MSG_SuccessValidationMessage'), 0)
 
+WebUI.delay(2)
+
 CustomKeywords.'pk_Functions.CS_SelectRecordFromWebtable.SelectRecordFromWebtableFun'('resultTable', 'Qc Engineer_Ebtehal', 
     1, 1)
 

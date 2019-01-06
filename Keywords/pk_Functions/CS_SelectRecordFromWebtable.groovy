@@ -76,8 +76,9 @@ public class CS_SelectRecordFromWebtable {
 			if (Cols.get(expectedValueColumn).getText().equalsIgnoreCase(expectedValue)) {
 				'To locate anchor in the expected value matched row to perform action'
 				//Cols.get(4).findElement(By.tagName('a')).click()
+				WebUI.delay(4)
 				Cols.get(actionButtonColumn).findElement(By.tagName('a')).click() ;
-
+				WebUI.delay(4)
 				break
 			}
 			// }
