@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Tc_TestOrangeWebUsingKeywords</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cae345a5-5380-4954-ac0f-8c1cb0ec0a35</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c909138e-c135-43a1-bce1-56277cecc932</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b5df670f-63bf-48e5-b185-99290914add4</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>
