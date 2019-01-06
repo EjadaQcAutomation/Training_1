@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_OrangeWebUsingKeywords,Chrome 71.0.3578.98,,2019-01-03 10:52:09,2019-01-03 10:52:20,11.477s,ERROR
+,,,,,,
+Test Cases/Orange_Website_Using_Function/Tc_TestOrangeWebUsingKeywords,Chrome 71.0.3578.98,,2019-01-03 10:52:09,2019-01-03 10:52:20,11.022s,ERROR
+openBrowser,Chrome 71.0.3578.98,,2019-01-03 10:52:10,2019-01-03 10:52:20,10.583s,PASSED
+pk_Functions.CS_SpecificData.DataFun,Chrome 71.0.3578.98,,2019-01-03 10:52:20,2019-01-03 10:52:20,0.033s,ERROR

@@ -4,7 +4,11 @@
    <name>TS_Locations</name>
    <tag></tag>
    <isRerun>false</isRerun>
+<<<<<<< HEAD
    <lastRun>2019-01-06T09:43:45</lastRun>
+=======
+   <lastRun>2019-01-03T10:03:46</lastRun>
+>>>>>>> branch 'master' of https://github.com/EjadaQcAutomation/Training_1
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

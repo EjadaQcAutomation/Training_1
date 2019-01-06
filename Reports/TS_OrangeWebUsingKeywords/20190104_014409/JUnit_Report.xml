@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_OrangeWebUsingKeywords" time="15" tests="0" failures="0" errors="1">
+   <testsuite name="TS_OrangeWebUsingKeywords" tests="0" failures="0" errors="1" time="15" timestamp="2019-01-04 01:44:12" hostname="lenovo - alenovo" id="Test Suites/TS_OrangeWebUsingKeywords">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\lenovo\\git\\Training_1\\Reports\\TS_OrangeWebUsingKeywords\\20190104_014409"/>
+         <property name="logFiles" value="C:\\Users\\lenovo\\git\\Training_1\\Reports\\TS_OrangeWebUsingKeywords\\20190104_014409\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="lenovo - alenovo"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="5.9.1.2"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.184.2"/>
+         <property name="sessionId" value="a7a2a495bb0f31f380bfbf01025f1119"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 8.1"/>
+      </properties>
+      <testcase name="Test Cases/Orange_Website_Using_Function/TC_AllPageComponent" classname="Test Cases/Orange_Website_Using_Function/TC_AllPageComponent" status="ERROR">
+         <error type="ERROR" message="Test Cases/Orange_Website_Using_Function/TC_AllPageComponent FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: pk_Functions.CS_StaticListUsingLiTag.LovMatchItemsFun() is applicable for argument types: (java.lang.String, java.lang.String, java.lang.String) values: [//*[@id=&quot;welcome&quot;], //*[@id=&quot;welcome-menu&quot;]/ul/li/a, About]
+Possible solutions: LovMatchItemsFun(java.lang.String, java.lang.String, java.util.List)
+	at pk_Functions.CS_TextLov.invokeMethod(CS_TextLov.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_AllPageComponent.run(TC_AllPageComponent:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546559049525.run(TempTestSuite1546559049525.groovy:36)
+Caused by: groovy.lang.MissingMethodException: No signature of method: pk_Functions.CS_StaticListUsingLiTag.LovMatchItemsFun() is applicable for argument types: (java.lang.String, java.lang.String, java.lang.String) values: [//*[@id=&quot;welcome&quot;], //*[@id=&quot;welcome-menu&quot;]/ul/li/a, About]
+Possible solutions: LovMatchItemsFun(java.lang.String, java.lang.String, java.util.List)
+	at pk_Functions.CS_TextLov.TextLovFun(CS_TextLov.groovy:56)
+	at pk_Functions.CS_TextLov.invokeMethod(CS_TextLov.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at Script1546518326294.run(Script1546518326294.groovy:22)
+	... 13 more
+"/>
+         <system-out><![CDATA[2019-01-04 01:44:12 - [TEST_CASE][ERROR] - Test Cases/Orange_Website_Using_Function/TC_AllPageComponent: Test Cases/Orange_Website_Using_Function/TC_AllPageComponent FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: pk_Functions.CS_StaticListUsingLiTag.LovMatchItemsFun() is applicable for argument types: (java.lang.String, java.lang.String, java.lang.String) values: [//*[@id="welcome"], //*[@id="welcome-menu"]/ul/li/a, About]
+Possible solutions: LovMatchItemsFun(java.lang.String, java.lang.String, java.util.List)
+	at pk_Functions.CS_TextLov.invokeMethod(CS_TextLov.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_AllPageComponent.run(TC_AllPageComponent:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546559049525.run(TempTestSuite1546559049525.groovy:36)
+Caused by: groovy.lang.MissingMethodException: No signature of method: pk_Functions.CS_StaticListUsingLiTag.LovMatchItemsFun() is applicable for argument types: (java.lang.String, java.lang.String, java.lang.String) values: [//*[@id="welcome"], //*[@id="welcome-menu"]/ul/li/a, About]
+Possible solutions: LovMatchItemsFun(java.lang.String, java.lang.String, java.util.List)
+	at pk_Functions.CS_TextLov.TextLovFun(CS_TextLov.groovy:56)
+	at pk_Functions.CS_TextLov.invokeMethod(CS_TextLov.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at Script1546518326294.run(Script1546518326294.groovy:22)
+	... 13 more
+
+
+2019-01-04 01:44:13 - [TEST_STEP][PASSED] - pk_Functions.CS_Login.LoginFun(findTestObject(null), "https://opensource-demo.orangehrmlive.com/index.php/auth/login", findTestObject("Orange/Login/Username"), findTestObject("Orange/Login/Password"), "Admin", "admin123", findTestObject("Orange/Login/Login")): pk_Functions.CS_Login.LoginFun is PASSED
+
+2019-01-04 01:44:13 - [MESSAGE][WARNING] - Test object id is null
+
+2019-01-04 01:44:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-04 01:44:14 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-01-04 01:44:21 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/index.php/auth/login'
+
+2019-01-04 01:44:21 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Orange/Login/Username'
+
+2019-01-04 01:44:21 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/Orange/Login/Password'
+
+2019-01-04 01:44:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange/Login/Login' is clicked on
+
+2019-01-04 01:44:23 - [MESSAGE][PASSED] - pk_Functions.CS_Login.LoginFun is PASSED
+
+2019-01-04 01:44:23 - [TEST_STEP][PASSED] - click(findTestObject("Orange/Navigation/MNUITM_Recruitment")): Object: 'Object Repository/Orange/Navigation/MNUITM_Recruitment' is clicked on
+
+2019-01-04 01:44:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange/Navigation/MNUITM_Recruitment' is clicked on
+
+2019-01-04 01:44:26 - [TEST_STEP][ERROR] - pk_Functions.CS_TextLov.TextLovFun("TestKeywords/AllObjectComponent", "Sheet1", [CandidateName, JobTitle, WelcomeAdmin]): pk_Functions.CS_TextLov.TextLovFun("TestKeywords/AllObjectComponent", "Sheet1", [CandidateName, JobTitle, WelcomeAdmin]) FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: pk_Functions.CS_StaticListUsingLiTag.LovMatchItemsFun() is applicable for argument types: (java.lang.String, java.lang.String, java.lang.String) values: [//*[@id="welcome"], //*[@id="welcome-menu"]/ul/li/a, About]
+Possible solutions: LovMatchItemsFun(java.lang.String, java.lang.String, java.util.List)
+	at pk_Functions.CS_TextLov.invokeMethod(CS_TextLov.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_AllPageComponent.run(TC_AllPageComponent:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546559049525.run(TempTestSuite1546559049525.groovy:36)
+Caused by: groovy.lang.MissingMethodException: No signature of method: pk_Functions.CS_StaticListUsingLiTag.LovMatchItemsFun() is applicable for argument types: (java.lang.String, java.lang.String, java.lang.String) values: [//*[@id="welcome"], //*[@id="welcome-menu"]/ul/li/a, About]
+Possible solutions: LovMatchItemsFun(java.lang.String, java.lang.String, java.util.List)
+	at pk_Functions.CS_TextLov.TextLovFun(CS_TextLov.groovy:56)
+	at pk_Functions.CS_TextLov.invokeMethod(CS_TextLov.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at Script1546518326294.run(Script1546518326294.groovy:22)
+	... 13 more
+
+
+2019-01-04 01:44:27 - [MESSAGE][PASSED] - Text 'asmaa' is set on object ''
+
+2019-01-04 01:44:27 - [MESSAGE][PASSED] - All options with label 'Account Clerk' are selected in object '' 
+
+2019-01-04 01:44:27 - [MESSAGE][ERROR] - groovy.lang.MissingMethodException: No signature of method: pk_Functions.CS_StaticListUsingLiTag.LovMatchItemsFun() is applicable for argument types: (java.lang.String, java.lang.String, java.lang.String) values: [//*[@id="welcome"], //*[@id="welcome-menu"]/ul/li/a, About]
+Possible solutions: LovMatchItemsFun(java.lang.String, java.lang.String, java.util.List)
+
+2019-01-04 01:44:27 - [MESSAGE][ERROR] - pk_Functions.CS_TextLov.TextLovFun("TestKeywords/AllObjectComponent", "Sheet1", [CandidateName, JobTitle, WelcomeAdmin]) FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: pk_Functions.CS_StaticListUsingLiTag.LovMatchItemsFun() is applicable for argument types: (java.lang.String, java.lang.String, java.lang.String) values: [//*[@id="welcome"], //*[@id="welcome-menu"]/ul/li/a, About]
+Possible solutions: LovMatchItemsFun(java.lang.String, java.lang.String, java.util.List)
+	at pk_Functions.CS_TextLov.invokeMethod(CS_TextLov.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_AllPageComponent.run(TC_AllPageComponent:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546559049525.run(TempTestSuite1546559049525.groovy:36)
+Caused by: groovy.lang.MissingMethodException: No signature of method: pk_Functions.CS_StaticListUsingLiTag.LovMatchItemsFun() is applicable for argument types: (java.lang.String, java.lang.String, java.lang.String) values: [//*[@id="welcome"], //*[@id="welcome-menu"]/ul/li/a, About]
+Possible solutions: LovMatchItemsFun(java.lang.String, java.lang.String, java.util.List)
+	at pk_Functions.CS_TextLov.TextLovFun(CS_TextLov.groovy:56)
+	at pk_Functions.CS_TextLov.invokeMethod(CS_TextLov.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at Script1546518326294.run(Script1546518326294.groovy:22)
+	... 13 more]]></system-out>
+         <system-err><![CDATA[2019-01-04 01:44:12 - [TEST_CASE][ERROR] - Test Cases/Orange_Website_Using_Function/TC_AllPageComponent: Test Cases/Orange_Website_Using_Function/TC_AllPageComponent FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: pk_Functions.CS_StaticListUsingLiTag.LovMatchItemsFun() is applicable for argument types: (java.lang.String, java.lang.String, java.lang.String) values: [//*[@id="welcome"], //*[@id="welcome-menu"]/ul/li/a, About]
+Possible solutions: LovMatchItemsFun(java.lang.String, java.lang.String, java.util.List)
+	at pk_Functions.CS_TextLov.invokeMethod(CS_TextLov.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_AllPageComponent.run(TC_AllPageComponent:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546559049525.run(TempTestSuite1546559049525.groovy:36)
+Caused by: groovy.lang.MissingMethodException: No signature of method: pk_Functions.CS_StaticListUsingLiTag.LovMatchItemsFun() is applicable for argument types: (java.lang.String, java.lang.String, java.lang.String) values: [//*[@id="welcome"], //*[@id="welcome-menu"]/ul/li/a, About]
+Possible solutions: LovMatchItemsFun(java.lang.String, java.lang.String, java.util.List)
+	at pk_Functions.CS_TextLov.TextLovFun(CS_TextLov.groovy:56)
+	at pk_Functions.CS_TextLov.invokeMethod(CS_TextLov.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at Script1546518326294.run(Script1546518326294.groovy:22)
+	... 13 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-04 01:44:12 - [TEST_SUITE][ERROR] - TS_OrangeWebUsingKeywords: Test Cases/Orange_Website_Using_Function/TC_AllPageComponent FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: pk_Functions.CS_StaticListUsingLiTag.LovMatchItemsFun() is applicable for argument types: (java.lang.String, java.lang.String, java.lang.String) values: [//*[@id="welcome"], //*[@id="welcome-menu"]/ul/li/a, About]
+Possible solutions: LovMatchItemsFun(java.lang.String, java.lang.String, java.util.List)
+	at pk_Functions.CS_TextLov.invokeMethod(CS_TextLov.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_AllPageComponent.run(TC_AllPageComponent:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546559049525.run(TempTestSuite1546559049525.groovy:36)
+Caused by: groovy.lang.MissingMethodException: No signature of method: pk_Functions.CS_StaticListUsingLiTag.LovMatchItemsFun() is applicable for argument types: (java.lang.String, java.lang.String, java.lang.String) values: [//*[@id="welcome"], //*[@id="welcome-menu"]/ul/li/a, About]
+Possible solutions: LovMatchItemsFun(java.lang.String, java.lang.String, java.util.List)
+	at pk_Functions.CS_TextLov.TextLovFun(CS_TextLov.groovy:56)
+	at pk_Functions.CS_TextLov.invokeMethod(CS_TextLov.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at Script1546518326294.run(Script1546518326294.groovy:22)
+	... 13 more]]></system-out>
+      <system-err><![CDATA[2019-01-04 01:44:12 - [TEST_SUITE][ERROR] - TS_OrangeWebUsingKeywords: Test Cases/Orange_Website_Using_Function/TC_AllPageComponent FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: pk_Functions.CS_StaticListUsingLiTag.LovMatchItemsFun() is applicable for argument types: (java.lang.String, java.lang.String, java.lang.String) values: [//*[@id="welcome"], //*[@id="welcome-menu"]/ul/li/a, About]
+Possible solutions: LovMatchItemsFun(java.lang.String, java.lang.String, java.util.List)
+	at pk_Functions.CS_TextLov.invokeMethod(CS_TextLov.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_AllPageComponent.run(TC_AllPageComponent:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546559049525.run(TempTestSuite1546559049525.groovy:36)
+Caused by: groovy.lang.MissingMethodException: No signature of method: pk_Functions.CS_StaticListUsingLiTag.LovMatchItemsFun() is applicable for argument types: (java.lang.String, java.lang.String, java.lang.String) values: [//*[@id="welcome"], //*[@id="welcome-menu"]/ul/li/a, About]
+Possible solutions: LovMatchItemsFun(java.lang.String, java.lang.String, java.util.List)
+	at pk_Functions.CS_TextLov.TextLovFun(CS_TextLov.groovy:56)
+	at pk_Functions.CS_TextLov.invokeMethod(CS_TextLov.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at Script1546518326294.run(Script1546518326294.groovy:22)
+	... 13 more]]></system-err>
+   </testsuite>
+</testsuites>
