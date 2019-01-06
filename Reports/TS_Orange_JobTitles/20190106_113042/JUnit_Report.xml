@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Orange_JobTitles" time="17" tests="2" failures="0" errors="0">
+   <testsuite name="TS_Orange_JobTitles" tests="2" failures="0" errors="0" time="17" timestamp="2019-01-06 11:30:45" hostname="Ebtehal Gamal Yusuf - LPALXY0199.ejadaalex.local" id="Test Suites/TS_Orange_JobTitles">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Administrator\\git\\Training_1\\Reports\\TS_Orange_JobTitles\\20190106_113042"/>
+         <property name="logFiles" value="C:\\Users\\Administrator\\git\\Training_1\\Reports\\TS_Orange_JobTitles\\20190106_113042\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Ebtehal Gamal Yusuf - LPALXY0199.ejadaalex.local"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.10.0.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.3.51"/>
+         <property name="sessionId" value="69862be314e1220d38baef1b84e66dfb"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Orange_Website/Login Screen" classname="Test Cases/Orange_Website/Login Screen" status="PASSED">
+         <system-out><![CDATA[2019-01-06 11:30:46 - [TEST_CASE][PASSED] - Test Cases/Orange_Website/Login Screen: Test Cases/Orange_Website/Login Screen
+
+2019-01-06 11:30:46 - [TEST_STEP][PASSED] - openBrowser("https://opensource-demo.orangehrmlive.com/index.php/auth/login"): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/index.php/auth/login'
+
+2019-01-06 11:30:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-06 11:30:47 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-01-06 11:30:56 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/index.php/auth/login'
+
+2019-01-06 11:30:56 - [TEST_STEP][PASSED] - setText(findTestObject("Orange/Login/Username"), "Admin"): Text 'Admin' is set on object 'Object Repository/Orange/Login/Username'
+
+2019-01-06 11:30:56 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Orange/Login/Username'
+
+2019-01-06 11:30:56 - [TEST_STEP][PASSED] - setText(findTestObject("Orange/Login/Password"), "admin123"): Text 'admin123' is set on object 'Object Repository/Orange/Login/Password'
+
+2019-01-06 11:30:57 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/Orange/Login/Password'
+
+2019-01-06 11:30:57 - [TEST_STEP][PASSED] - click(findTestObject("Orange/Login/Login")): Object: 'Object Repository/Orange/Login/Login' is clicked on
+
+2019-01-06 11:30:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange/Login/Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Orange_Website/WebatableSearchtest" classname="Test Cases/Orange_Website/WebatableSearchtest" status="PASSED">
+         <system-out><![CDATA[2019-01-06 11:30:59 - [TEST_CASE][PASSED] - Test Cases/Orange_Website/WebatableSearchtest: Test Cases/Orange_Website/WebatableSearchtest
+
+2019-01-06 11:31:00 - [TEST_STEP][PASSED] - click(findTestObject("Orange/Navigation/MNULST_Admin")): Object: 'Object Repository/Orange/Navigation/MNULST_Admin' is clicked on
+
+2019-01-06 11:31:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange/Navigation/MNULST_Admin' is clicked on
+
+2019-01-06 11:31:01 - [TEST_STEP][PASSED] - click(findTestObject("Orange/Navigation/MNUITM_Job")): Object: 'Object Repository/Orange/Navigation/MNUITM_Job' is clicked on
+
+2019-01-06 11:31:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange/Navigation/MNUITM_Job' is clicked on
+
+2019-01-06 11:31:01 - [TEST_STEP][PASSED] - click(findTestObject("Orange/Navigation/MNUITM_JobTitles")): Object: 'Object Repository/Orange/Navigation/MNUITM_JobTitles' is clicked on
+
+2019-01-06 11:31:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange/Navigation/MNUITM_JobTitles' is clicked on
+
+2019-01-06 11:31:02 - [TEST_STEP][PASSED] - pk_Functions.CS_SelectRecordFromWebtable.SelectRecordFromWebtableFun("resultTable", "CEO", 1, 1): pk_Functions.CS_SelectRecordFromWebtable.SelectRecordFromWebtableFun is PASSED
+
+2019-01-06 11:31:03 - [MESSAGE][PASSED] - pk_Functions.CS_SelectRecordFromWebtable.SelectRecordFromWebtableFun is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-06 11:30:45 - [TEST_SUITE][PASSED] - TS_Orange_JobTitles: Test Cases/Orange_Website/WebatableSearchtest]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

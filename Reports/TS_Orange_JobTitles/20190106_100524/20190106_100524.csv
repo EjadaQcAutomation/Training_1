@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_Orange_JobTitles,Chrome 71.0.3578.98,,2019-01-06 10:05:27,2019-01-06 10:05:40,13.499s,ERROR
+,,,,,,
+Test Cases/Orange_Website/Login Screen,Chrome 71.0.3578.98,,2019-01-06 10:05:27,2019-01-06 10:05:39,11.666s,PASSED
+"openBrowser(""https://opensource-demo.orangehrmlive.com/index.php/auth/login"")",Chrome 71.0.3578.98,,2019-01-06 10:05:28,2019-01-06 10:05:37,9.080s,PASSED
+"setText(findTestObject(""Orange/Login/Username""), ""Admin"")",Chrome 71.0.3578.98,,2019-01-06 10:05:37,2019-01-06 10:05:37,0.297s,PASSED
+"setText(findTestObject(""Orange/Login/Password""), ""admin123"")",Chrome 71.0.3578.98,,2019-01-06 10:05:37,2019-01-06 10:05:37,0.132s,PASSED
+"click(findTestObject(""Orange/Login/Login""))",Chrome 71.0.3578.98,,2019-01-06 10:05:37,2019-01-06 10:05:39,1.571s,PASSED
+,,,,,,
+Test Cases/Orange_Website/JobTitles_Screen2,Chrome 71.0.3578.98,,2019-01-06 10:05:39,2019-01-06 10:05:39,0.485s,ERROR

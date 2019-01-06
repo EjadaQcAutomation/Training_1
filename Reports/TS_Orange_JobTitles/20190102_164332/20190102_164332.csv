@@ -1,0 +1,28 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_Orange_JobTitles,Chrome 71.0.3578.98,,2019-01-02 16:43:35,2019-01-02 16:44:03,27.855s,PASSED
+,,,,,,
+Test Cases/Orange_Website/Login Screen,Chrome 71.0.3578.98,,2019-01-02 16:43:35,2019-01-02 16:43:47,11.324s,PASSED
+"openBrowser(""https://opensource-demo.orangehrmlive.com/index.php/auth/login"")",Chrome 71.0.3578.98,,2019-01-02 16:43:36,2019-01-02 16:43:43,7.569s,PASSED
+"setText(findTestObject(""Orange/Login/Username""), ""Admin"")",Chrome 71.0.3578.98,,2019-01-02 16:43:43,2019-01-02 16:43:44,0.236s,PASSED
+"setText(findTestObject(""Orange/Login/Password""), ""admin123"")",Chrome 71.0.3578.98,,2019-01-02 16:43:44,2019-01-02 16:43:44,0.123s,PASSED
+"click(findTestObject(""Orange/Login/Login""))",Chrome 71.0.3578.98,,2019-01-02 16:43:44,2019-01-02 16:43:47,2.824s,PASSED
+,,,,,,
+Test Cases/Orange_Website/JobTitles_Screen,Chrome 71.0.3578.98,,2019-01-02 16:43:47,2019-01-02 16:44:02,15.437s,PASSED
+"click(findTestObject(""Orange/Navigation/MNULST_Admin""))",Chrome 71.0.3578.98,,2019-01-02 16:43:47,2019-01-02 16:43:48,1.015s,PASSED
+"click(findTestObject(""Orange/Navigation/MNUITM_Job""))",Chrome 71.0.3578.98,,2019-01-02 16:43:48,2019-01-02 16:43:48,0.121s,PASSED
+"click(findTestObject(""Orange/Navigation/MNUITM_JobTitles""))",Chrome 71.0.3578.98,,2019-01-02 16:43:48,2019-01-02 16:43:49,0.889s,PASSED
+"click(findTestObject(""Orange/JobTitles/BTN_Add""))",Chrome 71.0.3578.98,"Add New Record
+",2019-01-02 16:43:49,2019-01-02 16:43:50,0.824s,PASSED
+"pk_Functions.CS_AllPageData.AllPageDataFun(""Orange_JobTitles_ObjectRepository"", ""Sheet1"", [jobtitles, jobdescription, notes])",Chrome 71.0.3578.98,Data Entry,2019-01-02 16:43:50,2019-01-02 16:43:52,1.721s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-02 16:43:52,2019-01-02 16:43:53,1.030s,PASSED
+"tools.uploadFiles.uploadFile(findTestObject(""Orange/JobTitles/BTN_ChooseFile""), """"D:\Ebtehal_QC\Extras\logo.jpg"""")",Chrome 71.0.3578.98,,2019-01-02 16:43:53,2019-01-02 16:43:55,2.523s,PASSED
+Thread.sleep(2000),Chrome 71.0.3578.98,,2019-01-02 16:43:55,2019-01-02 16:43:57,2.009s,PASSED
+"click(findTestObject(""Orange/JobTitles/BTN_Save""))",Chrome 71.0.3578.98,,2019-01-02 16:43:57,2019-01-02 16:43:59,1.431s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-02 16:43:59,2019-01-02 16:44:00,1.002s,PASSED
+"verifyElementPresent(findTestObject(""Orange/JobTitles/MSG_SuccessValidationMessage""), 0)",Chrome 71.0.3578.98,,2019-01-02 16:44:00,2019-01-02 16:44:00,0.051s,PASSED
+driver = getWebDriver(),Chrome 71.0.3578.98,,2019-01-02 16:44:00,2019-01-02 16:44:00,0.044s,PASSED
+"ExpectedValue = ""Video Editor""",Chrome 71.0.3578.98,Expected value from Table,2019-01-02 16:44:00,2019-01-02 16:44:00,0.001s,PASSED
+"Table = driver.findElement(By.id(""resultTable""))",Chrome 71.0.3578.98,To locate table,2019-01-02 16:44:00,2019-01-02 16:44:00,0.053s,PASSED
+"rows_table = Table.findElements(By.tagName(""tr""))",Chrome 71.0.3578.98,To locate rows of table it will Capture all the rows available in the table,2019-01-02 16:44:00,2019-01-02 16:44:00,0.029s,PASSED
+rows_count = rows_table.size(),Chrome 71.0.3578.98,To calculate no of rows In table,2019-01-02 16:44:00,2019-01-02 16:44:00,0.002s,PASSED
+"for ([row = 0, row < rows_count, (row++)])",Chrome 71.0.3578.98,Loop will execute for all the rows of the table,2019-01-02 16:44:00,2019-01-02 16:44:02,2.133s,PASSED
