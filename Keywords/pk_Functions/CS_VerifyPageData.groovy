@@ -2,7 +2,7 @@ package pk_Functions
 /* Created By Azza Salah
  * Date 2/1/2018
  * Usage: Retrieve data of all fields in Edit mode and compare them by data in excel file
- * Input: This Function takes only two inputs 1- File name    2- Sheet name
+ * Input: This Function takes only two inputs 1- File name(object repository file)    2- Sheet name
  */
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase

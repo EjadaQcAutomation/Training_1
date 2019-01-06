@@ -23,9 +23,33 @@ WebUI.click(findTestObject('Orange/Login/Login'))
 
 WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/index.php/admin/viewLocations')
 
-WebUI.click(findTestObject('Orange/Locations/btn_select'))
+WebUI.click(findTestObject('Orange/Locations/btn_Add'))
+
+WebUI.selectOptionByValue(findTestObject('Orange/Locations/Lov_country'), 'EG', false)
+
+'Load data'
+CustomKeywords.'pk_Functions.CS_AllPageData.AllPageDataFun'('Orange/Location_ObjectRepository', 'Sheet1', [Name, StateProvince
+        , City, Address, ZipPostalCode, Phone, Fax, Notes])
+
+'save data'
+WebUI.click(findTestObject('Orange/Locations/btn_Save'))
+
+'click view'
+CustomKeywords.'pk_Functions.CS_SelectRecordFromWebtable.SelectRecordFromWebtableFun'('tableWrapper', 'Azza', 1, 1)
 
 WebUI.click(findTestObject('Orange/Locations/btn_Edit'))
 
-CustomKeywords.'pk_Functions.CS_VerifyPageData.CheckMatching'('Orange/Location_ObjectRepository', 'Sheet1')
+CustomKeywords.'pk_Functions.CS_AllPageData.AllPageDataFun'('Orange/Location_ObjectRepository', 'Sheet1', [Name_Update, StateProvince_Update
+        , City_Update, Address_Update, ZipPostalCode_Update, Phone_Update, Fax_Update, Notes_Update])
+
+WebUI.selectOptionByValue(findTestObject('Orange/Locations/Lov_country'), 'EG', false)
+
+'save data'
+WebUI.click(findTestObject('Orange/Locations/btn_Save'))
+
+'click view'
+CustomKeywords.'pk_Functions.CS_SelectRecordFromWebtable.SelectRecordFromWebtableFun'('tableWrapper', 'Azza3', 1, 1)
+
+'check view mode'
+CustomKeywords.'pk_Functions.CS_VerifyPageData.CheckMatching'('Location_ObjectRepository', 'Sheet1')
 

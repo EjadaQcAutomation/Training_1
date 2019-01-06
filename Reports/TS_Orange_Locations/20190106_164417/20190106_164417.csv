@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_Orange_Locations,Chrome 71.0.3578.98,,2019-01-06 16:44:20,2019-01-06 16:44:38,17.600s,ERROR
+,,,,,,
+Test Cases/Orange_Website/TC_Multi_Scenarios,Chrome 71.0.3578.98,,2019-01-06 16:44:21,2019-01-06 16:44:38,17.057s,ERROR
+openBrowser,Chrome 71.0.3578.98,,2019-01-06 16:44:22,2019-01-06 16:44:29,7.121s,PASSED
+setText,Chrome 71.0.3578.98,,2019-01-06 16:44:29,2019-01-06 16:44:29,0.323s,PASSED
+setText,Chrome 71.0.3578.98,,2019-01-06 16:44:29,2019-01-06 16:44:29,0.190s,PASSED
+click,Chrome 71.0.3578.98,,2019-01-06 16:44:29,2019-01-06 16:44:31,1.541s,PASSED
+navigateToUrl,Chrome 71.0.3578.98,,2019-01-06 16:44:31,2019-01-06 16:44:33,1.768s,PASSED
+click,Chrome 71.0.3578.98,,2019-01-06 16:44:33,2019-01-06 16:44:34,0.731s,PASSED
+selectOptionByValue,Chrome 71.0.3578.98,,2019-01-06 16:44:34,2019-01-06 16:44:34,0.180s,PASSED
+pk_Functions.CS_AllPageData.AllPageDataFun,Chrome 71.0.3578.98,Load data,2019-01-06 16:44:34,2019-01-06 16:44:36,2.380s,PASSED
+click,Chrome 71.0.3578.98,save data,2019-01-06 16:44:36,2019-01-06 16:44:37,0.994s,PASSED
+pk_Functions.CS_SelectRecordFromWebtable.SelectRecordFromWebtableFun,Chrome 71.0.3578.98,click view,2019-01-06 16:44:37,2019-01-06 16:44:38,0.711s,PASSED
+click,Chrome 71.0.3578.98,,2019-01-06 16:44:38,2019-01-06 16:44:38,0.106s,PASSED
+pk_Functions.CS_AllPageData.AllPageDataFun,Chrome 71.0.3578.98,,2019-01-06 16:44:38,2019-01-06 16:44:38,0.003s,PASSED
