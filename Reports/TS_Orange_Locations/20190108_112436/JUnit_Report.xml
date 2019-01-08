@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Orange_Locations" time="38" tests="1" failures="0" errors="0">
+   <testsuite name="TS_Orange_Locations" tests="1" failures="0" errors="0" time="38" timestamp="2019-01-08 11:24:41" hostname="asalah - LPALXY0442.ejadaalex.local" id="Test Suites/TS_Orange_Locations">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\asalah\\git\\Training_1\\Reports\\TS_Orange_Locations\\20190108_112436"/>
+         <property name="logFiles" value="C:\\Users\\asalah\\git\\Training_1\\Reports\\TS_Orange_Locations\\20190108_112436\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="asalah - LPALXY0442.ejadaalex.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.6.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.3.57"/>
+         <property name="sessionId" value="6e27271dcaa0a39f01179daf9b01b69b"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Orange_Website/TC_Locations_Multi_Scenarios" classname="Test Cases/Orange_Website/TC_Locations_Multi_Scenarios" status="PASSED">
+         <system-out><![CDATA[2019-01-08 11:24:42 - [TEST_CASE][PASSED] - Test Cases/Orange_Website/TC_Locations_Multi_Scenarios: Test Cases/Orange_Website/TC_Locations_Multi_Scenarios
+
+2019-01-08 11:24:43 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/index.php/auth/login'
+
+2019-01-08 11:24:50 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/index.php/auth/login'
+
+2019-01-08 11:24:50 - [TEST_STEP][PASSED] - setText: Text 'Admin' is set on object 'Object Repository/Orange/Login/Username'
+
+2019-01-08 11:24:50 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Orange/Login/Username'
+
+2019-01-08 11:24:50 - [TEST_STEP][PASSED] - setText: Text 'admin123' is set on object 'Object Repository/Orange/Login/Password'
+
+2019-01-08 11:24:50 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/Orange/Login/Password'
+
+2019-01-08 11:24:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Orange/Login/Login' is clicked on
+
+2019-01-08 11:24:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange/Login/Login' is clicked on
+
+2019-01-08 11:24:53 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://opensource-demo.orangehrmlive.com/index.php/admin/viewLocations' successfully
+
+2019-01-08 11:24:54 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/index.php/admin/viewLocations' successfully
+
+2019-01-08 11:24:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Orange/Locations/btn_Add' is clicked on
+
+2019-01-08 11:24:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange/Locations/btn_Add' is clicked on
+
+2019-01-08 11:24:55 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'EG' are selected in object 'Object Repository/Orange/Locations/Lov_country' 
+
+2019-01-08 11:24:55 - [MESSAGE][PASSED] - All options with value 'EG' are selected in object 'Object Repository/Orange/Locations/Lov_country' 
+
+2019-01-08 11:24:55 - [TEST_STEP][PASSED] - pk_Functions.CS_AllPageData.AllPageDataFun: pk_Functions.CS_AllPageData.AllPageDataFun is PASSED
+
+2019-01-08 11:24:56 - [MESSAGE][PASSED] - Text 'Azza' is set on object ''
+
+2019-01-08 11:24:57 - [MESSAGE][PASSED] - Text 'XX' is set on object ''
+
+2019-01-08 11:24:57 - [MESSAGE][PASSED] - Text 'Alexandria' is set on object ''
+
+2019-01-08 11:24:57 - [MESSAGE][PASSED] - Text '' is set on object ''
+
+2019-01-08 11:24:57 - [MESSAGE][PASSED] - Text '12012' is set on object ''
+
+2019-01-08 11:24:57 - [MESSAGE][PASSED] - Text '01129211656' is set on object ''
+
+2019-01-08 11:24:58 - [MESSAGE][PASSED] - Text '' is set on object ''
+
+2019-01-08 11:24:58 - [MESSAGE][PASSED] - Text 'first location' is set on object ''
+
+2019-01-08 11:24:58 - [MESSAGE][PASSED] - pk_Functions.CS_AllPageData.AllPageDataFun is PASSED
+
+2019-01-08 11:24:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Orange/Locations/btn_Save' is clicked on
+
+2019-01-08 11:24:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange/Locations/btn_Save' is clicked on
+
+2019-01-08 11:24:59 - [TEST_STEP][PASSED] - pk_Functions.CS_SelectRecordFromWebtable.SelectRecordFromWebtableFun: pk_Functions.CS_SelectRecordFromWebtable.SelectRecordFromWebtableFun is PASSED
+
+2019-01-08 11:25:03 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-01-08 11:25:08 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-01-08 11:25:08 - [MESSAGE][PASSED] - pk_Functions.CS_SelectRecordFromWebtable.SelectRecordFromWebtableFun is PASSED
+
+2019-01-08 11:25:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Orange/Locations/btn_Edit' is clicked on
+
+2019-01-08 11:25:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange/Locations/btn_Edit' is clicked on
+
+2019-01-08 11:25:08 - [TEST_STEP][PASSED] - pk_Functions.CS_AllPageData.AllPageDataFun: pk_Functions.CS_AllPageData.AllPageDataFun is PASSED
+
+2019-01-08 11:25:08 - [MESSAGE][PASSED] - Text 'Azza3' is set on object ''
+
+2019-01-08 11:25:08 - [MESSAGE][PASSED] - Text 'XXXX' is set on object ''
+
+2019-01-08 11:25:08 - [MESSAGE][PASSED] - Text 'Alexandria' is set on object ''
+
+2019-01-08 11:25:08 - [MESSAGE][PASSED] - Text '' is set on object ''
+
+2019-01-08 11:25:09 - [MESSAGE][PASSED] - Text '12012' is set on object ''
+
+2019-01-08 11:25:09 - [MESSAGE][PASSED] - Text '1129211656' is set on object ''
+
+2019-01-08 11:25:09 - [MESSAGE][PASSED] - Text '' is set on object ''
+
+2019-01-08 11:25:09 - [MESSAGE][PASSED] - Text 'first location' is set on object ''
+
+2019-01-08 11:25:09 - [MESSAGE][PASSED] - pk_Functions.CS_AllPageData.AllPageDataFun is PASSED
+
+2019-01-08 11:25:09 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'EG' are selected in object 'Object Repository/Orange/Locations/Lov_country' 
+
+2019-01-08 11:25:09 - [MESSAGE][PASSED] - All options with value 'EG' are selected in object 'Object Repository/Orange/Locations/Lov_country' 
+
+2019-01-08 11:25:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Orange/Locations/btn_Save' is clicked on
+
+2019-01-08 11:25:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange/Locations/btn_Save' is clicked on
+
+2019-01-08 11:25:10 - [TEST_STEP][PASSED] - pk_Functions.CS_SelectRecordFromWebtable.SelectRecordFromWebtableFun: pk_Functions.CS_SelectRecordFromWebtable.SelectRecordFromWebtableFun is PASSED
+
+2019-01-08 11:25:14 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-01-08 11:25:19 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-01-08 11:25:19 - [MESSAGE][PASSED] - pk_Functions.CS_SelectRecordFromWebtable.SelectRecordFromWebtableFun is PASSED
+
+2019-01-08 11:25:19 - [TEST_STEP][PASSED] - pk_Functions.CS_VerifyPageData.CheckMatching: pk_Functions.CS_VerifyPageData.CheckMatching is PASSED
+
+2019-01-08 11:25:19 - [MESSAGE][PASSED] - Attribute 'value' of object '' is: 'Azza3'
+
+2019-01-08 11:25:19 - [MESSAGE][PASSED] - Actual text 'Azza3' and expected text 'Azza3' are matched 
+
+2019-01-08 11:25:19 - [MESSAGE][PASSED] - Attribute 'value' of object '' is: 'XXXX'
+
+2019-01-08 11:25:19 - [MESSAGE][PASSED] - Actual text 'XXXX' and expected text 'XXXX' are matched 
+
+2019-01-08 11:25:19 - [MESSAGE][PASSED] - Attribute 'value' of object '' is: 'Alexandria'
+
+2019-01-08 11:25:19 - [MESSAGE][PASSED] - Actual text 'Alexandria' and expected text 'Alexandria' are matched 
+
+2019-01-08 11:25:19 - [MESSAGE][PASSED] - Attribute 'value' of object '' is: ''
+
+2019-01-08 11:25:19 - [MESSAGE][PASSED] - Actual text '' and expected text '' are matched 
+
+2019-01-08 11:25:19 - [MESSAGE][PASSED] - Attribute 'value' of object '' is: '12012'
+
+2019-01-08 11:25:19 - [MESSAGE][PASSED] - Actual text '12012' and expected text '12012' are matched 
+
+2019-01-08 11:25:19 - [MESSAGE][PASSED] - Attribute 'value' of object '' is: '1129211656'
+
+2019-01-08 11:25:19 - [MESSAGE][PASSED] - Actual text '1129211656' and expected text '1129211656' are matched 
+
+2019-01-08 11:25:20 - [MESSAGE][PASSED] - Attribute 'value' of object '' is: ''
+
+2019-01-08 11:25:20 - [MESSAGE][PASSED] - Actual text '' and expected text '' are matched 
+
+2019-01-08 11:25:20 - [MESSAGE][PASSED] - Attribute 'value' of object '' is: 'first location'
+
+2019-01-08 11:25:20 - [MESSAGE][PASSED] - Actual text 'first location' and expected text 'first location' are matched 
+
+2019-01-08 11:25:20 - [MESSAGE][PASSED] - pk_Functions.CS_VerifyPageData.CheckMatching is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-08 11:24:41 - [TEST_SUITE][PASSED] - TS_Orange_Locations: Test Cases/Orange_Website/TC_Locations_Multi_Scenarios]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
