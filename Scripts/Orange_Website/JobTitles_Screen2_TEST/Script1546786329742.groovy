@@ -23,8 +23,6 @@ WebUI.click(findTestObject('Orange/Navigation/MNUITM_Job'))
 
 WebUI.click(findTestObject('Orange/Navigation/MNUITM_JobTitles'))
 
-
-
 'Expected value from Table'
 String ExpectedValue = 'Sales Executive'
 
@@ -41,21 +39,26 @@ println('No. of rows: ' + Rows.size())
 'Find a matching text in a table and performing action'
 
 'Loop will execute for all the rows of the table'
-table: for (int i = 1; i < Rows.size(); i++) {
+table: for (int i = 0; i < Rows.size(); i++) {
     'To locate columns(cells) of that specific row'
-    List<WebElement> Cols = Rows.get(i).findElements(By.tagName('td'))
+    if (Rows.get(i).findElements(By.tagName('th'))) {
+        List<WebElement> Cols = Rows.get(i).findElements(By.tagName('th')) // for (int j = 0; j < Cols.size(); j++) {
+        //Cols.get(4).findElement(By.tagName('a')).click()
+    } else if (Rows.get(i).findElements(By.tagName('td'))) {
+        List<WebElement> Cols = Rows.get(i).findElements(By.tagName('td'))
 
-	println('No. of colns: ' + Cols.size())
-   // for (int j = 0; j < Cols.size(); j++) {
+        println('No. of colns: ' + Cols.size())
+
         'Verifying the expected text in the each cell'
         if (Cols.get(1).getText().equalsIgnoreCase(ExpectedValue)) {
             'To locate anchor in the expected value matched row to perform action'
-            //Cols.get(4).findElement(By.tagName('a')).click()
-			
-			Cols.get(1).findElement(By.tagName('a')).click() ;
-			
-           break
-       }
-   // }
+			WebUI.verifyElementPresent(Cols.get(1).findElement(By.tagName('a')), 0)
+			Cols.get(1).findElement(By.tagName('a')).click()
+
+            break
+        }
+    }
 }
+
+
 
