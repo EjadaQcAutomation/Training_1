@@ -51,5 +51,5 @@ WebUI.click(findTestObject('Orange/Locations/btn_Save'))
 CustomKeywords.'pk_Functions.CS_SelectRecordFromWebtable.SelectRecordFromWebtableFun'('tableWrapper', 'Azza3', 1, 1)
 
 'check view mode'
-CustomKeywords.'pk_Functions.CS_VerifyPageData.CheckMatching'('Location_ObjectRepository', 'Sheet1')
+CustomKeywords.'pk_Functions.CS_VerifyPageData.CheckMatching'('Orange/Location_ObjectRepository', 'Sheet1', 'Orange/Location_UpdateData')
 
