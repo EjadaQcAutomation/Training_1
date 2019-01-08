@@ -39,6 +39,9 @@ import java.sql.ResultSetMetaData;
 public class CS_DataBase {
 	private static Connection connection = null;
 	private static ResultSet rs = null;
+	private static String cell_insert ;
+	private static ArrayList<ArrayList<String>> list1 = new ArrayList<ArrayList<String>>()
+	private static ArrayList<String> list2 = new ArrayList<String>()
 
 
 	@Keyword
@@ -95,29 +98,25 @@ public class CS_DataBase {
 
 		System.out.println("Query Executed!! No of Colm="+NumOfCol)
 
-		//List<List<String>> list1 = new ArrayList<List<String>>()
-
-
 		int i
 		int y =1
 		String cell_insert
 
+
 		while (rs.next()){
 
-			List<String> list2 = new ArrayList<String>()
+			list2 = new ArrayList<String>()
 
 			for (i =1 ; i <= NumOfCol; i++ ){
 
 				cell_insert = rs.getString(i)
 
-				//list2.add(cell_insert)
+				list2.add(cell_insert)
 			}
-			//	list1.add(list2)
-
+			list1.add(list2)
 		}
 
-		//System.out.println ( list1[0])
-		return cell_insert
+		return 	 list1
 	}
 
 	@Keyword
@@ -127,7 +126,7 @@ public class CS_DataBase {
 
 		executeQuery_OrcalSql(Query)
 
-		String result = result_OrcalSql()
+		ArrayList<ArrayList<String>>  result = result_OrcalSql()
 
 		//List<String> list2=result_OrcalSql()
 
