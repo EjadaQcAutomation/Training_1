@@ -128,8 +128,6 @@ public class CS_DataBase {
 
 		ArrayList<ArrayList<String>>  result = result_OrcalSql()
 
-		//List<String> list2=result_OrcalSql()
-
 		closeDatabaseConnection_OrcalSql()
 
 		return result
