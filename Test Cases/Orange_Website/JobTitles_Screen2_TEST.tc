@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>JobTitles_Screen2_TEST</name>
+   <tag></tag>
+   <comment>Find a matching text in a table and performing action</comment>
+   <testCaseGuid>f0e9be9a-fcef-42c5-b41d-db7decc0887b</testCaseGuid>
+</TestCaseEntity>
