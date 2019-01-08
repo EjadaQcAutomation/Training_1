@@ -38,7 +38,7 @@ public class CS_VerifyText {
 	VerifyTextFun ( String localHost , String port , String serverName , String username, String password , String Query , TestObject object){
 
 		// Call Data base Function to connect DB and get string of query
-		String text =(new pk_Functions.CS_DataBase()).DbaseFun( localHost ,  port ,  serverName ,  username,  password ,  Query)
+		ArrayList<ArrayList<String>>  text =(new pk_Functions.CS_DataBase()).DbaseFun( localHost ,  port ,  serverName ,  username,  password ,  Query)
 
 		//Print text that got by Query
 		println text
