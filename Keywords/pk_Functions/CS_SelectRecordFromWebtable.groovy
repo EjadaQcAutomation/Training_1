@@ -51,7 +51,6 @@ public class CS_SelectRecordFromWebtable {
 	@Keyword
 	SelectRecordFromWebtableFun (String webtableId , String expectedValue , int expectedValueColumn , int actionButtonColumn ) {
 
-
 		WebDriver ndriver = DriverFactory.getWebDriver()
 
 		//To locate table'
@@ -59,29 +58,28 @@ public class CS_SelectRecordFromWebtable {
 
 		//To locate rows of table it will Capture all the rows available in the table '
 		List<WebElement> Rows = Table.findElements(By.tagName('tr'))
-
 		println('No. of rows: ' + Rows.size())
 
 		//Find a matching text in a table and performing action'
-
 		//Loop will execute for all the rows of the table'
 		table: for (int i = 1; i < Rows.size(); i++) {
 			//To locate columns(cells) of that specific row'
 			List<WebElement> Cols = Rows.get(i).findElements(By.tagName('td'))
-
 			println('No. of colns: ' + Cols.size())
+
 			// for (int j = 0; j < Cols.size(); j++) {
 			//Verifying the expected text in the each cell in specified column
 			if (Cols.get(expectedValueColumn).getText().equalsIgnoreCase(expectedValue)) {
+				
 				//2To locate anchor in the expected value matched row to perform action'
 				//Cols.get(4).findElement(By.tagName('a')).click()
 				WebUI.delay(4)
+			
 				//Doing action to the selected record by clicking on actions button in predefined column
 				Cols.get(actionButtonColumn).findElement(By.tagName('a')).click() ;
 				WebUI.delay(4)
 				break
 			}
-			// }
 		}
 	}
 }
