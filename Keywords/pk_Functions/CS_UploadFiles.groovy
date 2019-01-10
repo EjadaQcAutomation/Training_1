@@ -1,5 +1,10 @@
 package pk_Functions
-
+/* Created By ‘Ebtehal Gamal Yusuf’
+ * Date 06/01/2019
+ * Usage:This function is used to upload object to website by clicking on Upload File button 
+ * Input: There are two inputs required for this function (Upload Button object and File bath that will be uploaded) 
+ * Output: Selected file is uploaded to website 
+ */
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
