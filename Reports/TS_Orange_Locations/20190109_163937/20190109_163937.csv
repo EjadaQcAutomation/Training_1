@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_Orange_Locations,Chrome 71.0.3578.98,,2019-01-09 16:39:40,2019-01-09 16:40:23,42.139s,PASSED
+,,,,,,
+Test Cases/Orange_Website/TC_Azza_Asmaa,Chrome 71.0.3578.98,,2019-01-09 16:39:41,2019-01-09 16:40:23,41.737s,PASSED
+"openBrowser(""https://opensource-demo.orangehrmlive.com/index.php/auth/login"")",Chrome 71.0.3578.98,,2019-01-09 16:39:42,2019-01-09 16:39:59,16.838s,PASSED
+"setText(findTestObject(""Orange/Login/Username""), ""Admin"")",Chrome 71.0.3578.98,,2019-01-09 16:39:59,2019-01-09 16:39:59,0.302s,PASSED
+"setText(findTestObject(""Orange/Login/Password""), ""admin123"")",Chrome 71.0.3578.98,,2019-01-09 16:39:59,2019-01-09 16:39:59,0.170s,PASSED
+"click(findTestObject(""Orange/Login/Login""))",Chrome 71.0.3578.98,,2019-01-09 16:39:59,2019-01-09 16:40:06,7.400s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/index.php/admin/viewLocations"")",Chrome 71.0.3578.98,,2019-01-09 16:40:06,2019-01-09 16:40:09,2.126s,PASSED
+"click(findTestObject(""Orange/Locations/btn_Add""))",Chrome 71.0.3578.98,,2019-01-09 16:40:09,2019-01-09 16:40:15,6.237s,PASSED
+"pk_Functions.CS_TextLov.TextLovFun(""Orange/ALLComponents_Location_ObjectRepository"", ""Sheet1"", [Name, StateProvince, City, Address, ZipPostalCode, Phone, Fax, Notes, Country])",Chrome 71.0.3578.98,,2019-01-09 16:40:15,2019-01-09 16:40:17,2.429s,PASSED
+"click(findTestObject(""Orange/Locations/btn_Save""))",Chrome 71.0.3578.98,save data,2019-01-09 16:40:17,2019-01-09 16:40:23,5.337s,PASSED

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Orange_Locations" time="1" tests="0" failures="0" errors="1">
+   <testsuite name="TS_Orange_Locations" tests="0" failures="0" errors="1" time="1" timestamp="2019-01-09 16:35:38" hostname="asalah - LPALXY0442.ejadaalex.local" id="Test Suites/TS_Orange_Locations">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\asalah\\Desktop\\Katalon_Training\\Training_1\\Reports\\TS_Orange_Locations\\20190109_163535"/>
+         <property name="logFiles" value="C:\\Users\\asalah\\Desktop\\Katalon_Training\\Training_1\\Reports\\TS_Orange_Locations\\20190109_163535\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="asalah - LPALXY0442.ejadaalex.local"/>
+         <property name="hostAddress" value="192.168.3.57"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+      </properties>
+      <testcase name="Test Cases/Orange_Website/TC_Azza_Asmaa" classname="Test Cases/Orange_Website/TC_Azza_Asmaa" status="ERROR">
+         <error type="ERROR" message="Test Cases/Orange_Website/TC_Azza_Asmaa FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/asalah/Desktop/Katalon_Training/Training_1/Scripts/Orange_Website/TC_Azza_Asmaa/Script1547042988282.groovy: 29: unable to resolve class ZipPostal 
+ @ line 29, column 36.
+           , City, Address, ZipPostal Code , Phone, Fax, Notes, Country])
+                                      ^
+
+1 error
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547044535064.run(TempTestSuite1547044535064.groovy:36)
+"/>
+         <system-out><![CDATA[2019-01-09 16:35:38 - [TEST_CASE][ERROR] - Test Cases/Orange_Website/TC_Azza_Asmaa: Test Cases/Orange_Website/TC_Azza_Asmaa FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/asalah/Desktop/Katalon_Training/Training_1/Scripts/Orange_Website/TC_Azza_Asmaa/Script1547042988282.groovy: 29: unable to resolve class ZipPostal 
+ @ line 29, column 36.
+           , City, Address, ZipPostal Code , Phone, Fax, Notes, Country])
+                                      ^
+
+1 error
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547044535064.run(TempTestSuite1547044535064.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-01-09 16:35:38 - [TEST_CASE][ERROR] - Test Cases/Orange_Website/TC_Azza_Asmaa: Test Cases/Orange_Website/TC_Azza_Asmaa FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/asalah/Desktop/Katalon_Training/Training_1/Scripts/Orange_Website/TC_Azza_Asmaa/Script1547042988282.groovy: 29: unable to resolve class ZipPostal 
+ @ line 29, column 36.
+           , City, Address, ZipPostal Code , Phone, Fax, Notes, Country])
+                                      ^
+
+1 error
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547044535064.run(TempTestSuite1547044535064.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-09 16:35:38 - [TEST_SUITE][ERROR] - TS_Orange_Locations: Test Cases/Orange_Website/TC_Azza_Asmaa FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/asalah/Desktop/Katalon_Training/Training_1/Scripts/Orange_Website/TC_Azza_Asmaa/Script1547042988282.groovy: 29: unable to resolve class ZipPostal 
+ @ line 29, column 36.
+           , City, Address, ZipPostal Code , Phone, Fax, Notes, Country])
+                                      ^
+
+1 error
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547044535064.run(TempTestSuite1547044535064.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-01-09 16:35:38 - [TEST_SUITE][ERROR] - TS_Orange_Locations: Test Cases/Orange_Website/TC_Azza_Asmaa FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/asalah/Desktop/Katalon_Training/Training_1/Scripts/Orange_Website/TC_Azza_Asmaa/Script1547042988282.groovy: 29: unable to resolve class ZipPostal 
+ @ line 29, column 36.
+           , City, Address, ZipPostal Code , Phone, Fax, Notes, Country])
+                                      ^
+
+1 error
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547044535064.run(TempTestSuite1547044535064.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

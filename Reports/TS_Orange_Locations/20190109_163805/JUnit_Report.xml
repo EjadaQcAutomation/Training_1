@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Orange_Locations" time="16" tests="0" failures="1" errors="0">
+   <testsuite name="TS_Orange_Locations" tests="0" failures="1" errors="0" time="16" timestamp="2019-01-09 16:38:08" hostname="asalah - LPALXY0442.ejadaalex.local" id="Test Suites/TS_Orange_Locations">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\asalah\\Desktop\\Katalon_Training\\Training_1\\Reports\\TS_Orange_Locations\\20190109_163805"/>
+         <property name="logFiles" value="C:\\Users\\asalah\\Desktop\\Katalon_Training\\Training_1\\Reports\\TS_Orange_Locations\\20190109_163805\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\asalah\\Desktop\\Katalon_Training\\Training_1\\Reports\\TS_Orange_Locations\\20190109_163805\\1547044704858.png"/>
+         <property name="hostName" value="asalah - LPALXY0442.ejadaalex.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.3.57"/>
+         <property name="sessionId" value="b6f3da2deeeca416caada4c7bcfd19e9"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Orange_Website/TC_Azza_Asmaa" classname="Test Cases/Orange_Website/TC_Azza_Asmaa" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Orange_Website/TC_Azza_Asmaa FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by label 'EG' of object ''  (Root cause: org.openqa.selenium.NoSuchElementException: Cannot locate element with text: EG
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LPALXY0442', ip: '192.168.3.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1200)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByLabel$3.call(Unknown Source)
+	at pk_Functions.CS_TextLov.TextLovFun(CS_TextLov.groovy:45)
+	at pk_Functions.CS_TextLov.invokeMethod(CS_TextLov.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Azza_Asmaa.run(TC_Azza_Asmaa:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547044685709.run(TempTestSuite1547044685709.groovy:36)
+"/>
+         <system-out><![CDATA[2019-01-09 16:38:09 - [TEST_CASE][FAILED] - Test Cases/Orange_Website/TC_Azza_Asmaa: Test Cases/Orange_Website/TC_Azza_Asmaa FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by label 'EG' of object ''  (Root cause: org.openqa.selenium.NoSuchElementException: Cannot locate element with text: EG
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LPALXY0442', ip: '192.168.3.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1200)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByLabel$3.call(Unknown Source)
+	at pk_Functions.CS_TextLov.TextLovFun(CS_TextLov.groovy:45)
+	at pk_Functions.CS_TextLov.invokeMethod(CS_TextLov.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Azza_Asmaa.run(TC_Azza_Asmaa:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547044685709.run(TempTestSuite1547044685709.groovy:36)
+
+
+2019-01-09 16:38:10 - [TEST_STEP][PASSED] - openBrowser("https://opensource-demo.orangehrmlive.com/index.php/auth/login"): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/index.php/auth/login'
+
+2019-01-09 16:38:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-09 16:38:10 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-01-09 16:38:17 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/index.php/auth/login'
+
+2019-01-09 16:38:17 - [TEST_STEP][PASSED] - setText(findTestObject("Orange/Login/Username"), "Admin"): Text 'Admin' is set on object 'Object Repository/Orange/Login/Username'
+
+2019-01-09 16:38:17 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Orange/Login/Username'
+
+2019-01-09 16:38:17 - [TEST_STEP][PASSED] - setText(findTestObject("Orange/Login/Password"), "admin123"): Text 'admin123' is set on object 'Object Repository/Orange/Login/Password'
+
+2019-01-09 16:38:18 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/Orange/Login/Password'
+
+2019-01-09 16:38:18 - [TEST_STEP][PASSED] - click(findTestObject("Orange/Login/Login")): Object: 'Object Repository/Orange/Login/Login' is clicked on
+
+2019-01-09 16:38:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange/Login/Login' is clicked on
+
+2019-01-09 16:38:19 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/index.php/admin/viewLocations"): Navigate to 'https://opensource-demo.orangehrmlive.com/index.php/admin/viewLocations' successfully
+
+2019-01-09 16:38:21 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/index.php/admin/viewLocations' successfully
+
+2019-01-09 16:38:21 - [TEST_STEP][PASSED] - click(findTestObject("Orange/Locations/btn_Add")): Object: 'Object Repository/Orange/Locations/btn_Add' is clicked on
+
+2019-01-09 16:38:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange/Locations/btn_Add' is clicked on
+
+2019-01-09 16:38:22 - [TEST_STEP][FAILED] - pk_Functions.CS_TextLov.TextLovFun("Orange/ALLComponents_Location_ObjectRepository", "Sheet1", [Name, StateProvince, City, Address, ZipPostalCode, Phone, Fax, Notes, Country]): pk_Functions.CS_TextLov.TextLovFun("Orange/ALLComponents_Location_ObjectRepository", "Sheet1", [Name, StateProvince, City, Address, ZipPostalCode, Phone, Fax, Notes, Country]) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by label 'EG' of object ''  (Root cause: org.openqa.selenium.NoSuchElementException: Cannot locate element with text: EG
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LPALXY0442', ip: '192.168.3.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1200)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByLabel$3.call(Unknown Source)
+	at pk_Functions.CS_TextLov.TextLovFun(CS_TextLov.groovy:45)
+	at pk_Functions.CS_TextLov.invokeMethod(CS_TextLov.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Azza_Asmaa.run(TC_Azza_Asmaa:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547044685709.run(TempTestSuite1547044685709.groovy:36)
+
+
+2019-01-09 16:38:23 - [MESSAGE][PASSED] - Text 'Azza' is set on object ''
+
+2019-01-09 16:38:23 - [MESSAGE][PASSED] - Text 'XX' is set on object ''
+
+2019-01-09 16:38:24 - [MESSAGE][PASSED] - Text 'Alexandria' is set on object ''
+
+2019-01-09 16:38:24 - [MESSAGE][PASSED] - Text '' is set on object ''
+
+2019-01-09 16:38:24 - [MESSAGE][PASSED] - Text '12012' is set on object ''
+
+2019-01-09 16:38:24 - [MESSAGE][PASSED] - Text '01129211656' is set on object ''
+
+2019-01-09 16:38:24 - [MESSAGE][PASSED] - Text '' is set on object ''
+
+2019-01-09 16:38:24 - [MESSAGE][PASSED] - Text 'first location' is set on object ''
+
+2019-01-09 16:38:25 - [MESSAGE][FAILED] - Unable to select option by label 'EG' of object ''  (Root cause: org.openqa.selenium.NoSuchElementException: Cannot locate element with text: EG
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LPALXY0442', ip: '192.168.3.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+[[ATTACHMENT|C:\\Users\\asalah\\Desktop\\Katalon_Training\\Training_1\\Reports\\TS_Orange_Locations\\20190109_163805\\1547044704858.png]]
+
+2019-01-09 16:38:25 - [MESSAGE][FAILED] - Unable to select option by label 'EG' of object ''  (Root cause: org.openqa.selenium.NoSuchElementException: Cannot locate element with text: EG
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LPALXY0442', ip: '192.168.3.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2019-01-09 16:38:25 - [MESSAGE][FAILED] - pk_Functions.CS_TextLov.TextLovFun("Orange/ALLComponents_Location_ObjectRepository", "Sheet1", [Name, StateProvince, City, Address, ZipPostalCode, Phone, Fax, Notes, Country]) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by label 'EG' of object ''  (Root cause: org.openqa.selenium.NoSuchElementException: Cannot locate element with text: EG
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LPALXY0442', ip: '192.168.3.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1200)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByLabel$3.call(Unknown Source)
+	at pk_Functions.CS_TextLov.TextLovFun(CS_TextLov.groovy:45)
+	at pk_Functions.CS_TextLov.invokeMethod(CS_TextLov.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Azza_Asmaa.run(TC_Azza_Asmaa:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547044685709.run(TempTestSuite1547044685709.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-01-09 16:38:09 - [TEST_CASE][FAILED] - Test Cases/Orange_Website/TC_Azza_Asmaa: Test Cases/Orange_Website/TC_Azza_Asmaa FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by label 'EG' of object ''  (Root cause: org.openqa.selenium.NoSuchElementException: Cannot locate element with text: EG
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LPALXY0442', ip: '192.168.3.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1200)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByLabel$3.call(Unknown Source)
+	at pk_Functions.CS_TextLov.TextLovFun(CS_TextLov.groovy:45)
+	at pk_Functions.CS_TextLov.invokeMethod(CS_TextLov.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Azza_Asmaa.run(TC_Azza_Asmaa:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547044685709.run(TempTestSuite1547044685709.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-09 16:38:08 - [TEST_SUITE][FAILED] - TS_Orange_Locations: Test Cases/Orange_Website/TC_Azza_Asmaa FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by label 'EG' of object ''  (Root cause: org.openqa.selenium.NoSuchElementException: Cannot locate element with text: EG
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LPALXY0442', ip: '192.168.3.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1200)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByLabel$3.call(Unknown Source)
+	at pk_Functions.CS_TextLov.TextLovFun(CS_TextLov.groovy:45)
+	at pk_Functions.CS_TextLov.invokeMethod(CS_TextLov.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Azza_Asmaa.run(TC_Azza_Asmaa:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547044685709.run(TempTestSuite1547044685709.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-01-09 16:38:08 - [TEST_SUITE][FAILED] - TS_Orange_Locations: Test Cases/Orange_Website/TC_Azza_Asmaa FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by label 'EG' of object ''  (Root cause: org.openqa.selenium.NoSuchElementException: Cannot locate element with text: EG
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LPALXY0442', ip: '192.168.3.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1200)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByLabel$3.call(Unknown Source)
+	at pk_Functions.CS_TextLov.TextLovFun(CS_TextLov.groovy:45)
+	at pk_Functions.CS_TextLov.invokeMethod(CS_TextLov.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC_Azza_Asmaa.run(TC_Azza_Asmaa:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547044685709.run(TempTestSuite1547044685709.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>
