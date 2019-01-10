@@ -3,7 +3,7 @@ package pk_Functions
  * Date 06/01/2019
  * Usage:This function is used to select record from webtable and click on any action button
  * Input: There are four inputs required for this function (Webtable locator ,Expected Value,Exepcted Value Column Value and Action Button Column Value) 
- * Output: Required record is located and actions button can be deteceted 
+ * Output: Required record is located and actions button can be detected 
  */
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
