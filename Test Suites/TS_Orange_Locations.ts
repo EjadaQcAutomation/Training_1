@@ -4,7 +4,6 @@
    <name>TS_Orange_Locations</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-01-08T11:29:50</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -14,7 +13,7 @@
    <testCaseLink>
       <guid>939659dc-fd97-42d6-83df-52af0f197b46</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Orange_Website/TC_Locations_Multi_Scenarios</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -129,6 +128,75 @@
          <type>DATA_COLUMN</type>
          <value>Notes</value>
          <variableId>d32ce52a-9758-40f9-9827-c0216630649c</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>0b2c0432-2823-4de9-b609-8cf4e9ed5ed2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Orange_Website/TC_Azza_Asmaa</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>3e34d4bb-b833-478f-a938-bc830b952ea9</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Orange/ALLComponents_Location_Data</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>3e34d4bb-b833-478f-a938-bc830b952ea9</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Name</value>
+         <variableId>cb3ee8f4-fb48-4c55-9495-0e8fe93961e4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>3e34d4bb-b833-478f-a938-bc830b952ea9</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>StateProvince</value>
+         <variableId>79827196-3839-44c2-b62f-ea25b225ea66</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>3e34d4bb-b833-478f-a938-bc830b952ea9</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>City</value>
+         <variableId>d00f9afb-d5fc-4e1e-8acb-02fbf22bf84b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>3e34d4bb-b833-478f-a938-bc830b952ea9</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Address</value>
+         <variableId>b56b26fa-d2c8-4055-8d4b-ea2c743df97d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>3e34d4bb-b833-478f-a938-bc830b952ea9</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>ZipPostalCode </value>
+         <variableId>767c6a49-fcc9-4d76-bc11-1567f2c42da2</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>3e34d4bb-b833-478f-a938-bc830b952ea9</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Phone</value>
+         <variableId>f3be374c-59eb-4de0-95fe-b74b4781e3ce</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>3e34d4bb-b833-478f-a938-bc830b952ea9</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Fax</value>
+         <variableId>968be2d6-25d3-46f9-a72b-2c4e7bd6a6a4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>3e34d4bb-b833-478f-a938-bc830b952ea9</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Notes</value>
+         <variableId>27601079-f503-48a2-878a-7861454e86fa</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>3e34d4bb-b833-478f-a938-bc830b952ea9</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Country</value>
+         <variableId>e0ce103f-8ecf-446d-bef8-bf203df0c653</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

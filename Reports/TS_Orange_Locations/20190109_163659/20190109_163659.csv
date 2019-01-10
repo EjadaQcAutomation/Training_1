@@ -1,0 +1,4 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_Orange_Locations,,,2019-01-09 16:37:03,2019-01-09 16:37:04,1.525s,ERROR
+,,,,,,
+Test Cases/Orange_Website/TC_Azza_Asmaa,,,2019-01-09 16:37:03,2019-01-09 16:37:04,0.796s,ERROR

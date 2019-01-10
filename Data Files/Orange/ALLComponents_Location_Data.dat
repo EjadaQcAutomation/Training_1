@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>Location_Data</name>
+   <name>ALLComponents_Location_Data</name>
    <tag></tag>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
-   <dataFileGUID>52d71610-bdd1-4bc0-a891-a681a6fe9bc8</dataFileGUID>
-   <dataSourceUrl>\\192.168.0.125\c$\ejadaipo\ipomsfroot\TestAuto\Azza\Location_Data.xlsx</dataSourceUrl>
+   <dataFileGUID>dd289f3d-9bf1-4b81-85c4-b65ee74914df</dataFileGUID>
+   <dataSourceUrl>\\192.168.0.125\c$\ejadaipo\ipomsfroot\TestAuto\Azza\ALLComponents_Location_Data .xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>
