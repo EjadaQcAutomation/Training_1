@@ -6,7 +6,7 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>81c628c1-a709-4c45-9109-dff42c775f4e</dataFileGUID>
-   <dataSourceUrl>C:\Users\asalah\Desktop\training _katalon\Location_UpdateData.xlsx</dataSourceUrl>
+   <dataSourceUrl>\\192.168.0.125\c$\ejadaipo\ipomsfroot\TestAuto\Azza\Location_UpdateData.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>
