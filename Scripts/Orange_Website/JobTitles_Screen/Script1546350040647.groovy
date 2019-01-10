@@ -33,7 +33,7 @@ CustomKeywords.'pk_Functions.CS_AllPageData.AllPageDataFun'('Orange_JobTitles_Ob
 WebUI.delay(1)
 
 // Custom Keyword used because 'Upload File' or 'Send keys' won't work for this test case
-CustomKeywords.'tools.uploadFiles.uploadFile'(findTestObject('Orange/JobTitles/BTN_ChooseFile'), '"D:\\Ebtehal_QC\\Extras\\logo.jpg"')
+CustomKeywords.'tools.CS_UploadFiles.uploadFile'(findTestObject('Orange/JobTitles/BTN_ChooseFile'), '"D:\\Ebtehal_QC\\Extras\\logo.jpg"')
 
 Thread.sleep(2000 //2500, 3000, other might work for you
     )

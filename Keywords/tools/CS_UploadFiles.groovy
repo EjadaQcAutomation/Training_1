@@ -1,5 +1,11 @@
-package tools
-
+package pk_Functions
+/* Created By ‘Ebtehal Gamal Yusuf’
+ * Date 06/01/2019
+ * Usage:This function is used to select record from webtable and click on any action button and can detect if the first row is table header or not
+ * Input: There are four inputs required for this function (Webtable locator ,Expected Value,Exepcted Value Column Value and Action Button Column Value)
+ *  1- File name    2- Sheet name
+ * Output: Output is list of object
+ */
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
@@ -28,7 +34,7 @@ import java.awt.datatransfer.StringSelection
 import java.awt.event.KeyEvent
 
 //Used when "Upload File" or "Send Keys" will not work
-public class uploadFiles {
+public class CS_UploadFiles {
 	@Keyword
 	def uploadFile (TestObject to, String filePath) {
 		WebUI.click(to)
