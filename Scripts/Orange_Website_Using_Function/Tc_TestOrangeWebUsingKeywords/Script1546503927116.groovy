@@ -20,9 +20,9 @@ CustomKeywords.'pk_Functions.CS_SpecificData.DataFun'(['username', 'password'], 
 
 WebUI.click(findTestObject('Orange/Login/Login'))
 
-CustomKeywords.'pk_Functions.CS_StaticListUsingLiTag.LovMatchItemsFun'('//*[@id="menu_admin_viewAdminModule"]/b', '//*[@id="wrapper"]/div[2]/ul/li[1]/ul', 
+CustomKeywords.'pk_Functions.CS_StaticListUsingLiTag.LovMatchItemsFun'('//*[@id="menu_admin_viewAdminModule"]/b', '//*[@id="wrapper"]/div[2]/ul/li[1]/ul/li', 
     ['User Management', 'Job', 'Organization', 'Qualifications', 'Nationalities', 'Configuration'])
 
-CustomKeywords.'pk_Functions.CS_StaticListUsingLiTag.LovSearchFun'('//*[@id="menu_admin_Job"]', '//*[@id="wrapper"]/div[2]/ul/li[1]/ul/li[2]/ul', 
+CustomKeywords.'pk_Functions.CS_StaticListUsingLiTag.LovSearchFun'('//*[@id="menu_admin_Job"]', '//*[@id="wrapper"]/div[2]/ul/li[1]/ul/li[2]/ul/li', 
     'Job Titles')
 

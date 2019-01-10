@@ -56,12 +56,32 @@ public class CS_SpecificData {
 	DataFun (  List<TestObject> fieldsNames, String fileName , String sheetName , List<TestObject> fieldsData ){
 
 		//getting certain objects that selected using Fields names inputs then stored in list by calling ObjectFun function
-		List<TestObject> listobject = new ArrayList<TestObject>((new pk_Functions.CS_SpecificObject()).ObjectFun(fileName ,sheetName , fieldsNames))
+		List<TestObject> listObject = new ArrayList<TestObject>((new pk_Functions.CS_SpecificObject()).ObjectFun(fileName ,sheetName , fieldsNames))
 		int column
 
-		//loop for setting data into list object that stored in list using ObjectFun function
-		for (column = 1; column <= listobject.size(); column++) {
-			WebUI.setText(listobject[(column - 1)], fieldsData[(column-1)])
+		ExcelData  data = findTestData(fileName)
+		data.changeSheet( sheetName)
+
+		//loop for setting data into list object that stored in list using AllPageObjectFun function
+		for (column = 1; column <= listObject.size(); column++) {
+			//if type equals text
+			if (data.getValue(2, column)=="txt"){
+				//set data of text into corresponding object
+				WebUI.setText(listObject[(column - 1)], fieldsData[(column-1)])
+				//if type equals LOV by select tag
+			}else if (data.getValue(2, column)=="lov-select-tag"){
+				//select by label
+				WebUI.selectOptionByLabel(listObject[(column - 1)],fieldsData[(column-1)], false)
+				//if type equals LOV by UL tag
+			}else if (data.getValue(2, column)=="lov-ul-tag"){
+				// get value of attribute which indicating the value of X-path for drop down Object and Container Object separating by "&&&"
+				String string =data.getValue(4 , column)
+				String[] parts = string.split("&&&")
+				String part1 = parts[0]
+				String part2 = parts[1]
+				(new pk_Functions.CS_StaticListUsingLiTag()).LovSearchFun (part1 , part2 ,fieldsData[(column-1)] )
+
+			}
 		}
 	}
 }

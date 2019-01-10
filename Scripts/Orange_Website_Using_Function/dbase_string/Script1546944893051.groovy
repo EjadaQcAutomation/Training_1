@@ -13,9 +13,10 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-ArrayList<ArrayList<String>>  result = CustomKeywords.'pk_Functions.CS_DataBase.DbaseFun'('192.168.0.197', '1521', 'orcl', 'IPO_MIGRATION', 'IPO_MIGRATION', 'Select USR_ID from USR where (USR_ID =  \'111792\' or USR_ID =  \'000078\')')
+ArrayList<ArrayList> result = CustomKeywords.'pk_Functions.CS_DataBase.DbaseFun'('192.168.0.197', '1521', 'orcl', 'IPO_MIGRATION', 
+    'IPO_MIGRATION', 'Select * from USR where ( USR_ID =  \'000078\')')
 
-println result
+println(result)
 
-//WebUI.verifyElementText(findTestObject(null),Text)
+
 

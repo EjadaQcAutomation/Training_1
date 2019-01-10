@@ -114,7 +114,10 @@ public class CS_DataBase {
 				list2.add(cell_insert)
 			}
 			list1.add(list2)
+
+			println (list2 )
 		}
+
 
 		return 	 list1
 	}

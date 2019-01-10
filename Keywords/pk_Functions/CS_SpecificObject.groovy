@@ -66,7 +66,7 @@ public class CS_SpecificObject {
 
 			//Create new object and change it's property (Attribute , Value of it's attribute )
 			TestObject flexibleTestObject = new TestObject()
-			flexibleTestObject.addProperty(data.getValue(2,index+1), ConditionType.EQUALS, data.getValue(3, index+1))
+			flexibleTestObject.addProperty(data.getValue(3,index+1), ConditionType.EQUALS, data.getValue(4, index+1))
 
 			//Add above object into list
 			list.add(flexibleTestObject)

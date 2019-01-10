@@ -4,7 +4,7 @@
    <name>TS_OrangeWebUsingKeywords</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-01-08T15:45:29</lastRun>
+   <lastRun>2019-01-10T12:50:01</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>1eed5b07-c68f-4a8c-abc1-967367dd34cf</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Orange_Website_Using_Function/Tc_TestOrangeWebUsingKeywords</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -47,7 +47,7 @@
    <testCaseLink>
       <guid>08c57d5d-c39e-461a-af4d-c167215a6764</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Orange_Website_Using_Function/TC_AllPageComponent</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>

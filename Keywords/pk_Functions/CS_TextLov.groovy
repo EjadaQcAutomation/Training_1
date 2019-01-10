@@ -1,6 +1,13 @@
 package pk_Functions
 
-//created By:Asmaa Elsayed Ibrahim
+/* Created By Asmaa Elsayed Ibrahim
+ * Date 25/12/2018
+ * Usage: Setting data existing in data excel sheet into all objects exist in objects excel 
+ *        file/sheet with the same order that exists by calling AllPageObjectFun function 
+ * Input: This Function takes only three inputs 
+ *  1- File name  2- Sheet name  3- Data as variable using binding  
+ * Output : There isn't output 
+ */
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
@@ -53,9 +60,6 @@ public class CS_TextLov {
 				println part1
 				println part2
 				println fieldsData[(column-1)]
-
-				//	(new pk_Functions.CS_StaticListUsingLiTag()).LovSearchFun (part1 , part2 ,fieldsData[(column-1)] )
-				//	(new pk_Functions.CS_StaticListUsingLiTag()).LovMatchItemsFun (part1 , part2 ,[])
 
 				(new pk_Functions.CS_StaticListUsingLiTag()).LovSearchFun (part1 , part2 ,fieldsData[(column-1)] )
 
