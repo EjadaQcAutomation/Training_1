@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>dbase_string</name>
+   <name>TC_ListUsingLiTag</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>aff4b3ff-dd17-42c0-8ea9-d5a654b9ad36</testCaseGuid>
+   <testCaseGuid>a68cc687-09f7-4f8c-9a65-e73d6b63400b</testCaseGuid>
 </TestCaseEntity>

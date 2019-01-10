@@ -1,7 +1,7 @@
 package pk_Functions
 /* Created By Asmaa Elsayed Ibrahim
  * Date 25/12/2018
- * Usage: Setting data existing in data excel sheet into all objects exist in objects excel 
+ * Usage: Setting data existing in data excel sheet according to it's type (txt,lov-select-tag,lov-ul-tag) into corresponding object exist in objects excel 
  *        file/sheet with the same order that exists by calling AllPageObjectFun function 
  * Input: This Function takes only three inputs 
  *  1- File name  2- Sheet name  3- Data as variable using binding  

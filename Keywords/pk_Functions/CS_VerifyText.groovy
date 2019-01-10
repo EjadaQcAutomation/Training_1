@@ -1,17 +1,24 @@
 package pk_Functions
 
-/* Created By Asmaa Elsayed Ibrahim
+/*Created By  Asmaa Elsayed Ibrahim
  * Date 25/12/2018
- * Usage: Getting all objects (name, attributes and values) existing in excel sheet and return them in list
- * Input: This Function takes inputs as 
- * 1- url   2- userNameObject   3- passwordObject  4- userNameVariable  5- passwordVariable  6- loginObject
- * Output: Output is list of object 
+ * Usage: verify test of message  '
+ * Input: This Function takes inputs 
+ * 1- local Host 
+ * 2- String port 
+ * 3- Server Name 
+ * 4- User Name
+ * 5- Password 
+ * 6- Query 
+ * 7- Object Repository of message
+ * Output: There isn't output for this function 
  */
+
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-
+import java.sql.Connection
 import com.kms.katalon.core.annotation.Keyword
 import com.kms.katalon.core.checkpoint.Checkpoint
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
@@ -22,21 +29,24 @@ import com.kms.katalon.core.testdata.TestData
 import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-
 import internal.GlobalVariable
 
-public class CS_Login {
+public class CS_VerifyText {
+
 
 	@Keyword
-	def LoginFun(TestObject Null, String url ,TestObject userNameObject ,TestObject passwordObject ,String userNameVariable ,String passwordVariable ,TestObject loginObject) {
-		WebUI.openBrowser(url)
+	VerifyTextFun ( String localHost , String port , String serverName , String username, String password , String Query , TestObject object){
 
-		WebUI.setText(userNameObject , userNameVariable )
+		// Call Data base Function to connect DB and get string of query
+		String text =(new pk_Functions.CS_DataBase()).DbaseFun( localHost ,  port ,  serverName ,  username,  password ,  Query)
 
-		WebUI.setText(passwordObject ,  passwordVariable)
+		//Print text that got by Query
+		println text
 
-		WebUI.click(loginObject)
+		WebUI.verifyElementText(object, text)
 	}
 }
+
+
 
 

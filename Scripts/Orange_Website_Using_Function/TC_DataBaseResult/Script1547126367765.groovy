@@ -16,7 +16,7 @@ import internal.GlobalVariable as GlobalVariable
 ArrayList<ArrayList> result = CustomKeywords.'pk_Functions.CS_DataBase.DbaseFun'('192.168.0.197', '1521', 'orcl', 'IPO_MIGRATION', 
     'IPO_MIGRATION', 'Select * from USR where ( USR_ID =  \'000078\')')
 
-println(result)
+
 
 
 
