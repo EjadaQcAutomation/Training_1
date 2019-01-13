@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Orange_JobTitles" time="16" tests="2" failures="0" errors="0">
+   <testsuite name="TS_Orange_JobTitles" tests="2" failures="0" errors="0" time="16" timestamp="2019-01-13 11:19:24" hostname="Ebtehal Gamal Yusuf - LPALXY0199.ejadaalex.local" id="Test Suites/TS_Orange_JobTitles">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Administrator\\git\\Training_1\\Reports\\TS_Orange_JobTitles\\20190113_111921"/>
+         <property name="logFiles" value="C:\\Users\\Administrator\\git\\Training_1\\Reports\\TS_Orange_JobTitles\\20190113_111921\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Ebtehal Gamal Yusuf - LPALXY0199.ejadaalex.local"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.3.51"/>
+         <property name="sessionId" value="125a579993256b69a6cff365059276e0"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Orange_Website/Login Screen" classname="Test Cases/Orange_Website/Login Screen" status="PASSED">
+         <system-out><![CDATA[2019-01-13 11:19:24 - [TEST_CASE][PASSED] - Test Cases/Orange_Website/Login Screen: Test Cases/Orange_Website/Login Screen
+
+2019-01-13 11:19:25 - [TEST_STEP][PASSED] - openBrowser("https://opensource-demo.orangehrmlive.com/index.php/auth/login"): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/index.php/auth/login'
+
+2019-01-13 11:19:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-13 11:19:26 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-01-13 11:19:34 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/index.php/auth/login'
+
+2019-01-13 11:19:34 - [TEST_STEP][PASSED] - setText(findTestObject("Orange/Login/Username"), "Admin"): Text 'Admin' is set on object 'Object Repository/Orange/Login/Username'
+
+2019-01-13 11:19:34 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Orange/Login/Username'
+
+2019-01-13 11:19:34 - [TEST_STEP][PASSED] - setText(findTestObject("Orange/Login/Password"), "admin123"): Text 'admin123' is set on object 'Object Repository/Orange/Login/Password'
+
+2019-01-13 11:19:34 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/Orange/Login/Password'
+
+2019-01-13 11:19:34 - [TEST_STEP][PASSED] - click(findTestObject("Orange/Login/Login")): Object: 'Object Repository/Orange/Login/Login' is clicked on
+
+2019-01-13 11:19:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange/Login/Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Orange_Website/JobTitles_Screen2_TEST" classname="Test Cases/Orange_Website/JobTitles_Screen2_TEST" status="PASSED">
+         <system-out><![CDATA[2019-01-13 11:19:36 - [TEST_CASE][PASSED] - Test Cases/Orange_Website/JobTitles_Screen2_TEST: Test Cases/Orange_Website/JobTitles_Screen2_TEST
+
+2019-01-13 11:19:36 - [TEST_STEP][PASSED] - click(findTestObject("Orange/Navigation/MNULST_Admin")): Object: 'Object Repository/Orange/Navigation/MNULST_Admin' is clicked on
+
+2019-01-13 11:19:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange/Navigation/MNULST_Admin' is clicked on
+
+2019-01-13 11:19:39 - [TEST_STEP][PASSED] - click(findTestObject("Orange/Navigation/MNUITM_Job")): Object: 'Object Repository/Orange/Navigation/MNUITM_Job' is clicked on
+
+2019-01-13 11:19:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange/Navigation/MNUITM_Job' is clicked on
+
+2019-01-13 11:19:39 - [TEST_STEP][PASSED] - click(findTestObject("Orange/Navigation/MNUITM_JobTitles")): Object: 'Object Repository/Orange/Navigation/MNUITM_JobTitles' is clicked on
+
+2019-01-13 11:19:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange/Navigation/MNUITM_JobTitles' is clicked on
+
+2019-01-13 11:19:40 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-01-13 11:19:40 - [TEST_STEP][PASSED] - ExpectedValues = ["Account Clerk", "test test"]: null
+
+2019-01-13 11:19:40 - [TEST_STEP][PASSED] - Columns_row = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2019-01-13 11:19:40 - [TEST_STEP][PASSED] - Table = driver.findElement(By.id("resultTable")): null
+
+2019-01-13 11:19:40 - [TEST_STEP][PASSED] - rows_table = Table.findElements(By.tagName("tr")): null
+
+2019-01-13 11:19:40 - [TEST_STEP][PASSED] - rows_count = rows_table.size(): null
+
+2019-01-13 11:19:40 - [TEST_STEP][PASSED] - for ([row = 1, row < rows_count, (row++)]): null
+
+2019-01-13 11:19:40 - [TEST_STEP][PASSED] - Columns_row = get(row).findElements(By.tagName("td")): null
+
+2019-01-13 11:19:40 - [TEST_STEP][PASSED] - columns_count = Columns_row.size(): null
+
+2019-01-13 11:19:40 - [TEST_STEP][PASSED] - println("Number of cells In Row " + row + " are " + columns_count): null
+
+2019-01-13 11:19:40 - [TEST_STEP][PASSED] - if (get(1).getText() == ExpectedValues[0]): null
+
+2019-01-13 11:19:40 - [TEST_STEP][PASSED] - break: null
+
+2019-01-13 11:19:40 - [TEST_STEP][PASSED] - if (Columns_row == ExpectedValues): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-13 11:19:24 - [TEST_SUITE][PASSED] - TS_Orange_JobTitles: Test Cases/Orange_Website/JobTitles_Screen2_TEST]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

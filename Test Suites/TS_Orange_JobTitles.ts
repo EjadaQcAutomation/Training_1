@@ -19,7 +19,7 @@
    <testCaseLink>
       <guid>535c5eac-6d21-4c55-a11d-56507534df72</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Orange_Website/JobTitles_Screen</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -60,5 +60,11 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
       <testCaseId>Test Cases/Orange_Website/WebatableSearchtest</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2d795bee-5064-4278-84e6-a5b80507b6b7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Orange_Website/JobTitles_Screen2_TEST - Copy</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

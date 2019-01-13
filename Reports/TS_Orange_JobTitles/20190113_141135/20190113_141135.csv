@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_Orange_JobTitles,Chrome 71.0.3578.98,,2019-01-13 14:11:38,2019-01-13 14:11:59,20.782s,PASSED
+,,,,,,
+Test Cases/Orange_Website/Login Screen,Chrome 71.0.3578.98,,2019-01-13 14:11:38,2019-01-13 14:11:54,15.978s,PASSED
+"openBrowser(""https://opensource-demo.orangehrmlive.com/index.php/auth/login"")",Chrome 71.0.3578.98,,2019-01-13 14:11:39,2019-01-13 14:11:50,11.369s,PASSED
+"setText(findTestObject(""Orange/Login/Username""), ""Admin"")",Chrome 71.0.3578.98,,2019-01-13 14:11:50,2019-01-13 14:11:51,0.252s,PASSED
+"setText(findTestObject(""Orange/Login/Password""), ""admin123"")",Chrome 71.0.3578.98,,2019-01-13 14:11:51,2019-01-13 14:11:51,0.150s,PASSED
+"click(findTestObject(""Orange/Login/Login""))",Chrome 71.0.3578.98,,2019-01-13 14:11:51,2019-01-13 14:11:54,3.510s,PASSED
+,,,,,,
+Test Cases/Orange_Website/JobTitles_Screen2_TEST - Copy,Chrome 71.0.3578.98,,2019-01-13 14:11:54,2019-01-13 14:11:59,4.395s,PASSED
+"click(findTestObject(""Orange/Navigation/MNULST_Admin""))",Chrome 71.0.3578.98,,2019-01-13 14:11:55,2019-01-13 14:11:56,1.493s,PASSED
+"click(findTestObject(""Orange/Navigation/MNUITM_Job""))",Chrome 71.0.3578.98,,2019-01-13 14:11:56,2019-01-13 14:11:56,0.119s,PASSED
+"click(findTestObject(""Orange/Navigation/MNUITM_JobTitles""))",Chrome 71.0.3578.98,,2019-01-13 14:11:56,2019-01-13 14:11:58,2.125s,PASSED
+"pk_Functions.CS_ValidateSearchParameters.ValidateSearchParameters(""resultTable"", ["""", ""Account Clerk"", ""test test""], 1)",Chrome 71.0.3578.98,,2019-01-13 14:11:58,2019-01-13 14:11:59,0.306s,PASSED

@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_Orange_JobTitles,,,2019-01-13 11:30:16,2019-01-13 11:30:19,2.952s,FAILED
+,,,,,,
+Test Cases/Orange_Website/Login Screen,,,2019-01-13 11:30:17,2019-01-13 11:30:18,1.663s,FAILED
+"openBrowser(""https://opensource-demo.orangehrmlive.com/index.php/auth/login"")",,,2019-01-13 11:30:17,2019-01-13 11:30:18,0.899s,FAILED
+,,,,,,
+Test Cases/Orange_Website/JobTitles_Screen2_TEST,,,2019-01-13 11:30:18,2019-01-13 11:30:19,0.622s,FAILED
+"click(findTestObject(""Orange/Navigation/MNULST_Admin""))",,,2019-01-13 11:30:19,2019-01-13 11:30:19,0.110s,FAILED
