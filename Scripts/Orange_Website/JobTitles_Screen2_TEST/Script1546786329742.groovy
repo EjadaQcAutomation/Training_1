@@ -22,49 +22,51 @@ WebUI.click(findTestObject('Orange/Navigation/MNULST_Admin'))
 WebUI.click(findTestObject('Orange/Navigation/MNUITM_Job'))
 
 WebUI.click(findTestObject('Orange/Navigation/MNUITM_JobTitles'))
-List<String> Columns_row_text  = new ArrayList<String>()
+
+List<WebElement> Columns_row_text = new ArrayList<String>()
+
 WebDriver driver = DriverFactory.getWebDriver()
+
 'Expected value from Table'
-List ExpectedValues = [	"","Account Clerk" , "test test"];
+List<WebElement> ExpectedValues = ['', 'Account Clerk', 'test test']
+
 List<WebElement> Columns_row
+
 'To locate table'
-WebElement Table = driver.findElement(By.id("resultTable"))
+WebElement Table = driver.findElement(By.id('resultTable'))
+
 'To locate rows of table it will Capture all the rows available in the table'
 List<WebElement> rows_table = Table.findElements(By.tagName('tr'))
+
 'To calculate no of rows In table'
 int rows_count = rows_table.size()
+
 'Loop will execute for all the rows of the table'
-Loop:
-for (int row = 1; row < rows_count; row++) {
-'To locate columns(cells) of that specific row'
-Columns_row = rows_table.get(row).findElements(By.tagName('td'))
+Loop: for (int row = 1; row < rows_count; row++) {
+    'To locate columns(cells) of that specific row'
+    Columns_row = rows_table.get(row).findElements(By.tagName('td'))
 
- 
-'To calculate no of columns(cells) In that specific row'
-int columns_count = Columns_row.size()
- 
-//println((('Number of cells In Row ' + row) + ' are ') + columns_count)
+    'To calculate no of columns(cells) In that specific row'
+    int columns_count = Columns_row.size()
 
- 
-'Checking if Cell text is matching with the expected value'
-if (Columns_row.get(1).getText() == ExpectedValues[1]) {
-	println('Search is working successfullyhghjg')
-	
-	
-	for (int column = 0 ; column < columns_count ;column++){
-		Columns_row_text.add(Columns_row.get(column).getText())
+    //println((('Number of cells In Row ' + row) + ' are ') + columns_count)
+    'Checking if Cell text is matching with the expected value'
+    if (Columns_row.get(1).getText() == (ExpectedValues[1])) {
+        println('Search is working successfullyhghjg')
 
-		
-	}
-	
- if (Columns_row_text == ExpectedValues){
-		println('Search is working successfully')
- break
+        for (int column = 0; column < columns_count; column++) {
+            Columns_row_text.add(Columns_row.get(column).getText())
+        }
+        
+        if (Columns_row_text == ExpectedValues) {
+            println('Search is working successfully')
 
-}
+            break
+        }
+    }
 }
 
+WebUI.acceptAlert()
 
-	
-	
-}
+assert true
+
