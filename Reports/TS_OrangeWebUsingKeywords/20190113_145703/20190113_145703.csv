@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_OrangeWebUsingKeywords,Chrome 71.0.3578.98,,2019-01-13 14:57:05,2019-01-13 14:58:30,1m - 24.845s,FAILED
+,,,,,,
+Test Cases/Orange_Website_Using_Function/TC_SettingLanguage,Chrome 71.0.3578.98,,2019-01-13 14:57:06,2019-01-13 14:57:36,30.280s,PASSED
+pk_Functions.CS_Login.LoginFun,Chrome 71.0.3578.98,,2019-01-13 14:57:06,2019-01-13 14:57:24,17.280s,PASSED
+pk_Functions.CS_StaticListUsingLiTag.LovSearchIndexFun,Chrome 71.0.3578.98,,2019-01-13 14:57:24,2019-01-13 14:57:30,6.089s,PASSED
+pk_Functions.CS_StaticListUsingLiTag.LovSearchIndexFun,Chrome 71.0.3578.98,,2019-01-13 14:57:30,2019-01-13 14:57:35,5.146s,PASSED
+click,Chrome 71.0.3578.98,,2019-01-13 14:57:35,2019-01-13 14:57:35,0.114s,PASSED
+selectOptionByLabel,Chrome 71.0.3578.98,,2019-01-13 14:57:35,2019-01-13 14:57:35,0.105s,PASSED
+click,Chrome 71.0.3578.98,,2019-01-13 14:57:35,2019-01-13 14:57:36,0.785s,PASSED
+refresh,Chrome 71.0.3578.98,,2019-01-13 14:57:36,2019-01-13 14:57:36,0.356s,PASSED
+,,,,,,
+Test Cases/Orange_Website_Using_Function/TC_RecruitmentComponent,Chrome 71.0.3578.98,,2019-01-13 14:57:36,2019-01-13 14:58:02,25.937s,FAILED
+pk_Functions.CS_Login.LoginFun,Chrome 71.0.3578.98,,2019-01-13 14:57:36,2019-01-13 14:57:53,16.380s,PASSED
+click,Chrome 71.0.3578.98,,2019-01-13 14:57:53,2019-01-13 14:57:56,2.622s,PASSED
+pk_Functions.CS_SpecificData.DataFun,Chrome 71.0.3578.98,,2019-01-13 14:57:56,2019-01-13 14:57:57,1.595s,FAILED
+delay,Chrome 71.0.3578.98,,2019-01-13 14:57:57,2019-01-13 14:58:02,5.003s,PASSED
+,,,,,,
+Test Cases/Orange_Website_Using_Function/TC_RecruitmentComponent,Chrome 71.0.3578.98,,2019-01-13 14:58:02,2019-01-13 14:58:30,28.089s,FAILED
+pk_Functions.CS_Login.LoginFun,Chrome 71.0.3578.98,,2019-01-13 14:58:02,2019-01-13 14:58:22,20.264s,PASSED
+click,Chrome 71.0.3578.98,,2019-01-13 14:58:22,2019-01-13 14:58:24,2.027s,PASSED
+pk_Functions.CS_SpecificData.DataFun,Chrome 71.0.3578.98,,2019-01-13 14:58:24,2019-01-13 14:58:25,0.781s,FAILED
+delay,Chrome 71.0.3578.98,,2019-01-13 14:58:25,2019-01-13 14:58:30,5.001s,PASSED

@@ -15,7 +15,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('https://opensource-demo.orangehrmlive.com/index.php/auth/login')
 
-CustomKeywords.'pk_Functions.CS_SpecificData.DataFun'(['username', 'password'], 'TestKeywords/Object', 'Sheet1', [username
+CustomKeywords.'pk_Functions.CS_SpecificPageData.DataFun'(['username', 'password'], 'TestKeywords/Object', 'Sheet1', [username
         , password])
 
 WebUI.click(findTestObject('Orange/Login/Login'))

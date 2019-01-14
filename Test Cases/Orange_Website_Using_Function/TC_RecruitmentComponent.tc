@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_RecruitmentComponent</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a9b29245-de66-4684-bfe8-60877fa03a94</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1077ebfd-d7fe-438e-8160-df1a38f34422</id>
+      <masked>false</masked>
+      <name>CandidateName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a52c49ac-a01f-46dc-91d6-4c3a446f87ad</id>
+      <masked>false</masked>
+      <name>JobTitle</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e7bd51c4-aeb5-439a-b30a-1466af2e6f9e</id>
+      <masked>false</masked>
+      <name>WelcomeAdmin</name>
+   </variable>
+</TestCaseEntity>

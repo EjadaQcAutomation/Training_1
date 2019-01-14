@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_OrangeWebUsingKeywords" time="30" tests="1" failures="0" errors="0">
+   <testsuite name="TS_OrangeWebUsingKeywords" tests="1" failures="0" errors="0" time="30" timestamp="2019-01-13 13:32:15" hostname="aeibrahim - LPALXY0477.ejadaalex.local" id="Test Suites/TS_OrangeWebUsingKeywords">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\aeibrahim\\git\\Training_1\\Reports\\TS_OrangeWebUsingKeywords\\20190113_133213"/>
+         <property name="logFiles" value="C:\\Users\\aeibrahim\\git\\Training_1\\Reports\\TS_OrangeWebUsingKeywords\\20190113_133213\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="aeibrahim - LPALXY0477.ejadaalex.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.6.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.3.64"/>
+         <property name="sessionId" value="65c01482c19259837280c6121449167c"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Orange_Website_Using_Function/TC_SettingLanguage" classname="Test Cases/Orange_Website_Using_Function/TC_SettingLanguage" status="PASSED">
+         <system-out><![CDATA[2019-01-13 13:32:16 - [TEST_CASE][PASSED] - Test Cases/Orange_Website_Using_Function/TC_SettingLanguage: Test Cases/Orange_Website_Using_Function/TC_SettingLanguage
+
+2019-01-13 13:32:16 - [TEST_STEP][PASSED] - pk_Functions.CS_Login.LoginFun: pk_Functions.CS_Login.LoginFun is PASSED
+
+2019-01-13 13:32:16 - [MESSAGE][WARNING] - Test object id is null
+
+2019-01-13 13:32:27 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/index.php/auth/login'
+
+2019-01-13 13:32:27 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Orange/Login/Username'
+
+2019-01-13 13:32:27 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/Orange/Login/Password'
+
+2019-01-13 13:32:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange/Login/Login' is clicked on
+
+2019-01-13 13:32:32 - [MESSAGE][PASSED] - pk_Functions.CS_Login.LoginFun is PASSED
+
+2019-01-13 13:32:32 - [TEST_STEP][PASSED] - pk_Functions.CS_StaticListUsingLiTag.LovSearchIndexFun: pk_Functions.CS_StaticListUsingLiTag.LovSearchIndexFun is PASSED
+
+2019-01-13 13:32:38 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-01-13 13:32:38 - [MESSAGE][PASSED] - pk_Functions.CS_StaticListUsingLiTag.LovSearchIndexFun is PASSED
+
+2019-01-13 13:32:38 - [TEST_STEP][PASSED] - pk_Functions.CS_StaticListUsingLiTag.LovSearchIndexFun: pk_Functions.CS_StaticListUsingLiTag.LovSearchIndexFun is PASSED
+
+2019-01-13 13:32:43 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-01-13 13:32:44 - [MESSAGE][PASSED] - pk_Functions.CS_StaticListUsingLiTag.LovSearchIndexFun is PASSED
+
+2019-01-13 13:32:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Orange/Configuration/BTN_Edit' is clicked on
+
+2019-01-13 13:32:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange/Configuration/BTN_Edit' is clicked on
+
+2019-01-13 13:32:44 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'English' are selected in object 'Object Repository/Orange/Configuration/Language' 
+
+2019-01-13 13:32:44 - [MESSAGE][PASSED] - All options with label 'English' are selected in object 'Object Repository/Orange/Configuration/Language' 
+
+2019-01-13 13:32:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Orange/Configuration/BTN_Save' is clicked on
+
+2019-01-13 13:32:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange/Configuration/BTN_Save' is clicked on
+
+2019-01-13 13:32:45 - [TEST_STEP][PASSED] - refresh: Refresh successfully
+
+2019-01-13 13:32:46 - [MESSAGE][PASSED] - Refresh successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-13 13:32:15 - [TEST_SUITE][PASSED] - TS_OrangeWebUsingKeywords: Test Cases/Orange_Website_Using_Function/TC_SettingLanguage]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
