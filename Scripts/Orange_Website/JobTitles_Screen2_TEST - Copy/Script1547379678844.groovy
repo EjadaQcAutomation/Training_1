@@ -26,3 +26,5 @@ WebUI.click(findTestObject('Orange/Navigation/MNUITM_JobTitles'))
 CustomKeywords.'pk_Functions.CS_ValidateSearchParameters.ValidateSearchParameters'('resultTable', ['ffd', 'Account Clerk'
         , 'test test'], 1)
 
+WebUI.acceptAlert()
+
