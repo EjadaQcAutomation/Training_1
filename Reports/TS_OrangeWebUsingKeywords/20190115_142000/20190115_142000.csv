@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_OrangeWebUsingKeywords,,,2019-01-15 14:20:03,2019-01-15 14:20:04,1.856s,FAILED
+,,,,,,
+Test Cases/Orange_Website_Using_Function/TC_EmailConfiguration,,,2019-01-15 14:20:03,2019-01-15 14:20:04,1.331s,FAILED
+pk_Functions.CS_Login.LoginFun,,,2019-01-15 14:20:04,2019-01-15 14:20:04,0.759s,FAILED
+pk_Functions.CS_StaticListUsingLiTag.LovSearchIndexFun,,,2019-01-15 14:20:04,2019-01-15 14:20:04,0.039s,ERROR

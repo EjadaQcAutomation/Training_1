@@ -80,6 +80,13 @@
       <description></description>
       <id>6e662098-33d3-43c7-89b0-7556bc4c03c9</id>
       <masked>false</masked>
-      <name>variable</name>
+      <name>connection</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b7673e0f-bac7-4abe-a51d-3f6c004907f5</id>
+      <masked>false</masked>
+      <name>emailaddress</name>
    </variable>
 </TestCaseEntity>

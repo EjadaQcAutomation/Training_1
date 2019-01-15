@@ -25,6 +25,7 @@ CustomKeywords.'pk_Functions.CS_StaticListUsingLiTag.LovSearchIndexFun'('//*[@id
 
 WebUI.delay(4)
 
+//CustomKeywords.'pk_Functions.CS_SpecificPageData.DataFun'(['edit', 'sendmethod','sendas','host', 'port'], 'TestKeywords/Orange_EmailConfigurationObjectComponent', 'Sheet1', [edit,sendmethod, sendas,host, port ])
 CustomKeywords.'pk_Functions.CS_AllPageData.AllPageDataFun'('TestKeywords/Orange_EmailConfigurationObjectComponent', 'Sheet1', 
-    [edit, sendas, sendmethod, pathto, testemail, save])
+    [edit, sendas, sendmethod, host, port, Authentication, user, password, testemail, connection, emailaddress, save])
 

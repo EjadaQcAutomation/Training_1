@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_OrangeWebUsingKeywords" time="22" tests="1" failures="0" errors="0">
+   <testsuite name="TS_OrangeWebUsingKeywords" tests="1" failures="0" errors="0" time="22" timestamp="2019-01-15 16:39:06" hostname="aeibrahim - LPALXY0477.ejadaalex.local" id="Test Suites/TS_OrangeWebUsingKeywords">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\aeibrahim\\git\\Training_1\\Reports\\TS_OrangeWebUsingKeywords\\20190115_163904"/>
+         <property name="logFiles" value="C:\\Users\\aeibrahim\\git\\Training_1\\Reports\\TS_OrangeWebUsingKeywords\\20190115_163904\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="aeibrahim - LPALXY0477.ejadaalex.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.6.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.3.64"/>
+         <property name="sessionId" value="208715099e4f78d0ef77f6180097e433"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Orange_Website_Using_Function/Tc_TestOrangeWebUsingKeywords" classname="Test Cases/Orange_Website_Using_Function/Tc_TestOrangeWebUsingKeywords" status="PASSED">
+         <system-out><![CDATA[2019-01-15 16:39:07 - [TEST_CASE][PASSED] - Test Cases/Orange_Website_Using_Function/Tc_TestOrangeWebUsingKeywords: Test Cases/Orange_Website_Using_Function/Tc_TestOrangeWebUsingKeywords
+
+2019-01-15 16:39:07 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/index.php/auth/login'
+
+2019-01-15 16:39:15 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/index.php/auth/login'
+
+2019-01-15 16:39:15 - [TEST_STEP][PASSED] - pk_Functions.CS_SpecificPageData.DataFun: pk_Functions.CS_SpecificPageData.DataFun is PASSED
+
+2019-01-15 16:39:16 - [MESSAGE][PASSED] - Text 'Admin' is set on object ''
+
+2019-01-15 16:39:16 - [MESSAGE][PASSED] - Text 'admin123' is set on object ''
+
+2019-01-15 16:39:16 - [MESSAGE][PASSED] - pk_Functions.CS_SpecificPageData.DataFun is PASSED
+
+2019-01-15 16:39:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Orange/Login/Login' is clicked on
+
+2019-01-15 16:39:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange/Login/Login' is clicked on
+
+2019-01-15 16:39:18 - [TEST_STEP][PASSED] - pk_Functions.CS_StaticListUsingLiTag.LovMatchItemsFun: pk_Functions.CS_StaticListUsingLiTag.LovMatchItemsFun is PASSED
+
+2019-01-15 16:39:23 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-01-15 16:39:24 - [MESSAGE][PASSED] - pk_Functions.CS_StaticListUsingLiTag.LovMatchItemsFun is PASSED
+
+2019-01-15 16:39:24 - [TEST_STEP][PASSED] - pk_Functions.CS_StaticListUsingLiTag.LovSearchFun: pk_Functions.CS_StaticListUsingLiTag.LovSearchFun is PASSED
+
+2019-01-15 16:39:28 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-01-15 16:39:29 - [MESSAGE][PASSED] - pk_Functions.CS_StaticListUsingLiTag.LovSearchFun is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-15 16:39:06 - [TEST_SUITE][PASSED] - TS_OrangeWebUsingKeywords: Test Cases/Orange_Website_Using_Function/Tc_TestOrangeWebUsingKeywords]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

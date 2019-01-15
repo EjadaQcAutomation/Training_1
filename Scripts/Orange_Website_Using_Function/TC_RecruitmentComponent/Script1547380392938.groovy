@@ -19,7 +19,7 @@ CustomKeywords.'pk_Functions.CS_Login.LoginFun'(findTestObject(null), 'https://o
 
 WebUI.click(findTestObject('Orange/Navigation/MNUITM_Recruitment'))
 
-CustomKeywords.'pk_Functions.CS_SpecificPageData.DataFun'(['JobTitle', 'CandidateName', 'WelcomeAdmin'], 'TestKeywords/AllObjectComponent', 
+CustomKeywords.'pk_Functions.CS_SpecificPageData.DataFun'(['JobTitle', 'CandidateName', 'WelcomeAdmin'], 'TestKeywords/Orange_RecruitmentObjectComponent', 
     'Sheet1', [JobTitle, CandidateName, WelcomeAdmin])
 
 WebUI.delay(5)

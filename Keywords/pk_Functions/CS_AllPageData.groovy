@@ -89,6 +89,25 @@ public class CS_AllPageData {
 			}else if ((data.getValue(2, column)=="check")&&(fieldsData[(column-1)]=="chk")){
 
 				WebUI.check(listObject[(column - 1)])
+
+			}else if (data.getValue(2, column)=="radio-group"){
+				// Using driver
+				WebDriver driver = DriverFactory.getWebDriver()
+				// xpath to  li/input
+				List<WebElement> allRadioInputsWithValueAttribute= driver.findElements(By.xpath(data.getValue(4 , column)+"/input"));
+				//List<WebElement> allRadioInputsWithLable= driver.findElements(By.xpath(data.getValue(4 , column))+"/label");
+				if (allRadioInputsWithValueAttribute){
+					for(int  itemNo=1 ; itemNo<=allRadioInputsWithValueAttribute.size() ; itemNo++){
+						if (allRadioInputsWithValueAttribute[itemNo-1].getAttribute("value").equals(fieldsData[(column-1)])) {
+							allRadioInputsWithValueAttribute[itemNo-1].click(); // Click the desired option
+							// Once found desired text then break the for loop
+							break;
+						}
+					}
+				}
+
+
+
 			}
 
 		}

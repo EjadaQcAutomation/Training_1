@@ -15,8 +15,8 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('https://opensource-demo.orangehrmlive.com/index.php/auth/login')
 
-CustomKeywords.'pk_Functions.CS_SpecificPageData.DataFun'(['username', 'password'], 'TestKeywords/Object', 'Sheet1', [username
-        , password])
+CustomKeywords.'pk_Functions.CS_SpecificPageData.DataFun'(['username', 'password'], 'TestKeywords/Orange_LoginObjectComponent', 
+    'Sheet1', [username, password])
 
 WebUI.click(findTestObject('Orange/Login/Login'))
 
@@ -25,4 +25,6 @@ CustomKeywords.'pk_Functions.CS_StaticListUsingLiTag.LovMatchItemsFun'('//*[@id=
 
 CustomKeywords.'pk_Functions.CS_StaticListUsingLiTag.LovSearchFun'('//*[@id="menu_admin_Job"]', '//*[@id="wrapper"]/div[2]/ul/li[1]/ul/li[2]/ul/li', 
     'Job Titles')
+
+CustomKeywords.'pk_Functions.CS_StaticListUsingLiTag.LovSearchIndexFun'('//*[@id="menu_admin_Job"]', '//*[@id="wrapper"]/div[2]/ul/li[1]/ul/li[2]/ul/li',2)
 
