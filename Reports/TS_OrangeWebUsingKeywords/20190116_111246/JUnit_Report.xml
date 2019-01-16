@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_OrangeWebUsingKeywords" time="26" tests="1" failures="0" errors="0">
+   <testsuite name="TS_OrangeWebUsingKeywords" tests="1" failures="0" errors="0" time="26" timestamp="2019-01-16 11:12:48" hostname="aeibrahim - LPALXY0477.ejadaalex.local" id="Test Suites/TS_OrangeWebUsingKeywords">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\aeibrahim\\git\\Training_1\\Reports\\TS_OrangeWebUsingKeywords\\20190116_111246"/>
+         <property name="logFiles" value="C:\\Users\\aeibrahim\\git\\Training_1\\Reports\\TS_OrangeWebUsingKeywords\\20190116_111246\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="aeibrahim - LPALXY0477.ejadaalex.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.6.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.3.64"/>
+         <property name="sessionId" value="70e113216edd167b8281aa035cff5fac"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Orange_Website_Using_Function/TC_TestingFunListByLiTag" classname="Test Cases/Orange_Website_Using_Function/TC_TestingFunListByLiTag" status="PASSED">
+         <system-out><![CDATA[2019-01-16 11:12:49 - [TEST_CASE][PASSED] - Test Cases/Orange_Website_Using_Function/TC_TestingFunListByLiTag: Test Cases/Orange_Website_Using_Function/TC_TestingFunListByLiTag
+
+2019-01-16 11:12:49 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/index.php/auth/login'
+
+2019-01-16 11:12:56 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/index.php/auth/login'
+
+2019-01-16 11:12:56 - [TEST_STEP][PASSED] - pk_Functions.CS_SpecificPageData.DataFun: pk_Functions.CS_SpecificPageData.DataFun is PASSED
+
+2019-01-16 11:12:57 - [MESSAGE][PASSED] - Text 'Admin' is set on object ''
+
+2019-01-16 11:12:57 - [MESSAGE][PASSED] - Text 'admin123' is set on object ''
+
+2019-01-16 11:12:57 - [MESSAGE][PASSED] - pk_Functions.CS_SpecificPageData.DataFun is PASSED
+
+2019-01-16 11:12:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Orange/Login/Login' is clicked on
+
+2019-01-16 11:12:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange/Login/Login' is clicked on
+
+2019-01-16 11:12:59 - [TEST_STEP][PASSED] - pk_Functions.CS_StaticListUsingLiTag.LovMatchItemsFun: pk_Functions.CS_StaticListUsingLiTag.LovMatchItemsFun is PASSED
+
+2019-01-16 11:13:05 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-01-16 11:13:05 - [MESSAGE][PASSED] - pk_Functions.CS_StaticListUsingLiTag.LovMatchItemsFun is PASSED
+
+2019-01-16 11:13:05 - [TEST_STEP][PASSED] - pk_Functions.CS_StaticListUsingLiTag.LovSearchFun: pk_Functions.CS_StaticListUsingLiTag.LovSearchFun is PASSED
+
+2019-01-16 11:13:09 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-01-16 11:13:10 - [MESSAGE][PASSED] - pk_Functions.CS_StaticListUsingLiTag.LovSearchFun is PASSED
+
+2019-01-16 11:13:10 - [TEST_STEP][PASSED] - pk_Functions.CS_StaticListUsingLiTag.LovSearchIndexFun: pk_Functions.CS_StaticListUsingLiTag.LovSearchIndexFun is PASSED
+
+2019-01-16 11:13:14 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-01-16 11:13:15 - [MESSAGE][PASSED] - pk_Functions.CS_StaticListUsingLiTag.LovSearchIndexFun is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-16 11:12:48 - [TEST_SUITE][PASSED] - TS_OrangeWebUsingKeywords: Test Cases/Orange_Website_Using_Function/TC_TestingFunListByLiTag]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

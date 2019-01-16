@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Tc_TestOrangeWebUsingKeywords</name>
+   <name>TC_TestingFunListByLiTag</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>cae345a5-5380-4954-ac0f-8c1cb0ec0a35</testCaseGuid>
