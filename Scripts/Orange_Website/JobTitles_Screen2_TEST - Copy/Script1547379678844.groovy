@@ -23,29 +23,8 @@ WebUI.click(findTestObject('Orange/Navigation/MNUITM_Job'))
 
 WebUI.click(findTestObject('Orange/Navigation/MNUITM_JobTitles'))
 
-'Add New Record\r\n'
-WebUI.click(findTestObject('Orange/JobTitles/BTN_Add'))
+CustomKeywords.'pk_Functions.CS_ValidateSearchParameters.ValidateSearchParameters'('resultTable', ['ffd', 'Account Clerk'
+        , 'test test'], 1)
 
-'Data Entry'
-CustomKeywords.'pk_Functions.CS_AllPageData.AllPageDataFun'('Orange_JobTitles_ObjectRepository', 'Sheet1', [jobtitles, jobdescription
-        , notes])
-
-WebUI.delay(1)
-
-// Custom Keyword used because 'Upload File' or 'Send keys' won't work for this test case
-CustomKeywords.'pk_Functions.CS_UploadFiles.uploadFile'(findTestObject('Orange/JobTitles/BTN_ChooseFile'), '"D:\\Ebtehal_QC\\Extras\\logo.jpg"')
-
-Thread.sleep(2000 //2500, 3000, other might work for you
-    )
-
-WebUI.click(findTestObject('Orange/JobTitles/BTN_Save'))
-
-WebUI.delay(1)
-
-WebUI.verifyElementPresent(findTestObject('Orange/JobTitles/MSG_SuccessValidationMessage'), 0)
-
-WebUI.delay(2)
-
-CustomKeywords.'pk_Functions.CS_SelectRecordFromWebtable.SelectRecordFromWebtableFun'('resultTable', 'Qc Engineer_Ebtehal', 
-    1, 1)
+WebUI.acceptAlert()
 

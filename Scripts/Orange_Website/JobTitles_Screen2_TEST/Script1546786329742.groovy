@@ -23,42 +23,50 @@ WebUI.click(findTestObject('Orange/Navigation/MNUITM_Job'))
 
 WebUI.click(findTestObject('Orange/Navigation/MNUITM_JobTitles'))
 
-'Expected value from Table'
-String ExpectedValue = 'Sales Executive'
+List<WebElement> Columns_row_text = new ArrayList<String>()
 
-WebDriver ndriver = DriverFactory.getWebDriver()
+WebDriver driver = DriverFactory.getWebDriver()
+
+'Expected value from Table'
+List<WebElement> ExpectedValues = ['', 'Account Clerk', 'test test']
+
+List<WebElement> Columns_row
 
 'To locate table'
-WebElement Table = ndriver.findElement(By.id('resultTable'))
+WebElement Table = driver.findElement(By.id('resultTable'))
 
-'To locate rows of table it will Capture all the rows available in the table '
-List<WebElement> Rows = Table.findElements(By.tagName('tr'))
+'To locate rows of table it will Capture all the rows available in the table'
+List<WebElement> rows_table = Table.findElements(By.tagName('tr'))
 
-println('No. of rows: ' + Rows.size())
-
-'Find a matching text in a table and performing action'
+'To calculate no of rows In table'
+int rows_count = rows_table.size()
 
 'Loop will execute for all the rows of the table'
-table: for (int i = 0; i < Rows.size(); i++) {
+Loop: for (int row = 1; row < rows_count; row++) {
     'To locate columns(cells) of that specific row'
-    if (Rows.get(i).findElements(By.tagName('th'))) {
-        List<WebElement> Cols = Rows.get(i).findElements(By.tagName('th')) // for (int j = 0; j < Cols.size(); j++) {
-        //Cols.get(4).findElement(By.tagName('a')).click()
-    } else if (Rows.get(i).findElements(By.tagName('td'))) {
-        List<WebElement> Cols = Rows.get(i).findElements(By.tagName('td'))
+    Columns_row = rows_table.get(row).findElements(By.tagName('td'))
 
-        println('No. of colns: ' + Cols.size())
+    'To calculate no of columns(cells) In that specific row'
+    int columns_count = Columns_row.size()
 
-        'Verifying the expected text in the each cell'
-        if (Cols.get(1).getText().equalsIgnoreCase(ExpectedValue)) {
-            'To locate anchor in the expected value matched row to perform action'
-			WebUI.verifyElementPresent(Cols.get(1).findElement(By.tagName('a')), 0)
-			Cols.get(1).findElement(By.tagName('a')).click()
+    //println((('Number of cells In Row ' + row) + ' are ') + columns_count)
+    'Checking if Cell text is matching with the expected value'
+    if (Columns_row.get(1).getText() == (ExpectedValues[1])) {
+        println('Search is working successfullyhghjg')
+
+        for (int column = 0; column < columns_count; column++) {
+            Columns_row_text.add(Columns_row.get(column).getText())
+        }
+        
+        if (Columns_row_text == ExpectedValues) {
+            println('Search is working successfully')
 
             break
         }
     }
 }
 
+WebUI.acceptAlert()
 
+assert true
 

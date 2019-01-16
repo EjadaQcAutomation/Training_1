@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_Orange_JobTitles,Chrome 71.0.3578.98,,2019-01-13 11:19:24,2019-01-13 11:19:40,16.350s,PASSED
+,,,,,,
+Test Cases/Orange_Website/Login Screen,Chrome 71.0.3578.98,,2019-01-13 11:19:24,2019-01-13 11:19:36,11.731s,PASSED
+"openBrowser(""https://opensource-demo.orangehrmlive.com/index.php/auth/login"")",Chrome 71.0.3578.98,,2019-01-13 11:19:25,2019-01-13 11:19:34,9.019s,PASSED
+"setText(findTestObject(""Orange/Login/Username""), ""Admin"")",Chrome 71.0.3578.98,,2019-01-13 11:19:34,2019-01-13 11:19:34,0.292s,PASSED
+"setText(findTestObject(""Orange/Login/Password""), ""admin123"")",Chrome 71.0.3578.98,,2019-01-13 11:19:34,2019-01-13 11:19:34,0.151s,PASSED
+"click(findTestObject(""Orange/Login/Login""))",Chrome 71.0.3578.98,,2019-01-13 11:19:34,2019-01-13 11:19:36,1.583s,PASSED
+,,,,,,
+Test Cases/Orange_Website/JobTitles_Screen2_TEST,Chrome 71.0.3578.98,,2019-01-13 11:19:36,2019-01-13 11:19:40,4.203s,PASSED
+"click(findTestObject(""Orange/Navigation/MNULST_Admin""))",Chrome 71.0.3578.98,,2019-01-13 11:19:36,2019-01-13 11:19:39,2.430s,PASSED
+"click(findTestObject(""Orange/Navigation/MNUITM_Job""))",Chrome 71.0.3578.98,,2019-01-13 11:19:39,2019-01-13 11:19:39,0.114s,PASSED
+"click(findTestObject(""Orange/Navigation/MNUITM_JobTitles""))",Chrome 71.0.3578.98,,2019-01-13 11:19:39,2019-01-13 11:19:40,0.827s,PASSED
+driver = getWebDriver(),Chrome 71.0.3578.98,,2019-01-13 11:19:40,2019-01-13 11:19:40,0.018s,PASSED
+"ExpectedValues = [""Account Clerk"", ""test test""]",Chrome 71.0.3578.98,Expected value from Table,2019-01-13 11:19:40,2019-01-13 11:19:40,0.000s,PASSED
+Columns_row = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 71.0.3578.98,,2019-01-13 11:19:40,2019-01-13 11:19:40,0.003s,PASSED
+"Table = driver.findElement(By.id(""resultTable""))",Chrome 71.0.3578.98,To locate table,2019-01-13 11:19:40,2019-01-13 11:19:40,0.071s,PASSED
+"rows_table = Table.findElements(By.tagName(""tr""))",Chrome 71.0.3578.98,To locate rows of table it will Capture all the rows available in the table,2019-01-13 11:19:40,2019-01-13 11:19:40,0.065s,PASSED
+rows_count = rows_table.size(),Chrome 71.0.3578.98,To calculate no of rows In table,2019-01-13 11:19:40,2019-01-13 11:19:40,0.003s,PASSED
+"for ([row = 1, row < rows_count, (row++)])",Chrome 71.0.3578.98,Loop will execute for all the rows of the table,2019-01-13 11:19:40,2019-01-13 11:19:40,0.205s,PASSED
+if (Columns_row == ExpectedValues),Chrome 71.0.3578.98,,2019-01-13 11:19:40,2019-01-13 11:19:40,0.000s,PASSED
