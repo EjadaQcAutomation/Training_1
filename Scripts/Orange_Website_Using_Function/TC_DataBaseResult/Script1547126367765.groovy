@@ -12,7 +12,7 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-
+// getting result of data base 
 ArrayList<ArrayList> result = CustomKeywords.'pk_Functions.CS_DataBase.DbaseFun'('192.168.0.197', '1521', 'orcl', 'IPO_MIGRATION', 
     'IPO_MIGRATION', 'Select * from USR ')
 
