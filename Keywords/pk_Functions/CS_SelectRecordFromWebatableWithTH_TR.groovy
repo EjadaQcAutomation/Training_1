@@ -51,47 +51,44 @@ public class CS_SelectRecordFromWebatableWithTH_TR {
 	@Keyword
 	SelectRecordFromWebtableFunTH_TD (String webtableId , String expectedValue , int expectedValueColumn , int actionButtonColumn ) {
 		'Expected value from Table'
-		
+
 		WebDriver ndriver = DriverFactory.getWebDriver()
-		
+
 		'To locate table'
 		WebElement Table = ndriver.findElement(By.id(webtableId))
-		
+
 		'To locate rows of table it will Capture all the rows available in the table '
 		List<WebElement> Rows = Table.findElements(By.tagName('tr'))
-		
+
 		println('No. of rows: ' + Rows.size())
-		
+
 		'Find a matching text in a table and performing action'
-		
+
 		'Loop will execute for all the rows of the table'
 		table: for (int i = 0; i < Rows.size(); i++) {
 			'To locate columns(cells) of that specific row'
-			
-			if(Rows.get(i).findElements(By.tagName('th')))
-		
-			{  List<WebElement> Cols = Rows.get(i).findElements(By.tagName('th'))
-				
-				
+
+			if(Rows.get(i).findElements(By.tagName('th'))) {
+				List<WebElement> Cols = Rows.get(i).findElements(By.tagName('th'))
 			}
-		   
-		  else if (Rows.get(i).findElements(By.tagName('td'))){
-			List<WebElement> Cols  = Rows.get(i).findElements(By.tagName('td'))
-			println('No. of colns: ' + Cols.size())
-			// for (int j = 0; j < Cols.size(); j++) {
-				 'Verifying the expected text in the each cell'
-				 if (Cols.get(expectedValueColumn).getText().equalsIgnoreCase(expectedValue)) {
-					 'To locate anchor in the expected value matched row to perform action'
-					 //Cols.get(4).findElement(By.tagName('a')).click()
-					 
-					 Cols.get(actionButtonColumn).findElement(By.tagName('a')).click() ;
-					 
+
+			else if (Rows.get(i).findElements(By.tagName('td'))){
+				List<WebElement> Cols  = Rows.get(i).findElements(By.tagName('td'))
+				println('No. of colns: ' + Cols.size())
+				// for (int j = 0; j < Cols.size(); j++) {
+				'Verifying the expected text in the each cell'
+				if (Cols.get(expectedValueColumn).getText().equalsIgnoreCase(expectedValue)) {
+					'To locate anchor in the expected value matched row to perform action'
+					//Cols.get(4).findElement(By.tagName('a')).click()
+
+					Cols.get(actionButtonColumn).findElement(By.tagName('a')).click() ;
+
 					break
 				}
-		  }
-			
+			}
+
 		}
-		
+
 	}
-			
+
 }
