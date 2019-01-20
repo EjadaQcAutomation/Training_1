@@ -25,14 +25,15 @@ WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/index.php/admin/v
 
 WebUI.click(findTestObject('Orange/Locations/btn_Add'))
 
-WebUI.selectOptionByValue(findTestObject('Orange/Locations/Lov_country'), 'EG', false)
-
 'Load data'
 CustomKeywords.'pk_Functions.CS_AllPageData.AllPageDataFun'('Orange/Location_ObjectRepository', 'Sheet1', [Name, StateProvince
-        , City, Address, ZipPostalCode, Phone, Fax, Notes])
+        , City, Address, ZipPostalCode, Phone, Fax, Notes, Country])
 
 'save data'
 WebUI.click(findTestObject('Orange/Locations/btn_Save'))
+
+CustomKeywords.'pk_Functions.CS_ValidateSearchParameters.ValidateSearchParameters'('resultTable', ['', Name, City, 'Egypt'
+        , Phone, '0'], 1)
 
 'click view'
 CustomKeywords.'pk_Functions.CS_SelectRecordFromWebtable.SelectRecordFromWebtableFun'('tableWrapper', 'Azza', 1, 1)
@@ -40,9 +41,7 @@ CustomKeywords.'pk_Functions.CS_SelectRecordFromWebtable.SelectRecordFromWebtabl
 WebUI.click(findTestObject('Orange/Locations/btn_Edit'))
 
 CustomKeywords.'pk_Functions.CS_AllPageData.AllPageDataFun'('Orange/Location_ObjectRepository', 'Sheet1', [Name_Update, StateProvince_Update
-        , City_Update, Address_Update, ZipPostalCode_Update, Phone_Update, Fax_Update, Notes_Update])
-
-WebUI.selectOptionByValue(findTestObject('Orange/Locations/Lov_country'), 'EG', false)
+        , City_Update, Address_Update, ZipPostalCode_Update, Phone_Update, Fax_Update, Notes_Update, CountryUpdate])
 
 'save data'
 WebUI.click(findTestObject('Orange/Locations/btn_Save'))
@@ -51,5 +50,7 @@ WebUI.click(findTestObject('Orange/Locations/btn_Save'))
 CustomKeywords.'pk_Functions.CS_SelectRecordFromWebtable.SelectRecordFromWebtableFun'('tableWrapper', 'Azza3', 1, 1)
 
 'check view mode'
-CustomKeywords.'pk_Functions.CS_VerifyPageData.CheckMatching'('Orange/Location_ObjectRepository', 'Sheet1', 'Orange/Location_Data')
+CustomKeywords.'pk_Functions.CS_VerifyPageData.CheckMatching'('Orange/Location_ObjectRepository', 'Sheet1', 'Orange/Location_UpdateData')
+
+
 

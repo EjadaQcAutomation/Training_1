@@ -72,7 +72,7 @@ public class CS_AllPageData {
 				//if type equals LOV by select tag
 			}else if (data.getValue(2, column)=="lov-select-tag"){
 				//select by label
-				WebUI.selectOptionByLabel(listObject[(column - 1)],fieldsData[(column-1)], false)
+				WebUI.selectOptionByValue(listObject[(column - 1)],fieldsData[(column-1)], false)
 				//if type equals LOV by UL tag
 			}else if (data.getValue(2, column)=="lov-ul-tag"){
 				// get value of attribute which indicating the value of X-path for drop down Object and Container Object separating by "&&&"
