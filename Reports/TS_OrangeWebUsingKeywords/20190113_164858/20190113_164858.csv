@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_OrangeWebUsingKeywords,Chrome 71.0.3578.98,,2019-01-13 16:49:03,2019-01-13 16:49:48,45.204s,ERROR
+,,,,,,
+Test Cases/Orange_Website_Using_Function/TC_RecruitmentComponent,Chrome 71.0.3578.98,,2019-01-13 16:49:03,2019-01-13 16:49:28,24.864s,ERROR
+pk_Functions.CS_Login.LoginFun,Chrome 71.0.3578.98,,2019-01-13 16:49:04,2019-01-13 16:49:25,21.630s,PASSED
+click,Chrome 71.0.3578.98,,2019-01-13 16:49:25,2019-01-13 16:49:27,1.766s,PASSED
+pk_Functions.CS_SpecificData.DataFun,Chrome 71.0.3578.98,,2019-01-13 16:49:27,2019-01-13 16:49:28,1.014s,ERROR
+,,,,,,
+Test Cases/Orange_Website_Using_Function/TC_RecruitmentComponent,Chrome 71.0.3578.98,,2019-01-13 16:49:28,2019-01-13 16:49:48,19.823s,ERROR
+pk_Functions.CS_Login.LoginFun,Chrome 71.0.3578.98,,2019-01-13 16:49:28,2019-01-13 16:49:46,17.970s,PASSED
+click,Chrome 71.0.3578.98,,2019-01-13 16:49:46,2019-01-13 16:49:48,1.768s,PASSED
+pk_Functions.CS_SpecificData.DataFun,Chrome 71.0.3578.98,,2019-01-13 16:49:48,2019-01-13 16:49:48,0.066s,ERROR

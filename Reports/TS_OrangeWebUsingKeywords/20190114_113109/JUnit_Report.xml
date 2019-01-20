@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_OrangeWebUsingKeywords" time="50" tests="2" failures="0" errors="0">
+   <testsuite name="TS_OrangeWebUsingKeywords" tests="2" failures="0" errors="0" time="50" timestamp="2019-01-14 11:31:11" hostname="aeibrahim - LPALXY0477.ejadaalex.local" id="Test Suites/TS_OrangeWebUsingKeywords">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\aeibrahim\\git\\Training_1\\Reports\\TS_OrangeWebUsingKeywords\\20190114_113109"/>
+         <property name="logFiles" value="C:\\Users\\aeibrahim\\git\\Training_1\\Reports\\TS_OrangeWebUsingKeywords\\20190114_113109\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="aeibrahim - LPALXY0477.ejadaalex.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.6.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.3.64"/>
+         <property name="sessionId" value="371f5152dbef02f4812ae53f69e4dc35"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Orange_Website_Using_Function/TC_RecruitmentComponent" classname="Test Cases/Orange_Website_Using_Function/TC_RecruitmentComponent" status="PASSED">
+         <system-out><![CDATA[2019-01-14 11:31:11 - [TEST_CASE][PASSED] - Test Cases/Orange_Website_Using_Function/TC_RecruitmentComponent: Test Cases/Orange_Website_Using_Function/TC_RecruitmentComponent
+
+2019-01-14 11:31:12 - [TEST_STEP][PASSED] - pk_Functions.CS_Login.LoginFun: pk_Functions.CS_Login.LoginFun is PASSED
+
+2019-01-14 11:31:12 - [MESSAGE][WARNING] - Test object id is null
+
+2019-01-14 11:31:22 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/index.php/auth/login'
+
+2019-01-14 11:31:23 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Orange/Login/Username'
+
+2019-01-14 11:31:23 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/Orange/Login/Password'
+
+2019-01-14 11:31:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange/Login/Login' is clicked on
+
+2019-01-14 11:31:25 - [MESSAGE][PASSED] - pk_Functions.CS_Login.LoginFun is PASSED
+
+2019-01-14 11:31:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Orange/Navigation/MNUITM_Recruitment' is clicked on
+
+2019-01-14 11:31:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange/Navigation/MNUITM_Recruitment' is clicked on
+
+2019-01-14 11:31:29 - [TEST_STEP][PASSED] - pk_Functions.CS_SpecificPageData.DataFun: pk_Functions.CS_SpecificPageData.DataFun is PASSED
+
+2019-01-14 11:31:30 - [MESSAGE][PASSED] - All options with label 'Sales Manager' are selected in object '' 
+
+2019-01-14 11:31:30 - [MESSAGE][PASSED] - Text 'airamadan' is set on object ''
+
+2019-01-14 11:31:35 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-01-14 11:31:35 - [MESSAGE][PASSED] - pk_Functions.CS_SpecificPageData.DataFun is PASSED
+
+2019-01-14 11:31:35 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-01-14 11:31:40 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Orange_Website_Using_Function/TC_RecruitmentComponent" classname="Test Cases/Orange_Website_Using_Function/TC_RecruitmentComponent" status="PASSED">
+         <system-out><![CDATA[2019-01-14 11:31:40 - [TEST_CASE][PASSED] - Test Cases/Orange_Website_Using_Function/TC_RecruitmentComponent: Test Cases/Orange_Website_Using_Function/TC_RecruitmentComponent
+
+2019-01-14 11:31:40 - [TEST_STEP][PASSED] - pk_Functions.CS_Login.LoginFun: pk_Functions.CS_Login.LoginFun is PASSED
+
+2019-01-14 11:31:40 - [MESSAGE][WARNING] - Test object id is null
+
+2019-01-14 11:31:40 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-01-14 11:31:46 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/index.php/auth/login'
+
+2019-01-14 11:31:47 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Orange/Login/Username'
+
+2019-01-14 11:31:47 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/Orange/Login/Password'
+
+2019-01-14 11:31:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange/Login/Login' is clicked on
+
+2019-01-14 11:31:49 - [MESSAGE][PASSED] - pk_Functions.CS_Login.LoginFun is PASSED
+
+2019-01-14 11:31:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Orange/Navigation/MNUITM_Recruitment' is clicked on
+
+2019-01-14 11:31:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange/Navigation/MNUITM_Recruitment' is clicked on
+
+2019-01-14 11:31:51 - [TEST_STEP][PASSED] - pk_Functions.CS_SpecificPageData.DataFun: pk_Functions.CS_SpecificPageData.DataFun is PASSED
+
+2019-01-14 11:31:51 - [MESSAGE][PASSED] - All options with label 'Sales Executive' are selected in object '' 
+
+2019-01-14 11:31:51 - [MESSAGE][PASSED] - Text 'asmaa' is set on object ''
+
+2019-01-14 11:31:56 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-01-14 11:31:56 - [MESSAGE][PASSED] - pk_Functions.CS_SpecificPageData.DataFun is PASSED
+
+2019-01-14 11:31:56 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-01-14 11:32:01 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-14 11:31:11 - [TEST_SUITE][PASSED] - TS_OrangeWebUsingKeywords: Test Cases/Orange_Website_Using_Function/TC_RecruitmentComponent]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

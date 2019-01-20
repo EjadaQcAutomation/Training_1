@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Orange_Locations" time="34" tests="0" failures="0" errors="1">
+   <testsuite name="TS_Orange_Locations" tests="0" failures="0" errors="1" time="34" timestamp="2019-01-17 16:27:17" hostname="aeibrahim - LPALXY0477.ejadaalex.local" id="Test Suites/TS_Orange_Locations">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\aeibrahim\\git\\Training_1\\Reports\\TS_Orange_Locations\\20190117_162715"/>
+         <property name="logFiles" value="C:\\Users\\aeibrahim\\git\\Training_1\\Reports\\TS_Orange_Locations\\20190117_162715\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="aeibrahim - LPALXY0477.ejadaalex.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.6.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.3.64"/>
+         <property name="sessionId" value="28423f4e119f265cf982a67d9a308d12"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Orange_Website/TC_Locations_Multi_Scenarios" classname="Test Cases/Orange_Website/TC_Locations_Multi_Scenarios" status="ERROR">
+         <error type="ERROR" message="Test Cases/Orange_Website/TC_Locations_Multi_Scenarios FAILED because (of) (Stack trace: java.lang.Error: Unresolved compilation problems: 
+	Groovy:expecting '}', found ',' @ line 34, column 60.
+	Groovy:expecting '}', found ',' @ line 34, column 60.
+	Groovy:unexpected token: } @ line 37, column 1.
+
+	at pk_Functions.CS_VerifyPageData.&lt;init>(CS_VerifyPageData.groovy:34)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:42)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at Script1546786352502.run(Script1546786352502.groovy:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1547735235269.run(TempTestSuite1547735235269.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2019-01-17 16:27:18 - [TEST_CASE][ERROR] - Test Cases/Orange_Website/TC_Locations_Multi_Scenarios: Test Cases/Orange_Website/TC_Locations_Multi_Scenarios FAILED because (of) (Stack trace: java.lang.Error: Unresolved compilation problems: 
+	Groovy:expecting '}', found ',' @ line 34, column 60.
+	Groovy:expecting '}', found ',' @ line 34, column 60.
+	Groovy:unexpected token: } @ line 37, column 1.
+
+	at pk_Functions.CS_VerifyPageData.<init>(CS_VerifyPageData.groovy:34)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:42)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at Script1546786352502.run(Script1546786352502.groovy:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1547735235269.run(TempTestSuite1547735235269.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2019-01-17 16:27:18 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/index.php/auth/login'
+
+2019-01-17 16:27:26 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/index.php/auth/login'
+
+2019-01-17 16:27:26 - [TEST_STEP][PASSED] - setText: Text 'Admin' is set on object 'Object Repository/Orange/Login/Username'
+
+2019-01-17 16:27:27 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Orange/Login/Username'
+
+2019-01-17 16:27:27 - [TEST_STEP][PASSED] - setText: Text 'admin123' is set on object 'Object Repository/Orange/Login/Password'
+
+2019-01-17 16:27:27 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/Orange/Login/Password'
+
+2019-01-17 16:27:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Orange/Login/Login' is clicked on
+
+2019-01-17 16:27:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange/Login/Login' is clicked on
+
+2019-01-17 16:27:28 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://opensource-demo.orangehrmlive.com/index.php/admin/viewLocations' successfully
+
+2019-01-17 16:27:29 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/index.php/admin/viewLocations' successfully
+
+2019-01-17 16:27:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Orange/Locations/btn_Add' is clicked on
+
+2019-01-17 16:27:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange/Locations/btn_Add' is clicked on
+
+2019-01-17 16:27:30 - [TEST_STEP][PASSED] - pk_Functions.CS_AllPageData.AllPageDataFun: pk_Functions.CS_AllPageData.AllPageDataFun is PASSED
+
+2019-01-17 16:27:31 - [MESSAGE][PASSED] - Text 'Azza' is set on object ''
+
+2019-01-17 16:27:31 - [MESSAGE][PASSED] - Text 'XX' is set on object ''
+
+2019-01-17 16:27:31 - [MESSAGE][PASSED] - Text 'Alexandria' is set on object ''
+
+2019-01-17 16:27:31 - [MESSAGE][PASSED] - Text '' is set on object ''
+
+2019-01-17 16:27:31 - [MESSAGE][PASSED] - Text '12012' is set on object ''
+
+2019-01-17 16:27:31 - [MESSAGE][PASSED] - Text '01129211656' is set on object ''
+
+2019-01-17 16:27:32 - [MESSAGE][PASSED] - Text '' is set on object ''
+
+2019-01-17 16:27:32 - [MESSAGE][PASSED] - Text 'first location' is set on object ''
+
+2019-01-17 16:27:32 - [MESSAGE][PASSED] - All options with value 'EG' are selected in object '' 
+
+2019-01-17 16:27:32 - [MESSAGE][PASSED] - pk_Functions.CS_AllPageData.AllPageDataFun is PASSED
+
+2019-01-17 16:27:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Orange/Locations/btn_Save' is clicked on
+
+2019-01-17 16:27:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange/Locations/btn_Save' is clicked on
+
+2019-01-17 16:27:33 - [TEST_STEP][PASSED] - pk_Functions.CS_ValidateSearchParameters.ValidateSearchParameters: pk_Functions.CS_ValidateSearchParameters.ValidateSearchParameters is PASSED
+
+2019-01-17 16:27:33 - [MESSAGE][PASSED] - pk_Functions.CS_ValidateSearchParameters.ValidateSearchParameters is PASSED
+
+2019-01-17 16:27:33 - [TEST_STEP][PASSED] - pk_Functions.CS_SelectRecordFromWebtable.SelectRecordFromWebtableFun: pk_Functions.CS_SelectRecordFromWebtable.SelectRecordFromWebtableFun is PASSED
+
+2019-01-17 16:27:37 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-01-17 16:27:41 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-01-17 16:27:41 - [MESSAGE][PASSED] - pk_Functions.CS_SelectRecordFromWebtable.SelectRecordFromWebtableFun is PASSED
+
+2019-01-17 16:27:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Orange/Locations/btn_Edit' is clicked on
+
+2019-01-17 16:27:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange/Locations/btn_Edit' is clicked on
+
+2019-01-17 16:27:42 - [TEST_STEP][PASSED] - pk_Functions.CS_AllPageData.AllPageDataFun: pk_Functions.CS_AllPageData.AllPageDataFun is PASSED
+
+2019-01-17 16:27:42 - [MESSAGE][PASSED] - Text 'Azza3' is set on object ''
+
+2019-01-17 16:27:42 - [MESSAGE][PASSED] - Text 'XXXX' is set on object ''
+
+2019-01-17 16:27:42 - [MESSAGE][PASSED] - Text 'Alexandria' is set on object ''
+
+2019-01-17 16:27:42 - [MESSAGE][PASSED] - Text '' is set on object ''
+
+2019-01-17 16:27:42 - [MESSAGE][PASSED] - Text '12012' is set on object ''
+
+2019-01-17 16:27:42 - [MESSAGE][PASSED] - Text '1129211656' is set on object ''
+
+2019-01-17 16:27:42 - [MESSAGE][PASSED] - Text '' is set on object ''
+
+2019-01-17 16:27:43 - [MESSAGE][PASSED] - Text 'first location' is set on object ''
+
+2019-01-17 16:27:43 - [MESSAGE][PASSED] - All options with value 'EG' are selected in object '' 
+
+2019-01-17 16:27:43 - [MESSAGE][PASSED] - pk_Functions.CS_AllPageData.AllPageDataFun is PASSED
+
+2019-01-17 16:27:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Orange/Locations/btn_Save' is clicked on
+
+2019-01-17 16:27:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange/Locations/btn_Save' is clicked on
+
+2019-01-17 16:27:43 - [TEST_STEP][PASSED] - pk_Functions.CS_SelectRecordFromWebtable.SelectRecordFromWebtableFun: pk_Functions.CS_SelectRecordFromWebtable.SelectRecordFromWebtableFun is PASSED
+
+2019-01-17 16:27:47 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-01-17 16:27:52 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-01-17 16:27:52 - [MESSAGE][PASSED] - pk_Functions.CS_SelectRecordFromWebtable.SelectRecordFromWebtableFun is PASSED
+
+2019-01-17 16:27:52 - [TEST_STEP][ERROR] - pk_Functions.CS_VerifyPageData.CheckMatching: Unresolved compilation problems: 
+	Groovy:expecting '}', found ',' @ line 34, column 60.
+	Groovy:expecting '}', found ',' @ line 34, column 60.
+	Groovy:unexpected token: } @ line 37, column 1.
+
+
+2019-01-17 16:27:52 - [MESSAGE][ERROR] - Unresolved compilation problems: 
+	Groovy:expecting '}', found ',' @ line 34, column 60.
+	Groovy:expecting '}', found ',' @ line 34, column 60.
+	Groovy:unexpected token: } @ line 37, column 1.]]></system-out>
+         <system-err><![CDATA[2019-01-17 16:27:18 - [TEST_CASE][ERROR] - Test Cases/Orange_Website/TC_Locations_Multi_Scenarios: Test Cases/Orange_Website/TC_Locations_Multi_Scenarios FAILED because (of) (Stack trace: java.lang.Error: Unresolved compilation problems: 
+	Groovy:expecting '}', found ',' @ line 34, column 60.
+	Groovy:expecting '}', found ',' @ line 34, column 60.
+	Groovy:unexpected token: } @ line 37, column 1.
+
+	at pk_Functions.CS_VerifyPageData.<init>(CS_VerifyPageData.groovy:34)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:42)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at Script1546786352502.run(Script1546786352502.groovy:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1547735235269.run(TempTestSuite1547735235269.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-17 16:27:17 - [TEST_SUITE][ERROR] - TS_Orange_Locations: Test Cases/Orange_Website/TC_Locations_Multi_Scenarios FAILED because (of) (Stack trace: java.lang.Error: Unresolved compilation problems: 
+	Groovy:expecting '}', found ',' @ line 34, column 60.
+	Groovy:expecting '}', found ',' @ line 34, column 60.
+	Groovy:unexpected token: } @ line 37, column 1.
+
+	at pk_Functions.CS_VerifyPageData.<init>(CS_VerifyPageData.groovy:34)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:42)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at Script1546786352502.run(Script1546786352502.groovy:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1547735235269.run(TempTestSuite1547735235269.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-out>
+      <system-err><![CDATA[2019-01-17 16:27:17 - [TEST_SUITE][ERROR] - TS_Orange_Locations: Test Cases/Orange_Website/TC_Locations_Multi_Scenarios FAILED because (of) (Stack trace: java.lang.Error: Unresolved compilation problems: 
+	Groovy:expecting '}', found ',' @ line 34, column 60.
+	Groovy:expecting '}', found ',' @ line 34, column 60.
+	Groovy:unexpected token: } @ line 37, column 1.
+
+	at pk_Functions.CS_VerifyPageData.<init>(CS_VerifyPageData.groovy:34)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:42)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at Script1546786352502.run(Script1546786352502.groovy:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1547735235269.run(TempTestSuite1547735235269.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+   </testsuite>
+</testsuites>

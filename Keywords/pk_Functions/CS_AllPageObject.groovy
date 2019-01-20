@@ -58,7 +58,7 @@ public class CS_AllPageObject {
 
 			//create new object and change it's property (Attribute , Value of it's attribute )
 			TestObject flexibleTestObject = new TestObject()
-			flexibleTestObject.addProperty(data.getValue(2, row), ConditionType.EQUALS, data.getValue(3, row))
+			flexibleTestObject.addProperty(data.getValue(3, row), ConditionType.EQUALS, data.getValue(4, row))
 
 			//add above object into list
 			list.add(flexibleTestObject)

@@ -4,6 +4,7 @@
    <name>TS_Orange_Locations</name>
    <tag></tag>
    <isRerun>false</isRerun>
+   <lastRun>2019-01-17T16:49:07</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -13,7 +14,7 @@
    <testCaseLink>
       <guid>939659dc-fd97-42d6-83df-52af0f197b46</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Orange_Website/TC_Locations_Multi_Scenarios</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -129,11 +130,23 @@
          <value>Notes</value>
          <variableId>d32ce52a-9758-40f9-9827-c0216630649c</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId>6403c304-8e00-4ec7-aa45-d82b735dcbe4</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Country </value>
+         <variableId>386f56ee-2c60-4434-bed6-9dcb4299c7c6</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>50b21d91-16b7-4656-82ce-630dc8d27c57</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Country</value>
+         <variableId>b2a8d381-1a1a-4ddb-acda-f5e43ec54e26</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>0b2c0432-2823-4de9-b609-8cf4e9ed5ed2</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Orange_Website/TC_Azza_Asmaa</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>

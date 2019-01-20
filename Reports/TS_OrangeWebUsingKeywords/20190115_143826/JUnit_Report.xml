@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_OrangeWebUsingKeywords" time="28" tests="1" failures="0" errors="0">
+   <testsuite name="TS_OrangeWebUsingKeywords" tests="1" failures="0" errors="0" time="28" timestamp="2019-01-15 14:38:28" hostname="aeibrahim - LPALXY0477.ejadaalex.local" id="Test Suites/TS_OrangeWebUsingKeywords">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\aeibrahim\\git\\Training_1\\Reports\\TS_OrangeWebUsingKeywords\\20190115_143826"/>
+         <property name="logFiles" value="C:\\Users\\aeibrahim\\git\\Training_1\\Reports\\TS_OrangeWebUsingKeywords\\20190115_143826\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="aeibrahim - LPALXY0477.ejadaalex.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.6.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.3.64"/>
+         <property name="sessionId" value="1e3bdc21d28a72a6458caba237c636b3"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Orange_Website_Using_Function/TC_EmailConfiguration" classname="Test Cases/Orange_Website_Using_Function/TC_EmailConfiguration" status="PASSED">
+         <system-out><![CDATA[2019-01-15 14:38:29 - [TEST_CASE][PASSED] - Test Cases/Orange_Website_Using_Function/TC_EmailConfiguration: Test Cases/Orange_Website_Using_Function/TC_EmailConfiguration
+
+2019-01-15 14:38:29 - [TEST_STEP][PASSED] - pk_Functions.CS_Login.LoginFun: pk_Functions.CS_Login.LoginFun is PASSED
+
+2019-01-15 14:38:29 - [MESSAGE][WARNING] - Test object id is null
+
+2019-01-15 14:38:37 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/index.php/auth/login'
+
+2019-01-15 14:38:37 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Orange/Login/Username'
+
+2019-01-15 14:38:37 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/Orange/Login/Password'
+
+2019-01-15 14:38:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange/Login/Login' is clicked on
+
+2019-01-15 14:38:39 - [MESSAGE][PASSED] - pk_Functions.CS_Login.LoginFun is PASSED
+
+2019-01-15 14:38:39 - [TEST_STEP][PASSED] - pk_Functions.CS_StaticListUsingLiTag.LovSearchIndexFun: pk_Functions.CS_StaticListUsingLiTag.LovSearchIndexFun is PASSED
+
+2019-01-15 14:38:44 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-01-15 14:38:44 - [MESSAGE][PASSED] - pk_Functions.CS_StaticListUsingLiTag.LovSearchIndexFun is PASSED
+
+2019-01-15 14:38:44 - [TEST_STEP][PASSED] - pk_Functions.CS_StaticListUsingLiTag.LovSearchIndexFun: pk_Functions.CS_StaticListUsingLiTag.LovSearchIndexFun is PASSED
+
+2019-01-15 14:38:48 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-01-15 14:38:49 - [MESSAGE][PASSED] - pk_Functions.CS_StaticListUsingLiTag.LovSearchIndexFun is PASSED
+
+2019-01-15 14:38:49 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2019-01-15 14:38:53 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-01-15 14:38:53 - [TEST_STEP][PASSED] - pk_Functions.CS_AllPageData.AllPageDataFun: pk_Functions.CS_AllPageData.AllPageDataFun is PASSED
+
+2019-01-15 14:38:54 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-01-15 14:38:54 - [MESSAGE][PASSED] - Text 'asmaa@ejada.com' is set on object ''
+
+2019-01-15 14:38:54 - [MESSAGE][PASSED] - All options with label 'SMTP' are selected in object '' 
+
+2019-01-15 14:38:55 - [MESSAGE][PASSED] - Text 'mona@gmail.com' is set on object ''
+
+2019-01-15 14:38:55 - [MESSAGE][PASSED] - Text '12345' is set on object ''
+
+2019-01-15 14:38:55 - [MESSAGE][PASSED] - Text 'asmaa' is set on object ''
+
+2019-01-15 14:38:55 - [MESSAGE][PASSED] - Text '123456' is set on object ''
+
+2019-01-15 14:38:55 - [MESSAGE][PASSED] - Object '' is checked
+
+2019-01-15 14:38:56 - [MESSAGE][PASSED] - Text 'asa123@gmail.com' is set on object ''
+
+2019-01-15 14:38:56 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-01-15 14:38:56 - [MESSAGE][PASSED] - pk_Functions.CS_AllPageData.AllPageDataFun is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-15 14:38:28 - [TEST_SUITE][PASSED] - TS_OrangeWebUsingKeywords: Test Cases/Orange_Website_Using_Function/TC_EmailConfiguration]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

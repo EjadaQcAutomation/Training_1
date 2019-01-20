@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_OrangeWebUsingKeywords,Chrome 71.0.3578.98,,2019-01-15 14:20:15,2019-01-15 14:20:42,26.449s,PASSED
+,,,,,,
+Test Cases/Orange_Website_Using_Function/TC_EmailConfiguration,Chrome 71.0.3578.98,,2019-01-15 14:20:16,2019-01-15 14:20:42,25.954s,PASSED
+pk_Functions.CS_Login.LoginFun,Chrome 71.0.3578.98,,2019-01-15 14:20:16,2019-01-15 14:20:25,9.094s,PASSED
+pk_Functions.CS_StaticListUsingLiTag.LovSearchIndexFun,Chrome 71.0.3578.98,,2019-01-15 14:20:25,2019-01-15 14:20:31,5.892s,PASSED
+pk_Functions.CS_StaticListUsingLiTag.LovSearchIndexFun,Chrome 71.0.3578.98,,2019-01-15 14:20:31,2019-01-15 14:20:36,4.887s,PASSED
+delay,Chrome 71.0.3578.98,,2019-01-15 14:20:36,2019-01-15 14:20:40,4.002s,PASSED
+pk_Functions.CS_SpecificPageData.DataFun,Chrome 71.0.3578.98,,2019-01-15 14:20:40,2019-01-15 14:20:42,1.629s,PASSED

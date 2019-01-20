@@ -28,3 +28,5 @@ CustomKeywords.'pk_Functions.CS_ValidateSearchParameters.ValidateSearchParameter
 
 WebUI.acceptAlert()
 
+WebUI.selectAllOption(findTestObject(null))
+

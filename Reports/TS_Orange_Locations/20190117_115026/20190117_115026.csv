@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_Orange_Locations,Chrome 71.0.3578.98,,2019-01-17 11:50:28,2019-01-17 11:50:44,16.763s,ERROR
+,,,,,,
+Test Cases/Orange_Website/TC_Locations_Multi_Scenarios,Chrome 71.0.3578.98,,2019-01-17 11:50:28,2019-01-17 11:50:44,16.076s,ERROR
+openBrowser,Chrome 71.0.3578.98,,2019-01-17 11:50:29,2019-01-17 11:50:37,7.680s,PASSED
+setText,Chrome 71.0.3578.98,,2019-01-17 11:50:37,2019-01-17 11:50:37,0.298s,PASSED
+setText,Chrome 71.0.3578.98,,2019-01-17 11:50:37,2019-01-17 11:50:38,0.156s,PASSED
+click,Chrome 71.0.3578.98,,2019-01-17 11:50:38,2019-01-17 11:50:39,1.675s,PASSED
+navigateToUrl,Chrome 71.0.3578.98,,2019-01-17 11:50:39,2019-01-17 11:50:41,1.615s,PASSED
+click,Chrome 71.0.3578.98,,2019-01-17 11:50:41,2019-01-17 11:50:42,0.627s,PASSED
+selectOptionByValue,Chrome 71.0.3578.98,,2019-01-17 11:50:42,2019-01-17 11:50:42,0.167s,PASSED
+pk_Functions.CS_AllPageData.AllPageDataFun,Chrome 71.0.3578.98,Load data,2019-01-17 11:50:42,2019-01-17 11:50:44,2.494s,PASSED
+click,Chrome 71.0.3578.98,save data,2019-01-17 11:50:44,2019-01-17 11:50:44,0.116s,PASSED
+pk_Functions.CS_ValidateSearchParameters.ValidateSearchParameters,Chrome 71.0.3578.98,,2019-01-17 11:50:44,2019-01-17 11:50:44,0.082s,ERROR

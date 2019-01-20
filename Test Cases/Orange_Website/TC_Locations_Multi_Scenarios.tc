@@ -117,4 +117,18 @@
       <masked>false</masked>
       <name>Notes_Update</name>
    </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>386f56ee-2c60-4434-bed6-9dcb4299c7c6</id>
+      <masked>false</masked>
+      <name>Country</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b2a8d381-1a1a-4ddb-acda-f5e43ec54e26</id>
+      <masked>false</masked>
+      <name>CountryUpdate</name>
+   </variable>
 </TestCaseEntity>

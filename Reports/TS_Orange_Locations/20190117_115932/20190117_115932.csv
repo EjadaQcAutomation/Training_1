@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_Orange_Locations,Chrome 71.0.3578.98,,2019-01-17 11:59:34,2019-01-17 12:00:43,1m - 8.592s,FAILED
+,,,,,,
+Test Cases/Orange_Website/TC_Locations_Multi_Scenarios,Chrome 71.0.3578.98,,2019-01-17 11:59:35,2019-01-17 12:00:43,1m - 8.098s,FAILED
+openBrowser,Chrome 71.0.3578.98,,2019-01-17 11:59:36,2019-01-17 11:59:44,7.911s,PASSED
+setText,Chrome 71.0.3578.98,,2019-01-17 11:59:44,2019-01-17 11:59:44,0.323s,PASSED
+setText,Chrome 71.0.3578.98,,2019-01-17 11:59:44,2019-01-17 11:59:44,0.147s,PASSED
+click,Chrome 71.0.3578.98,,2019-01-17 11:59:44,2019-01-17 11:59:46,1.683s,PASSED
+navigateToUrl,Chrome 71.0.3578.98,,2019-01-17 11:59:46,2019-01-17 11:59:47,1.608s,PASSED
+click,Chrome 71.0.3578.98,,2019-01-17 11:59:47,2019-01-17 11:59:48,0.647s,PASSED
+selectOptionByValue,Chrome 71.0.3578.98,,2019-01-17 11:59:48,2019-01-17 11:59:48,0.167s,PASSED
+pk_Functions.CS_AllPageData.AllPageDataFun,Chrome 71.0.3578.98,Load data,2019-01-17 11:59:48,2019-01-17 11:59:50,2.319s,PASSED
+click,Chrome 71.0.3578.98,save data,2019-01-17 11:59:50,2019-01-17 11:59:52,1.045s,PASSED
+pk_Functions.CS_ValidateSearchParameters.ValidateSearchParameters,Chrome 71.0.3578.98,,2019-01-17 11:59:52,2019-01-17 11:59:52,0.316s,PASSED
+pk_Functions.CS_SelectRecordFromWebtable.SelectRecordFromWebtableFun,Chrome 71.0.3578.98,click view,2019-01-17 11:59:52,2019-01-17 12:00:01,8.697s,PASSED
+click,Chrome 71.0.3578.98,,2019-01-17 12:00:01,2019-01-17 12:00:01,0.099s,PASSED
+pk_Functions.CS_AllPageData.AllPageDataFun,Chrome 71.0.3578.98,,2019-01-17 12:00:01,2019-01-17 12:00:02,1.184s,PASSED
+selectOptionByValue,Chrome 71.0.3578.98,,2019-01-17 12:00:02,2019-01-17 12:00:02,0.093s,PASSED
+click,Chrome 71.0.3578.98,save data,2019-01-17 12:00:02,2019-01-17 12:00:03,1.005s,PASSED
+pk_Functions.CS_SelectRecordFromWebtable.SelectRecordFromWebtableFun,Chrome 71.0.3578.98,click view,2019-01-17 12:00:03,2019-01-17 12:00:12,8.613s,PASSED
+pk_Functions.CS_VerifyPageData.CheckMatching,Chrome 71.0.3578.98,check view mode,2019-01-17 12:00:12,2019-01-17 12:00:43,31.406s,FAILED

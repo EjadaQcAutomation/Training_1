@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_OrangeWebUsingKeywords,Chrome 71.0.3578.98,,2019-01-13 13:32:15,2019-01-13 13:32:46,30.173s,PASSED
+,,,,,,
+Test Cases/Orange_Website_Using_Function/TC_SettingLanguage,Chrome 71.0.3578.98,,2019-01-13 13:32:16,2019-01-13 13:32:46,29.709s,PASSED
+pk_Functions.CS_Login.LoginFun,Chrome 71.0.3578.98,,2019-01-13 13:32:16,2019-01-13 13:32:32,15.696s,PASSED
+pk_Functions.CS_StaticListUsingLiTag.LovSearchIndexFun,Chrome 71.0.3578.98,,2019-01-13 13:32:32,2019-01-13 13:32:38,6.446s,PASSED
+pk_Functions.CS_StaticListUsingLiTag.LovSearchIndexFun,Chrome 71.0.3578.98,,2019-01-13 13:32:38,2019-01-13 13:32:44,5.187s,PASSED
+click,Chrome 71.0.3578.98,,2019-01-13 13:32:44,2019-01-13 13:32:44,0.112s,PASSED
+selectOptionByLabel,Chrome 71.0.3578.98,,2019-01-13 13:32:44,2019-01-13 13:32:44,0.095s,PASSED
+click,Chrome 71.0.3578.98,,2019-01-13 13:32:44,2019-01-13 13:32:45,1.234s,PASSED
+refresh,Chrome 71.0.3578.98,,2019-01-13 13:32:45,2019-01-13 13:32:46,0.533s,PASSED

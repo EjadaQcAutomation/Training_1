@@ -4,7 +4,7 @@
    <name>TS_OrangeWebUsingKeywords</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-01-08T13:52:55</lastRun>
+   <lastRun>2019-01-16T11:12:46</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -12,31 +12,10 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>caeb25e5-4cd8-48c8-9012-e377735a9b51</testSuiteGuid>
    <testCaseLink>
-      <guid>1eed5b07-c68f-4a8c-abc1-967367dd34cf</guid>
+      <guid>9e71b939-87ab-4d20-a11c-8b373c6a16a8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Orange_Website_Using_Function/Tc_TestOrangeWebUsingKeywords</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>84fccdad-8eee-438e-ad26-fb228578530b</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/TestKeywords/Data</testDataId>
-      </testDataLink>
-      <variableLink>
-         <testDataLinkId>84fccdad-8eee-438e-ad26-fb228578530b</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>USERNAME</value>
-         <variableId>c909138e-c135-43a1-bce1-56277cecc932</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>84fccdad-8eee-438e-ad26-fb228578530b</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>PASSWORD</value>
-         <variableId>b5df670f-63bf-48e5-b185-99290914add4</variableId>
-      </variableLink>
+      <testCaseId>Test Cases/Orange_Website_Using_Function/TC_SettingLanguage</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>69ac5a8a-0633-43da-8dc3-16b1577b3f2c</guid>
@@ -47,8 +26,8 @@
    <testCaseLink>
       <guid>08c57d5d-c39e-461a-af4d-c167215a6764</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Orange_Website_Using_Function/TC_AllPageComponent</testCaseId>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Orange_Website_Using_Function/TC_RecruitmentComponent</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>d3572eb7-287a-46d0-a41d-9793a0daefef</id>
@@ -56,7 +35,7 @@
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/TestKeywords/AllDataComponent</testDataId>
+         <testDataId>Data Files/TestKeywords/Orange_RecruitmentDataComponent</testDataId>
       </testDataLink>
       <variableLink>
          <testDataLinkId>d3572eb7-287a-46d0-a41d-9793a0daefef</testDataLinkId>
@@ -75,6 +54,120 @@
          <type>DATA_COLUMN</type>
          <value>WelcomeAdmin</value>
          <variableId>e7bd51c4-aeb5-439a-b30a-1466af2e6f9e</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1eed5b07-c68f-4a8c-abc1-967367dd34cf</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Orange_Website_Using_Function/TC_TestingFunListByLiTag</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>84fccdad-8eee-438e-ad26-fb228578530b</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/TestKeywords/Orange_LoginDataComponent</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>84fccdad-8eee-438e-ad26-fb228578530b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>USERNAME</value>
+         <variableId>c909138e-c135-43a1-bce1-56277cecc932</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>84fccdad-8eee-438e-ad26-fb228578530b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>PASSWORD</value>
+         <variableId>b5df670f-63bf-48e5-b185-99290914add4</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>51c81aba-e04b-45c5-a362-df48f359cd34</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Orange_Website_Using_Function/TC_EmailConfiguration</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>b88c5d09-406d-4a09-a266-98e624ace8b5</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/TestKeywords/Orange_EmailConfigurationDataComponent</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>b88c5d09-406d-4a09-a266-98e624ace8b5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>edit</value>
+         <variableId>4c855513-3fcd-455f-b0a8-b9754e9cf107</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>b88c5d09-406d-4a09-a266-98e624ace8b5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>sendas</value>
+         <variableId>49521f59-a0d9-4a46-a860-f95de8d3aa75</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>b88c5d09-406d-4a09-a266-98e624ace8b5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>host</value>
+         <variableId>76edddb3-05ed-489a-90a1-29c7c3cda4e5</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>b88c5d09-406d-4a09-a266-98e624ace8b5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>testemail</value>
+         <variableId>9007aa4c-9b07-4af2-9656-6e901b5dca81</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>b88c5d09-406d-4a09-a266-98e624ace8b5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>sendmethod</value>
+         <variableId>871af848-cf56-489d-ba45-33039b3b827a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>b88c5d09-406d-4a09-a266-98e624ace8b5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>save</value>
+         <variableId>a5753bb2-38d1-47e0-847d-45890c48a9d8</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>b88c5d09-406d-4a09-a266-98e624ace8b5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>port</value>
+         <variableId>08976e5d-5e1c-46b3-9431-d83dfe1f9c6f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>b88c5d09-406d-4a09-a266-98e624ace8b5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Authentication</value>
+         <variableId>09eb918a-ad24-4675-bcba-454bc339f3f0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>b88c5d09-406d-4a09-a266-98e624ace8b5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>user</value>
+         <variableId>5560573f-7e84-40f0-b4b2-47a5d033ba8c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>b88c5d09-406d-4a09-a266-98e624ace8b5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>c5baa4e5-abcf-4d8e-befc-465ae9159013</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>b88c5d09-406d-4a09-a266-98e624ace8b5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>connection</value>
+         <variableId>6e662098-33d3-43c7-89b0-7556bc4c03c9</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>b88c5d09-406d-4a09-a266-98e624ace8b5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>emailaddress</value>
+         <variableId>b7673e0f-bac7-4abe-a51d-3f6c004907f5</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
